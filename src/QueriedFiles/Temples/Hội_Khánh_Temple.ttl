@@ -1,0 +1,9 @@
+@prefix dbo:  <http://dbpedia.org/ontology/> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://dbpedia.org/resource/Hội_Khánh_Temple>
+        rdf:type      dbo:ReligiousBuilding ;
+        rdfs:comment  "Hội Khánh Temple (Vietnamese: Chùa Hội Khánh, Chữ Hán: 會慶寺) is an historic Buddhist temple built in 1741 in the town of Thủ Dầu Một, Bình Dương Province in southern Vietnam. The temple was initially built on a prominent hill, but in 1861 it was destroyed in fighting as the French colonial army underwent the process of colonising southern Vietnam. The temple was rebuilt by Thích Chánh Đắc at the foot of the hill, around 100 m south of the original site. The temple currently is located at 35 Yersin Street, in Phú Cường ward, in the town of Thủ Đầu Một, north of Ho Chi Minh City."@en ;
+        rdfs:label    "Hội Khánh Temple"@en ;
+        dbo:abstract  "Hội Khánh Temple (Vietnamese: Chùa Hội Khánh, Chữ Hán: 會慶寺) is an historic Buddhist temple built in 1741 in the town of Thủ Dầu Một, Bình Dương Province in southern Vietnam. The temple was initially built on a prominent hill, but in 1861 it was destroyed in fighting as the French colonial army underwent the process of colonising southern Vietnam. The temple was rebuilt by Thích Chánh Đắc at the foot of the hill, around 100 m south of the original site. The temple currently is located at 35 Yersin Street, in Phú Cường ward, in the town of Thủ Đầu Một, north of Ho Chi Minh City."@en .

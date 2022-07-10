@@ -1,0 +1,14 @@
+@prefix dbo:  <http://dbpedia.org/ontology/> .
+@prefix dbr:  <http://dbpedia.org/resource/> .
+@prefix geo:  <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix yago: <http://dbpedia.org/class/yago/> .
+
+dbr:Hanoi_Museum  rdf:type  dbo:Museum , yago:Museum103800563 ;
+        rdfs:comment  "The Museum of Hanoi (Vietnamese: Bảo tàng Hà Nội) is located in Nam Từ Liêm district of Hanoi, Vietnam. The museum displays artifacts from Hanoi's 1000-year history and the history, culture, heritage, and architecture of Vietnam. It showcases over 50,000 artifacts in a total area of nearly 54,000 square meters. The Hanoi museum was opened in 2010 for the Millennial Anniversary of Hanoi. The building has an overall design of an inverted Pyramid."@en ;
+        rdfs:label    "Hanoi Museum"@en ;
+        dbo:abstract  "The Museum of Hanoi (Vietnamese: Bảo tàng Hà Nội) is located in Nam Từ Liêm district of Hanoi, Vietnam. The museum displays artifacts from Hanoi's 1000-year history and the history, culture, heritage, and architecture of Vietnam. It showcases over 50,000 artifacts in a total area of nearly 54,000 square meters. The Hanoi museum was opened in 2010 for the Millennial Anniversary of Hanoi. The building has an overall design of an inverted Pyramid."@en ;
+        geo:lat       "21.009166717529296875"^^xsd:float ;
+        geo:long      "105.78583526611328125"^^xsd:float .

@@ -1,0 +1,23 @@
+@prefix dbd:  <http://dbpedia.org/datatype/> .
+@prefix dbo:  <http://dbpedia.org/ontology/> .
+@prefix dbp:  <http://dbpedia.org/property/> .
+@prefix dbr:  <http://dbpedia.org/resource/> .
+@prefix geo:  <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix yago: <http://dbpedia.org/class/yago/> .
+
+dbr:Xuân_Sơn_National_Park
+        rdf:type         yago:NationalPark108600992 ;
+        rdfs:comment     "Xuân Sơn National Park (Vietnamese: Vườn quốc gia Xuân Sơn) is a national park of Tân Sơn District, Phú Thọ Province, Vietnam. It was established on August 9, 1986 as a nature reserve, and it covers an area of 150.48 square kilometres. The park lies at the extreme south-eastern extent of the , 45 kilometres south-west of the confluence of the Red River and Black Rivers."@en ;
+        dbo:abstract     "Xuân Sơn National Park (Vietnamese: Vườn quốc gia Xuân Sơn) is a national park of Tân Sơn District, Phú Thọ Province, Vietnam. It was established on August 9, 1986 as a nature reserve, and it covers an area of 150.48 square kilometres. The park lies at the extreme south-eastern extent of the , 45 kilometres south-west of the confluence of the Red River and Black Rivers."@en ;
+        dbo:areaTotal    150480000.0 ;
+        dbo:location     dbr:Vietnam , dbr:Phú_Thọ_province , dbr:Tân_Sơn_district ;
+        dbp:area         "150.48"^^dbd:squareKilometre ;
+        dbp:established  "1986-08-09"^^xsd:date ;
+        dbp:location     dbr:Vietnam , dbr:Tân_Sơn_district , dbr:Phú_Thọ_province ;
+        dbp:name         "Xuân Sơn National Park"@en ;
+        dbp:photo        "Xuan Son.JPG"@en ;
+        geo:lat          "21.149999618530273438"^^xsd:float ;
+        geo:long         "104.9333343505859375"^^xsd:float .

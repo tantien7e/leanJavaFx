@@ -1,0 +1,26 @@
+@prefix dbo:     <http://dbpedia.org/ontology/> .
+@prefix dbp:     <http://dbpedia.org/property/> .
+@prefix dbr:     <http://dbpedia.org/resource/> .
+@prefix geo:     <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix virtrdf: <http://www.openlinksw.com/schemas/virtrdf#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix yago:    <http://dbpedia.org/class/yago/> .
+
+dbr:Phú_Ninh_Lake  rdf:type  yago:Lake109328904 ;
+        rdfs:comment        "Lake Phú Ninh is an artificial lake in Phú Ninh District, Quảng Nam Province, Vietnam."@en ;
+        rdfs:label          "Phú Ninh Lake"@en ;
+        dbo:abstract        "Lake Phú Ninh is an artificial lake in Phú Ninh District, Quảng Nam Province, Vietnam."@en ;
+        dbo:areaTotal       34330000.0 ;
+        dbo:country         dbr:Vietnam ;
+        dbo:location        dbr:Phú_Ninh_District ;
+        dbo:type            dbr:Reservoir ;
+        dbp:basinCountries  dbr:Vietnam ;
+        dbp:lakeType        dbr:Reservoir ;
+        dbp:location        dbr:Phú_Ninh_District ;
+        dbp:name            "Phú Ninh"@en ;
+        dbp:pushpinMap      "Vietnam"@en ;
+        geo:geometry        "POINT(108.45722198486 15.485278129578)"^^virtrdf:Geometry ;
+        geo:lat             "15.485278129577636719"^^xsd:float ;
+        geo:long            "108.45722198486328125"^^xsd:float .

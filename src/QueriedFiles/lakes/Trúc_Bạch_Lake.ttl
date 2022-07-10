@@ -1,0 +1,26 @@
+@prefix dbo:  <http://dbpedia.org/ontology/> .
+@prefix dbp:  <http://dbpedia.org/property/> .
+@prefix dbr:  <http://dbpedia.org/resource/> .
+@prefix geo:  <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix yago: <http://dbpedia.org/class/yago/> .
+
+dbr:Trúc_Bạch_Lake  rdf:type  yago:Lake109328904 ;
+        rdfs:comment        "Trúc Bạch Lake (Vietnamese: Hồ Trúc Bạch) is one of the many lakes in the city of Hanoi, the capital of Vietnam. It is known outside Vietnam as the site where future United States politician John McCain landed during the Vietnam War after being shot down."@en ;
+        rdfs:label          "Trúc Bạch Lake"@en ;
+        dbo:abstract        "Trúc Bạch Lake (Vietnamese: Hồ Trúc Bạch) is one of the many lakes in the city of Hanoi, the capital of Vietnam. It is known outside Vietnam as the site where future United States politician John McCain landed during the Vietnam War after being shot down. Trúc Bạch Lake is located northwest of Hanoi's Old Quarter, immediately adjacent to the eastern shore of the city's largest lake, the West Lake (Hồ Tây), a former branch of the Red River whose west bank is nearby. Trúc Bạch Lake was separated from the West Lake by the construction of a narrow dike (Cổ Ngư, \"reinforcement\") in the 17th century to allow raising fish. The inhabitants of the Truc Yen Village, located on the south shore of the newly formed lake, were in the business of making bamboo blinds and hence cultivated a small variety of bamboo. In 1957 and 1958, major Thanh Niên Road was built between the lakes. In 1730s, the Trịnh Lord Trịnh Giang had Trúc Lâm Palace constructed on the lake shore. The building first served as a pleasure palace but was later converted into a prison for royal concubines found guilty of crime. The silk they produced, known as \"Bamboo Village Silk\" became famous for its beauty. The lake front is open only along Thanh Niên Road, the other sides are occupied by houses and residential streets. The lake is among the most seriously polluted in Hanoi. Nearby historical sites include: Quán Thánh Temple to the southwest of the lake, Châu Long Pagoda to the east, An Trì Temple (dedicated to the worship of a hero from the war against the Chinese Yuan Dynasty) on Phó Đức Chính Street, and Cẩu Nhi temple on a small hill near the northern corner of the lake."@en ;
+        dbo:areaTotal       90000.0 ;
+        dbo:country         dbr:Vietnam ;
+        dbo:elevation       15.0 ;
+        dbo:length          400.0 ;
+        dbo:location        dbr:Hanoi ;
+        dbo:type            dbr:Oxbow_lake ;
+        dbo:width           300.0 ;
+        dbp:basinCountries  "Vietnam"@en ;
+        dbp:location        dbr:Hanoi ;
+        dbp:name            "Trúc Bạch Lake"@en ;
+        dbp:pushpinMap      "Vietnam"@en ;
+        geo:lat             "21.04555511474609375"^^xsd:float ;
+        geo:long            "105.8380584716796875"^^xsd:float .

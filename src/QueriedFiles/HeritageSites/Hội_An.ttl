@@ -1,0 +1,27 @@
+@prefix dbo:     <http://dbpedia.org/ontology/> .
+@prefix dbp:     <http://dbpedia.org/property/> .
+@prefix dbr:     <http://dbpedia.org/resource/> .
+@prefix geo:     <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix virtrdf: <http://www.openlinksw.com/schemas/virtrdf#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix yago:    <http://dbpedia.org/class/yago/> .
+
+dbr:Hội_An  rdf:type         dbo:WorldHeritageSite , yago:Location100027167 ;
+        rdfs:comment         "Hội An (Vietnamese: [hôjˀ aːn]), formerly known as Fai-Fo or Faifoo, is a city with a population of approximately 120,000 in Vietnam's Quảng Nam Province and is noted as a UNESCO World Heritage Site since 1999. Along with the Cu Lao Cham archipelago, it is part of the Cu Lao Cham-Hoi An Biosphere Reserve, designated in 2009."@en ;
+        rdfs:label           "Hội An"@en ;
+        dbo:abstract         "Hội An (Vietnamese: [hôjˀ aːn]), formerly known as Fai-Fo or Faifoo, is a city with a population of approximately 120,000 in Vietnam's Quảng Nam Province and is noted as a UNESCO World Heritage Site since 1999. Along with the Cu Lao Cham archipelago, it is part of the Cu Lao Cham-Hoi An Biosphere Reserve, designated in 2009. Old Town Hội An, the city's historic district, is recognized as an exceptionally well-preserved example of a Southeast Asian trading port dating from the 15th to the 19th century, its buildings and street plan reflecting a blend of indigenous and foreign influences. Prominent in the city's old town, is its covered \"Japanese Bridge\", dating to the 16th-17th century."@en ;
+        dbo:areaTotal        60000000.0 ;
+        dbo:country          dbr:Vietnam ;
+        dbo:originalName     "Thành Phố Hội An"@en ;
+        dbo:populationTotal  "152160"^^xsd:nonNegativeInteger ;
+        dbo:subdivision      dbr:Quảng_Nam_province ;
+        dbp:country          dbr:Vietnam ;
+        dbp:name             "Hội An"@en ;
+        dbp:nativeName       "Thành Phố Hội An"@en ;
+        dbp:officialName     "Hội An City"@en ;
+        dbp:pushpinMap       "Vietnam"@en ;
+        geo:geometry         "POINT(108.33333587646 15.883333206177)"^^virtrdf:Geometry ;
+        geo:lat              "15.883333206176757812"^^xsd:float ;
+        geo:long             "108.33333587646484375"^^xsd:float .

@@ -1,0 +1,22 @@
+@prefix dbo:  <http://dbpedia.org/ontology/> .
+@prefix dbp:  <http://dbpedia.org/property/> .
+@prefix dbr:  <http://dbpedia.org/resource/> .
+@prefix geo:  <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix yago: <http://dbpedia.org/class/yago/> .
+
+dbr:Phước_Bình_National_Park
+        rdf:type         yago:NationalPark108600992 ;
+        rdfs:comment     "Phước Bình National Park (Vietnamese: Vườn quốc gia Phước Bình) is a national park in the commune of , Bác Ái District, Ninh Thuận Province. It is located 62 km north-west from Phan Rang town, the capital of Ninh Thuận Province, on the border with Lâm Đồng and Khánh Hòa provinces. Phước Bình National Park was classified as a nature reserve by Decision 125/2002/QD dated 26 September 2002. On 8 June 2006 it was established as a national park under Decision number 822/QĐ-TTg dated 8 June 2006 by then Vice Prime Minister of Vietnam Nguyễn Tấn Dũng."@en ;
+        dbo:abstract     "Phước Bình National Park (Vietnamese: Vườn quốc gia Phước Bình) is a national park in the commune of , Bác Ái District, Ninh Thuận Province. It is located 62 km north-west from Phan Rang town, the capital of Ninh Thuận Province, on the border with Lâm Đồng and Khánh Hòa provinces. Phước Bình National Park was classified as a nature reserve by Decision 125/2002/QD dated 26 September 2002. On 8 June 2006 it was established as a national park under Decision number 822/QĐ-TTg dated 8 June 2006 by then Vice Prime Minister of Vietnam Nguyễn Tấn Dũng. Phước Bình National Park lies on the eastern slopes of the Đà Lạt plateau in the transition area between three regions: south-east, south-central and Central Highlands of Vietnam. It is dominated by several high peaks in the west (up to 2,200 m above sea level), while the east of the site decreases in elevation towards the coastal plain of south-central Vietnam. The total area of the park is 19,814 ha, comprising: \n* Strict protection zone 10,766 ha \n* Rehabilitation zone: 9,030 ha \n* Administration & service area 18 ha \n* Plus a buffer zone of 11,080 ha. Wet season occurs between May and late November, with September having the highest rainfall. The average rainfall is about 1,000 mm in the low elevation areas, and up to about 2,000 mm in the mountainous areas. There are three main streams with small tributaries: Gia Nhông (suối Ông), Đa Mây (sông Trương) and sông Hàm Leo. These three streams are the main watershed for the Cai River, which supplies the whole province's water requirements for domestic water, agricultural production (particularly irrigated rice) and industrial parks. Phước Bình National Park also contains the historic wartime battlefield at Pi Nang Tac's stone trap, where in 1965 during the Vietnam War over 100 soldiers were killed. Pi Nang Tac led the guerilla army's battle to build an ambush stone trap."@en ;
+        dbo:location     dbr:Vietnam , dbr:Ninh_Thuận_province ;
+        dbo:nearestCity  <http://dbpedia.org/resource/Phan_Rang–Tháp_Chàm> ;
+        dbp:area         19814 ;
+        dbp:established  2006 ;
+        dbp:location     dbr:Vietnam , dbr:Ninh_Thuận_province ;
+        dbp:name         "Phước Bình National Park"@en ;
+        dbp:photo        "Phuoc Binh from National Parks office.jpg"@en ;
+        geo:lat          "12.071110725402832031"^^xsd:float ;
+        geo:long         "108.75055694580078125"^^xsd:float .

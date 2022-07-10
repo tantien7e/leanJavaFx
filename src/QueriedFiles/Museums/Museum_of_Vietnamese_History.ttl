@@ -1,0 +1,24 @@
+@prefix dbo:     <http://dbpedia.org/ontology/> .
+@prefix dbp:     <http://dbpedia.org/property/> .
+@prefix dbr:     <http://dbpedia.org/resource/> .
+@prefix geo:     <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix virtrdf: <http://www.openlinksw.com/schemas/virtrdf#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix yago:    <http://dbpedia.org/class/yago/> .
+
+dbr:Museum_of_Vietnamese_History
+        rdf:type            yago:Museum103800563 , dbo:Museum ;
+        rdfs:comment        "The Museum of Vietnamese History is located at 2 Nguyen Binh Khiem Street, Ben Nghe Ward, District 1, in Ho Chi Minh City, Vietnam. Formerly known as the Musée Blanchard de la Brosse, built by Auguste Delaval in 1926, and The National Museum of Viet Nam in Sai Gon, it received its current name in 1979. It is a museum showcasing Vietnam's history with exhibits from all periods. It should not be confused with the National Museum of Vietnamese History in Hanoi. The topics covered by the exhibits include the following:"@en ;
+        rdfs:label          "Museum of Vietnamese History"@en ;
+        dbo:abstract        "The Museum of Vietnamese History is located at 2 Nguyen Binh Khiem Street, Ben Nghe Ward, District 1, in Ho Chi Minh City, Vietnam. Formerly known as the Musée Blanchard de la Brosse, built by Auguste Delaval in 1926, and The National Museum of Viet Nam in Sai Gon, it received its current name in 1979. It is a museum showcasing Vietnam's history with exhibits from all periods. It should not be confused with the National Museum of Vietnamese History in Hanoi. The topics covered by the exhibits include the following: \n* Prehistoric period (500,000 years ago to 2879 BC). \n* Metal Age (2879–179 BC), including artifacts related to the Dong Son culture of northern Vietnam and the Sa Huỳnh culture of central Vietnam. \n* Chinese Domination and Struggle for National Independence in the Red River Valley (179 BC – 938 AD) \n* Óc Eo culture of the Mekong Delta region \n* Stone and bronze sculptures and other artifacts of Champa \n* Stone sculptures of Cambodia (9th–12th centuries) \n* Ngô, Dinh, Anterior Lê, Ly dynasties (939–1225) \n* Tran and Ho dynasties (1226–1407) \n* Dynasties from the Lê to the Nguyên (1428–1788) \n* Tây Sơn dynasty (1771–1802) \n* Nguyễn dynasty (1802–1945) The museum served as the pit stop for the second leg of The Amazing Race Asia 3."@en ;
+        dbo:location        dbr:Vietnam , dbr:Ho_Chi_Minh_City ;
+        dbp:location        dbr:Ho_Chi_Minh_City , dbr:Vietnam ;
+        dbp:nativeName      "Bảo tàng Lịch sử Việt Nam"@en ;
+        dbp:nativeNameLang  "vi"@en ;
+        dbp:type            dbr:Museum ;
+        dbp:website         <http://baotanglichsuvn.com/trang-chu.html> ;
+        geo:geometry        "POINT(106.7075881958 10.784839630127)"^^virtrdf:Geometry ;
+        geo:lat             "10.784839630126953125"^^xsd:float ;
+        geo:long            "106.70758819580078125"^^xsd:float .

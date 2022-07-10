@@ -1,0 +1,25 @@
+@prefix dbd:     <http://dbpedia.org/datatype/> .
+@prefix dbo:     <http://dbpedia.org/ontology/> .
+@prefix dbp:     <http://dbpedia.org/property/> .
+@prefix dbr:     <http://dbpedia.org/resource/> .
+@prefix geo:     <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix virtrdf: <http://www.openlinksw.com/schemas/virtrdf#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix yago:    <http://dbpedia.org/class/yago/> .
+
+dbr:Kon_Ka_Kinh_National_Park
+        rdf:type         yago:NationalPark108600992 ;
+        rdfs:comment     "Kon Ka Kinh National Park (Vietnamese: Vườn quốc gia Kon Ka Kinh) is a national park of Vietnam, established by the decision (167/2002/QĐ-TTg) on November 25, 2002 of the then Prime Minister, Phan Văn Khải. Kon Ka Kinh National Park is a priority zone for the protection of biodiversity in Vietnam and the ASEAN. It is also a biological tourist site."@en ;
+        dbo:abstract     "Kon Ka Kinh National Park (Vietnamese: Vườn quốc gia Kon Ka Kinh) is a national park of Vietnam, established by the decision (167/2002/QĐ-TTg) on November 25, 2002 of the then Prime Minister, Phan Văn Khải. Kon Ka Kinh National Park is a priority zone for the protection of biodiversity in Vietnam and the ASEAN. It is also a biological tourist site. Besides the biological diversity of the flora and fauna here, Kon Ka Kinh plays an important role in the protection of the upstream of the Ba River and the , which supply water for tens of square kilometres of crops areas of Gia Lai Province and Kon Tum Province. To the west of this national park is the ."@en ;
+        dbo:areaTotal    417800000.0 ;
+        dbo:location     dbr:Vietnam ;
+        dbo:nearestCity  dbr:Kon_Tum , dbr:Pleiku ;
+        dbp:area         "417.8"^^dbd:squareKilometre ;
+        dbp:established  2002 ;
+        dbp:location     dbr:Vietnam ;
+        dbp:name         "Kon Ka Kinh National Park"@en ;
+        geo:geometry     "POINT(108.36666870117 14.333333015442)"^^virtrdf:Geometry ;
+        geo:lat          "14.333333015441894531"^^xsd:float ;
+        geo:long         "108.366668701171875"^^xsd:float .

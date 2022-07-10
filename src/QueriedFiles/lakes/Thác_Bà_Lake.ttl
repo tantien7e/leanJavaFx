@@ -1,0 +1,21 @@
+@prefix dbo:  <http://dbpedia.org/ontology/> .
+@prefix dbp:  <http://dbpedia.org/property/> .
+@prefix dbr:  <http://dbpedia.org/resource/> .
+@prefix geo:  <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix yago: <http://dbpedia.org/class/yago/> .
+
+dbr:Thác_Bà_Lake  rdf:type  yago:Lake109328904 ;
+        rdfs:comment    "The Thác Bà Lake (Vietnamese: Hồ Thác Bà) is a manmade lake in Yên Bái Province, Vietnam created by construction of the in the 1960s. Thác Bà is the name of the which pre-existed the dam (cf. Vietnamese: thác nước, waterfall)."@en ;
+        rdfs:label      "Thác Bà Lake"@en ;
+        dbo:abstract    "The Thác Bà Lake (Vietnamese: Hồ Thác Bà) is a manmade lake in Yên Bái Province, Vietnam created by construction of the in the 1960s. Thác Bà is the name of the which pre-existed the dam (cf. Vietnamese: thác nước, waterfall)."@en ;
+        dbo:location    dbr:Vietnam ;
+        dbo:type        dbr:Reservoir ;
+        dbp:caption     "Thác Bà Lake"@en ;
+        dbp:location    dbr:Vietnam ;
+        dbp:name        "Thác Bà Lake"@en ;
+        dbp:pushpinMap  "Vietnam"@en ;
+        geo:lat         "21.727521896362304688"^^xsd:float ;
+        geo:long        "105.02149200439453125"^^xsd:float .

@@ -1,0 +1,22 @@
+@prefix dbo:  <http://dbpedia.org/ontology/> .
+@prefix dbp:  <http://dbpedia.org/property/> .
+@prefix dbr:  <http://dbpedia.org/resource/> .
+@prefix geo:  <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix yago: <http://dbpedia.org/class/yago/> .
+
+dbr:Ho_Chi_Minh_Mausoleum
+        rdf:type      dbo:Museum , yago:Museum103800563 ;
+        rdfs:comment  "The President Ho Chi Minh Mausoleum (Vietnamese: Lăng Chủ tịch Hồ Chí Minh) is a mausoleum which serves as the resting place of Vietnamese Revolutionary leader and President Ho Chi Minh in Hanoi, Vietnam. It is a large building located in the center of Ba Dinh Square, where Ho, Chairman of the Workers' Party of Vietnam from 1951 until his death in 1969, read the Declaration of Independence on 2 September 1945, establishing the Democratic Republic of Vietnam. It is open to the public."@en ;
+        rdfs:label    "Ho Chi Minh Mausoleum"@en ;
+        dbo:abstract  "The President Ho Chi Minh Mausoleum (Vietnamese: Lăng Chủ tịch Hồ Chí Minh) is a mausoleum which serves as the resting place of Vietnamese Revolutionary leader and President Ho Chi Minh in Hanoi, Vietnam. It is a large building located in the center of Ba Dinh Square, where Ho, Chairman of the Workers' Party of Vietnam from 1951 until his death in 1969, read the Declaration of Independence on 2 September 1945, establishing the Democratic Republic of Vietnam. It is open to the public."@en ;
+        dbo:location  dbr:Hanoi , dbr:Vietnam , dbr:Ba_Đình_district ;
+        dbp:built     1973 ;
+        dbp:builtFor  dbr:Ho_Chi_Minh ;
+        dbp:location  dbr:Hanoi , dbr:Ba_Đình_district , dbr:Vietnam ;
+        dbp:name      "President Ho Chi Minh Mausoleum"@en ;
+        dbp:type      "shape"@en ;
+        geo:lat       "21.0366668701171875"^^xsd:float ;
+        geo:long      "105.83472442626953125"^^xsd:float .

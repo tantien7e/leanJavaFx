@@ -1,0 +1,21 @@
+@prefix dbo:  <http://dbpedia.org/ontology/> .
+@prefix dbp:  <http://dbpedia.org/property/> .
+@prefix dbr:  <http://dbpedia.org/resource/> .
+@prefix geo:  <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix yago: <http://dbpedia.org/class/yago/> .
+
+dbr:Tuyền_Lâm_Lake  rdf:type  yago:Lake109328904 ;
+        rdfs:comment    "Tuyền Lâm Lake (hồ Tuyền Lâm) is a man-made lake in Đà Lạt city, in Lâm Đồng Province, Vietnam. It is one of 21 National Tourism Areas. Trúc Lâm Temple can be reached by cable car."@en ;
+        rdfs:label      "Tuyền Lâm Lake"@en ;
+        dbo:abstract    "Tuyền Lâm Lake (hồ Tuyền Lâm) is a man-made lake in Đà Lạt city, in Lâm Đồng Province, Vietnam. It is one of 21 National Tourism Areas. Trúc Lâm Temple can be reached by cable car."@en ;
+        dbo:location    dbr:Lâm_Đồng_province , dbr:Vietnam ;
+        dbo:type        dbr:Reservoir ;
+        dbp:caption     "Tuyền Lâm Lake"@en ;
+        dbp:location    dbr:Vietnam , dbr:Lâm_Đồng_province ;
+        dbp:name        "Tuyền Lâm Lake"@en ;
+        dbp:pushpinMap  "Vietnam"@en ;
+        geo:lat         "11.892999649047851562"^^xsd:float ;
+        geo:long        "108.4250030517578125"^^xsd:float .

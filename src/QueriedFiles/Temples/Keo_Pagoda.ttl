@@ -1,0 +1,13 @@
+@prefix dbo:  <http://dbpedia.org/ontology/> .
+@prefix dbr:  <http://dbpedia.org/resource/> .
+@prefix geo:  <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+dbr:Keo_Pagoda  rdf:type  dbo:ReligiousBuilding ;
+        rdfs:comment  "Keo Temple (Vietnamese: Chùa Keo, Official name: Thần Quang Tự (神光寺)) is a Buddhist temple in Vũ Thư District, Thái Bình Province, Vietnam. The temple was commenced in 1061 under the Lý Dynasty near the Red River. The pagoda was dedicated in the 1130s to the monk (vi:Lý Quốc Sư) by emperor Lý Thần Tông after the monk cured his leprosy."@en ;
+        rdfs:label    "Keo Pagoda"@en ;
+        dbo:abstract  "Keo Temple (Vietnamese: Chùa Keo, Official name: Thần Quang Tự (神光寺)) is a Buddhist temple in Vũ Thư District, Thái Bình Province, Vietnam. The temple was commenced in 1061 under the Lý Dynasty near the Red River. The pagoda was dedicated in the 1130s to the monk (vi:Lý Quốc Sư) by emperor Lý Thần Tông after the monk cured his leprosy."@en ;
+        geo:lat       "20.360555648803710938"^^xsd:float ;
+        geo:long      "106.2972259521484375"^^xsd:float .

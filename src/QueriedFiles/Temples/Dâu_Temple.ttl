@@ -1,0 +1,5 @@
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://dbpedia.org/resource/Dâu_Temple>
+        rdf:type  dbo:ReligiousBuilding .

@@ -1,0 +1,22 @@
+@prefix dbo:     <http://dbpedia.org/ontology/> .
+@prefix dbp:     <http://dbpedia.org/property/> .
+@prefix dbr:     <http://dbpedia.org/resource/> .
+@prefix geo:     <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix virtrdf: <http://www.openlinksw.com/schemas/virtrdf#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix yago:    <http://dbpedia.org/class/yago/> .
+
+dbr:Imperial_Citadel_of_Thăng_Long
+        rdf:type      yago:Location100027167 , dbo:WorldHeritageSite ;
+        rdfs:comment  "The Imperial Citadel of Thăng Long (Vietnamese: Hoàng thành Thăng Long; Hán-Nôm: 皇城昇龍) is a complex of historic imperial buildings located in the centre of Hanoi, Vietnam. It was first constructed in 1011 under the reign of Emperor Lý Thái Tổ of Lý dynasty."@en ;
+        rdfs:label    "Imperial Citadel of Thăng Long"@en ;
+        dbo:abstract  "The Imperial Citadel of Thăng Long (Vietnamese: Hoàng thành Thăng Long; Hán-Nôm: 皇城昇龍) is a complex of historic imperial buildings located in the centre of Hanoi, Vietnam. It was first constructed in 1011 under the reign of Emperor Lý Thái Tổ of Lý dynasty."@en ;
+        dbp:caption   "Đoan Môn, the main gate to the palatial complex of Later Lê Emperors."@en ;
+        dbp:location  dbr:Hanoi , dbr:Vietnam ;
+        dbp:locmapin  "Vietnam"@en ;
+        dbp:whs       "Central Sector of the Imperial Citadel of Thăng Long – Hanoi"@en ;
+        geo:geometry  "POINT(105.83721923828 21.039443969727)"^^virtrdf:Geometry ;
+        geo:lat       "21.0394439697265625"^^xsd:float ;
+        geo:long      "105.83721923828125"^^xsd:float .

@@ -1,0 +1,4 @@
+@prefix dbo: <http://dbpedia.org/ontology/> .
+
+<http://dbpedia.org/resource/Gâm_River>
+        dbo:abstract  "The Gâm River (Vietnamese: Sông Gâm, Chinese: 白南河, Bainan he) is a river which derived from the Guangxi, China. The river enters the Vietnam territory at Cao Bằng Province, 23°0′42″N 105°47′12″E﻿ / ﻿23.01167°N 105.78667°E. And then rivers in Hà Giang Province and Tuyên Quang Province, Vietnam."@en .

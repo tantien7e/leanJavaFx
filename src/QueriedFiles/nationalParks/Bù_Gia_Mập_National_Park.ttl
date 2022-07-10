@@ -1,16 +1,20 @@
-@prefix dbo:    <http://dbpedia.org/ontology/> .
-@prefix dbp:    <http://dbpedia.org/property/> .
-@prefix geo:    <http://www.w3.org/2003/01/geo/wgs84_pos#> .
-@prefix georss: <http://www.georss.org/georss/> .
-@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
-@prefix yago:   <http://dbpedia.org/class/yago/> .
+@prefix dbo:  <http://dbpedia.org/ontology/> .
+@prefix dbp:  <http://dbpedia.org/property/> .
+@prefix geo:  <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix yago: <http://dbpedia.org/class/yago/> .
 
 <http://dbpedia.org/resource/Bù_Gia_Mập_National_Park>
-        rdf:type      yago:NationalPark108600992 ;
-        dbo:abstract  "Bù Gia Mập National Park (Vietnamese language: Vườn quốc gia Bù Gia Mập ) is a national park in the province of Bình Phước, Vietnam. The Bù Gia Mập National Park covers an area of 26,032 ha. The park has a 15,200 ha buffer zone area. Until 2002, the area was officially a conservation area, before the incumbent Prime Minister declared it a national park on November 27. Much of the Bù Gia Mập National Park lies in the southern reaches of the Central Highlands. The highest point in the area is 700 meters above sea level. The national park is fed by numerous river systems, including the Dak Huyet and Dak Sam rivers. The headwaters of the hydropower projects of the Thac Mo and Can Don also lie within the park."@en ;
-        dbo:location  <http://dbpedia.org/resource/Southeast_(Vietnam)> ;
-        dbp:name      "Bù Gia Mập National Park"@en ;
-        georss:point  "12.216666666666667 107.15" ;
-        geo:lat       "12.216666221618652344"^^xsd:float ;
-        geo:long      "107.15000152587890625"^^xsd:float .
+        rdf:type         yago:NationalPark108600992 ;
+        rdfs:comment     "Bù Gia Mập National Park (Vietnamese language: Vườn quốc gia Bù Gia Mập ) is a national park in the province of Bình Phước, Vietnam. The Bù Gia Mập National Park covers an area of 26,032 ha. The park has a 15,200 ha buffer zone area. Until 2002, the area was officially a conservation area, before the incumbent Prime Minister declared it a national park on November 27."@en ;
+        dbo:abstract     "Bù Gia Mập National Park (Vietnamese language: Vườn quốc gia Bù Gia Mập ) is a national park in the province of Bình Phước, Vietnam. The Bù Gia Mập National Park covers an area of 26,032 ha. The park has a 15,200 ha buffer zone area. Until 2002, the area was officially a conservation area, before the incumbent Prime Minister declared it a national park on November 27. Much of the Bù Gia Mập National Park lies in the southern reaches of the Central Highlands. The highest point in the area is 700 meters above sea level. The national park is fed by numerous river systems, including the Dak Huyet and Dak Sam rivers. The headwaters of the hydropower projects of the Thac Mo and Can Don also lie within the park."@en ;
+        dbo:location     <http://dbpedia.org/resource/Southeast_(Vietnam)> ;
+        dbo:nearestCity  <http://dbpedia.org/resource/Đồng_Xoài> ;
+        dbp:area         26032 ;
+        dbp:established  2002 ;
+        dbp:location     <http://dbpedia.org/resource/Southeast_(Vietnam)> ;
+        dbp:name         "Bù Gia Mập National Park"@en ;
+        geo:lat          "12.216666221618652344"^^xsd:float ;
+        geo:long         "107.15000152587890625"^^xsd:float .

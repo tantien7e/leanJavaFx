@@ -1,0 +1,25 @@
+@prefix dbd:     <http://dbpedia.org/datatype/> .
+@prefix dbo:     <http://dbpedia.org/ontology/> .
+@prefix dbp:     <http://dbpedia.org/property/> .
+@prefix dbr:     <http://dbpedia.org/resource/> .
+@prefix geo:     <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix virtrdf: <http://www.openlinksw.com/schemas/virtrdf#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix yago:    <http://dbpedia.org/class/yago/> .
+
+dbr:Bai_Tu_Long_Bay  rdf:type  yago:NationalPark108600992 ;
+        rdfs:comment     "Bai Tu Long Bay is a bay in Vietnam. It encompasses Bai Tu Long National Park. Bai Tu Long Bay is northeast of Hạ Long Bay."@en ;
+        dbo:abstract     "Bai Tu Long Bay is a bay in Vietnam. It encompasses Bai Tu Long National Park. Bai Tu Long Bay is northeast of Hạ Long Bay."@en ;
+        dbo:areaTotal    157830000.0 ;
+        dbo:location     dbr:Vietnam ;
+        dbo:nearestCity  dbr:Hạ_Long ;
+        dbp:area         "157.83"^^dbd:squareKilometre ;
+        dbp:established  2001 ;
+        dbp:location     dbr:Vietnam ;
+        dbp:name         "Bai Tu Long National Park"@en ;
+        dbp:photo        "Bai Tu Long Bay.jpeg"@en ;
+        geo:geometry     "POINT(107.63333129883 21.10000038147)"^^virtrdf:Geometry ;
+        geo:lat          "21.100000381469726562"^^xsd:float ;
+        geo:long         "107.633331298828125"^^xsd:float .

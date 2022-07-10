@@ -1,0 +1,24 @@
+@prefix dbd:  <http://dbpedia.org/datatype/> .
+@prefix dbo:  <http://dbpedia.org/ontology/> .
+@prefix dbp:  <http://dbpedia.org/property/> .
+@prefix dbr:  <http://dbpedia.org/resource/> .
+@prefix geo:  <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix yago: <http://dbpedia.org/class/yago/> .
+
+dbr:Tam_Đảo_National_Park
+        rdf:type         yago:NationalPark108600992 ;
+        rdfs:comment     "Tam Dao National Park (Vietnamese: Vườn quốc gia Tam Đảo) is a protected area zone in northern Vietnam. It was established in 1996, succeeding from the Conservation Forest Tam Dao which was formed in 1977. The park is about 85 km northwest of Hanoi."@en ;
+        dbo:abstract     "Tam Dao National Park (Vietnamese: Vườn quốc gia Tam Đảo) is a protected area zone in northern Vietnam. It was established in 1996, succeeding from the Conservation Forest Tam Dao which was formed in 1977. The park is about 85 km northwest of Hanoi. Its exact location is at 21°21’ to 21°42’ North latitude, 105°23’ to 105°44’ East longitude. It spans a large area along the Tam Đảo range and administratively belongs to 6 districts and 1 city: Lập Thạch, Tam Dương, Bình Xuyên and the city of Vĩnh Yên of Vĩnh Phúc Province; Sơn Dương of Tuyên Quang Province; Đại Từ and Phổ Yên of Thái Nguyên Province."@en ;
+        dbo:areaTotal    368830000.0 ;
+        dbo:location     dbr:Vietnam ;
+        dbo:nearestCity  dbr:Vĩnh_Yên ;
+        dbp:area         "368.83"^^dbd:squareKilometre ;
+        dbp:established  1996 ;
+        dbp:location     dbr:Vietnam ;
+        dbp:name         "Tam Dao National Park"@en ;
+        dbp:photo        "Tam Dao mountain range.jpg"@en ;
+        geo:lat          "21.516666412353515625"^^xsd:float ;
+        geo:long         "105.5500030517578125"^^xsd:float .

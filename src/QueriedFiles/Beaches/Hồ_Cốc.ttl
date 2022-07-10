@@ -1,0 +1,20 @@
+@prefix dbo:  <http://dbpedia.org/ontology/> .
+@prefix dbp:  <http://dbpedia.org/property/> .
+@prefix dbr:  <http://dbpedia.org/resource/> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix yago: <http://dbpedia.org/class/yago/> .
+
+dbr:Hồ_Cốc  rdf:type         dbo:Location , yago:Beach109217230 ;
+        rdfs:comment         "Hồ Cốc is a small beach community located in Vietnam's Bà Rịa–Vũng Tàu province, in Xuyên Mộc District. It is situated about 125 kilometers southeast of Hồ Chí Minh City (HCMC). The trip to Hồ Cốc takes only about 2 hours from HCMC by car or 90 minutes via the ferry from HCMC to Vũng Tàu. Hồ Cốc is expected to follow the development of Hồ Tràm beach as well as the ACDL MGM Hồ Tràm casino project located nearby and become a major resort destination in southern Vietnam. Also notable in the area are hot springs and an 11,000-hectare rain forest that was designated as a nature reserve in 1975."@en ;
+        rdfs:label           "Hồ Cốc"@en ;
+        dbo:abstract         "Hồ Cốc is a small beach community located in Vietnam's Bà Rịa–Vũng Tàu province, in Xuyên Mộc District. It is situated about 125 kilometers southeast of Hồ Chí Minh City (HCMC). The trip to Hồ Cốc takes only about 2 hours from HCMC by car or 90 minutes via the ferry from HCMC to Vũng Tàu. Hồ Cốc is expected to follow the development of Hồ Tràm beach as well as the ACDL MGM Hồ Tràm casino project located nearby and become a major resort destination in southern Vietnam. Also notable in the area are hot springs and an 11,000-hectare rain forest that was designated as a nature reserve in 1975."@en ;
+        dbo:country          dbr:Vietnam ;
+        dbo:subdivision      <http://dbpedia.org/resource/Bà_Rịa–Vũng_Tàu_province> , dbr:Xuyên_Mộc_district , <http://dbpedia.org/resource/Southeast_(Vietnam)> ;
+        dbo:utcOffset        "+7" ;
+        dbp:name             "Hồ Cốc Beach"@en ;
+        dbp:officialName     "Bãi biển Hồ Cốc"@en ;
+        dbp:populationAsOf   2003 ;
+        dbp:subdivisionName  <http://dbpedia.org/resource/Bà_Rịa–Vũng_Tàu_province> , <http://dbpedia.org/resource/Southeast_(Vietnam)> , dbr:Xuyên_Mộc_district ;
+        dbp:subdivisionType  "Country"@en ;
+        dbp:subdivisionType  dbr:List_of_regions_of_Vietnam , dbr:List_of_districts_of_Vietnam , dbr:Provinces_of_Vietnam .

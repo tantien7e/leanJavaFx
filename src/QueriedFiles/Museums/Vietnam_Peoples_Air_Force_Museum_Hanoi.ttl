@@ -1,0 +1,7 @@
+@prefix dbo:  <http://dbpedia.org/ontology/> .
+@prefix dbr:  <http://dbpedia.org/resource/> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix yago: <http://dbpedia.org/class/yago/> .
+
+dbr:Vietnam_Peoples_Air_Force_Museum_Hanoi
+        rdf:type  dbo:Museum , yago:Museum103800563 .

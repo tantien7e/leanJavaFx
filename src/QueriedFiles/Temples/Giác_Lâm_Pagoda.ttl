@@ -1,0 +1,22 @@
+@prefix dbo:  <http://dbpedia.org/ontology/> .
+@prefix dbp:  <http://dbpedia.org/property/> .
+@prefix dbr:  <http://dbpedia.org/resource/> .
+@prefix geo:  <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+dbr:Giác_Lâm_Pagoda  rdf:type  dbo:ReligiousBuilding ;
+        rdfs:comment       "Giác Lâm Pagoda (Vietnamese: Chùa Giác Lâm; chữ Hán: 覺林寺, Giác Lâm tự) is a historic Buddhist pagoda in Ho Chi Minh City, the largest city in Vietnam. Built in 1744, it is one of the oldest temples in the city. It was officially listed as a historical site by the Vietnamese Department of Culture on November 16, 1988 under Decision 1288 VH/QD. The pagoda is located at 118 Lạc Long Quân, in the 23rd ward of Tân Bình district, in the Phú Thọ Hòa region of the city. It stands on Cẩm Sơn, and is also known as Cẩm Đệm and Sơn Can."@en ;
+        rdfs:label         "Giác Lâm Pagoda"@en ;
+        dbo:abstract       "Giác Lâm Pagoda (Vietnamese: Chùa Giác Lâm; chữ Hán: 覺林寺, Giác Lâm tự) is a historic Buddhist pagoda in Ho Chi Minh City, the largest city in Vietnam. Built in 1744, it is one of the oldest temples in the city. It was officially listed as a historical site by the Vietnamese Department of Culture on November 16, 1988 under Decision 1288 VH/QD. The pagoda is located at 118 Lạc Long Quân, in the 23rd ward of Tân Bình district, in the Phú Thọ Hòa region of the city. It stands on Cẩm Sơn, and is also known as Cẩm Đệm and Sơn Can."@en ;
+        dbo:country        dbr:Vietnam ;
+        dbp:country        dbr:Vietnam ;
+        dbp:creator        "Lý Thụy Long"@en ;
+        dbp:location       dbr:Ho_Chi_Minh_City ;
+        dbp:name           "Giác Lâm Pagoda"@en ;
+        dbp:nativeName     "Chùa Giác Lâm"@en ;
+        dbp:province       "Ho Chi Minh"@en ;
+        dbp:yearCompleted  1744 ;
+        geo:lat            "10.779444694519042969"^^xsd:float ;
+        geo:long           "106.649169921875"^^xsd:float .

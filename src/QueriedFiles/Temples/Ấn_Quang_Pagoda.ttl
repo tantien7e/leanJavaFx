@@ -1,0 +1,13 @@
+@prefix dbo:  <http://dbpedia.org/ontology/> .
+@prefix geo:  <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/resource/Ấn_Quang_Pagoda>
+        rdf:type      dbo:ReligiousBuilding ;
+        rdfs:comment  "An Quang Pagoda (Ấn Quang Chùa, 印光寺 meaning: \"Temple of the Light of the (Dharma) Seal\") in Master Van Hanh Street is a meeting place for Vietnamese Buddhist leaders in Ho Chi Minh City and is a site of the . It has been at the focus of development of modern Vietnamese Buddhism as the seat of the and the headquarters of the Unified Buddhist Church of Vietnam."@en ;
+        rdfs:label    "Ấn Quang Pagoda"@en ;
+        dbo:abstract  "An Quang Pagoda (Ấn Quang Chùa, 印光寺 meaning: \"Temple of the Light of the (Dharma) Seal\") in Master Van Hanh Street is a meeting place for Vietnamese Buddhist leaders in Ho Chi Minh City and is a site of the . It has been at the focus of development of modern Vietnamese Buddhism as the seat of the and the headquarters of the Unified Buddhist Church of Vietnam. Since its founding in 1948, its buildings have been expanded in number and size; they now include a library and a publishing house. But the importance of the pagoda lies in the large number of Dharma teachers who started from this place and the thousands of monks and nuns who received their training there. Today the pagoda serves as the headquarters of the Ho Chi Minh City Buddhist Sangha and it may serve as a place of reconciliation between the (underground) Unified Buddhist Church of Vietnam (UBCV) and the Communist Party and government who oppose it."@en ;
+        geo:lat       "10.765832901000976562"^^xsd:float ;
+        geo:long      "106.67166900634765625"^^xsd:float .

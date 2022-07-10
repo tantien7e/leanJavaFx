@@ -1,0 +1,14 @@
+@prefix dbo:  <http://dbpedia.org/ontology/> .
+@prefix geo:  <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix yago: <http://dbpedia.org/class/yago/> .
+
+<http://dbpedia.org/resource/Hỏa_Lò_Prison>
+        rdf:type      dbo:Museum , yago:Museum103800563 ;
+        rdfs:comment  "Hỏa Lò Prison (Vietnamese: [hwa᷉ː lɔ̂]) was a prison used by the French colonists in French Indochina for political prisoners, and later by North Vietnam for U.S. prisoners of war during the Vietnam War. During this later period it was known to American POWs as the \"Hanoi Hilton\". The prison was demolished during the 1990s, although the gatehouse remains as a museum."@en ;
+        rdfs:label    "Hỏa Lò Prison"@en ;
+        dbo:abstract  "Hỏa Lò Prison (Vietnamese: [hwa᷉ː lɔ̂]) was a prison used by the French colonists in French Indochina for political prisoners, and later by North Vietnam for U.S. prisoners of war during the Vietnam War. During this later period it was known to American POWs as the \"Hanoi Hilton\". The prison was demolished during the 1990s, although the gatehouse remains as a museum."@en ;
+        geo:lat       "21.025278091430664062"^^xsd:float ;
+        geo:long      "105.8463897705078125"^^xsd:float .

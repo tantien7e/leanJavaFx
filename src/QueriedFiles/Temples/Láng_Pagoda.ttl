@@ -1,0 +1,16 @@
+@prefix dbo:  <http://dbpedia.org/ontology/> .
+@prefix dbp:  <http://dbpedia.org/property/> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://dbpedia.org/resource/Láng_Pagoda>
+        rdf:type            dbo:ReligiousBuilding ;
+        rdfs:comment        "Láng Pagoda (Vietnamese: Chùa Láng, Chinese: 昭禪寺) is a Buddhist temple in Láng village, Đống Đa District, Hanoi, Vietnam. It is known in French as Pagode des Dames (Pagoda of the Ladies). It worships Buddhist monk Từ Đạo Hạnh and was built by king Lý Anh Tông."@en ;
+        rdfs:label          "Láng Pagoda"@en ;
+        dbo:abstract        "Láng Pagoda (Vietnamese: Chùa Láng, Chinese: 昭禪寺) is a Buddhist temple in Láng village, Đống Đa District, Hanoi, Vietnam. It is known in French as Pagode des Dames (Pagoda of the Ladies). It worships Buddhist monk Từ Đạo Hạnh and was built by king Lý Anh Tông."@en ;
+        dbp:caption         "The octagon house and the main hall"@en ;
+        dbp:location        "Láng Thượng, Đống Đa, Hanoi"@en ;
+        dbp:name            "Láng Pagoda"@en ;
+        dbp:nativeName      "Chùa Láng"@en , "昭禪寺"@en ;
+        dbp:nativeNameLang  "vi"@en ;
+        dbp:yearCompleted   12 .

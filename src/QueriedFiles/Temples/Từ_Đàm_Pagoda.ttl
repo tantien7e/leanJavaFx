@@ -1,0 +1,13 @@
+@prefix dbo:  <http://dbpedia.org/ontology/> .
+@prefix geo:  <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/resource/Từ_Đàm_Pagoda>
+        rdf:type      dbo:ReligiousBuilding ;
+        rdfs:comment  "Từ Đàm Temple (Chùa Từ Đàm) is a Buddhist temple located on a street of the same name in the of Huế."@en ;
+        rdfs:label    "Từ Đàm Pagoda"@en ;
+        dbo:abstract  "Từ Đàm Temple (Chùa Từ Đàm) is a Buddhist temple located on a street of the same name in the of Huế."@en ;
+        geo:lat       "16.4514007568359375"^^xsd:float ;
+        geo:long      "107.58170318603515625"^^xsd:float .

@@ -1,0 +1,13 @@
+@prefix dbo:  <http://dbpedia.org/ontology/> .
+@prefix geo:  <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/resource/Chuông_Temple>
+        rdf:type      dbo:ReligiousBuilding ;
+        rdfs:comment  "Chuông Temple (Vietnamese: Chùa Chuông, Chữ Hán: 金鐘寺, Sino-Vietnamese: Kim Chung Tự) is a Buddhist temple, located in Hưng Yên City, Vietnam. It is given the title \"The most beautiful scenic spot of Pho Hien\". The other names of the temple include Bell Temple (chuông is the Vietnamese word for bell) and Golden Bell Temple."@en ;
+        rdfs:label    "Chuông Temple"@en ;
+        dbo:abstract  "Chuông Temple (Vietnamese: Chùa Chuông, Chữ Hán: 金鐘寺, Sino-Vietnamese: Kim Chung Tự) is a Buddhist temple, located in Hưng Yên City, Vietnam. It is given the title \"The most beautiful scenic spot of Pho Hien\". The other names of the temple include Bell Temple (chuông is the Vietnamese word for bell) and Golden Bell Temple."@en ;
+        geo:lat       "20.65579986572265625"^^xsd:float ;
+        geo:long      "106.0500030517578125"^^xsd:float .

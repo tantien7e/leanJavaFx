@@ -1,16 +1,25 @@
-@prefix dbo:    <http://dbpedia.org/ontology/> .
-@prefix dbp:    <http://dbpedia.org/property/> .
-@prefix geo:    <http://www.w3.org/2003/01/geo/wgs84_pos#> .
-@prefix georss: <http://www.georss.org/georss/> .
-@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
-@prefix yago:   <http://dbpedia.org/class/yago/> .
+@prefix dbd:     <http://dbpedia.org/datatype/> .
+@prefix dbo:     <http://dbpedia.org/ontology/> .
+@prefix dbp:     <http://dbpedia.org/property/> .
+@prefix geo:     <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix virtrdf: <http://www.openlinksw.com/schemas/virtrdf#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix yago:    <http://dbpedia.org/class/yago/> .
 
 <http://dbpedia.org/resource/Chư_Yang_Sin_National_Park>
-        rdf:type      yago:NationalPark108600992 ;
-        dbo:abstract  "Chư Yang Sin National Park (Vietnamese language: Vườn quốc gia Chư Yang Sin) is a national park in the communes of: Yang Mao, , Cư Pui, Hoà Phong, Hoà Lễ, Hoà Sơn, Khuê Ngọc Điền in the county of Krông Bông and communes: Yang Cao, Bông Krang, Krông Nô, Đắk Phơi of county , Đắk Lắk Province, Tây Nguyên, Vietnam. The national park was established according to the Decision number 92/2002/QĐ-TTg dated 12 July 2002, signed by then Prime Minister of Vietnam Nguyễn Tấn Dũng, this decision turned Chư Yang Sin Nature Reserve into Chư Yang Sin National Park. The only confirmed reports of golden jackals (C.a. cruesemanni) in Vietnam come from Chư Yang Sin National Park."@en ;
-        dbo:location  <http://dbpedia.org/resource/Central_Highlands_(Vietnam)> ;
-        dbp:name      "Chư Yang Sin National Park"@en ;
-        georss:point  "12.876944444444444 108.43805555555555" ;
-        geo:lat       "12.876944541931152344"^^xsd:float ;
-        geo:long      "108.43805694580078125"^^xsd:float .
+        rdf:type         yago:NationalPark108600992 ;
+        rdfs:comment     "Chư Yang Sin National Park (Vietnamese language: Vườn quốc gia Chư Yang Sin) is a national park in the communes of: Yang Mao, , Cư Pui, Hoà Phong, Hoà Lễ, Hoà Sơn, Khuê Ngọc Điền in the county of Krông Bông and communes: Yang Cao, Bông Krang, Krông Nô, Đắk Phơi of county , Đắk Lắk Province, Tây Nguyên, Vietnam. The national park was established according to the Decision number 92/2002/QĐ-TTg dated 12 July 2002, signed by then Prime Minister of Vietnam Nguyễn Tấn Dũng, this decision turned Chư Yang Sin Nature Reserve into Chư Yang Sin National Park."@en ;
+        dbo:abstract     "Chư Yang Sin National Park (Vietnamese language: Vườn quốc gia Chư Yang Sin) is a national park in the communes of: Yang Mao, , Cư Pui, Hoà Phong, Hoà Lễ, Hoà Sơn, Khuê Ngọc Điền in the county of Krông Bông and communes: Yang Cao, Bông Krang, Krông Nô, Đắk Phơi of county , Đắk Lắk Province, Tây Nguyên, Vietnam. The national park was established according to the Decision number 92/2002/QĐ-TTg dated 12 July 2002, signed by then Prime Minister of Vietnam Nguyễn Tấn Dũng, this decision turned Chư Yang Sin Nature Reserve into Chư Yang Sin National Park. The only confirmed reports of golden jackals (C.a. cruesemanni) in Vietnam come from Chư Yang Sin National Park."@en ;
+        dbo:areaTotal    589470000.0 ;
+        dbo:location     <http://dbpedia.org/resource/Central_Highlands_(Vietnam)> ;
+        dbo:nearestCity  <http://dbpedia.org/resource/Buôn_Ma_Thuột> ;
+        dbp:area         "589.47"^^dbd:squareKilometre ;
+        dbp:established  2002 ;
+        dbp:location     <http://dbpedia.org/resource/Central_Highlands_(Vietnam)> ;
+        dbp:name         "Chư Yang Sin National Park"@en ;
+        dbp:photo        "File:Krongkma4.jpg"@en ;
+        geo:geometry     "POINT(108.4380569458 12.876944541931)"^^virtrdf:Geometry ;
+        geo:lat          "12.876944541931152344"^^xsd:float ;
+        geo:long         "108.43805694580078125"^^xsd:float .

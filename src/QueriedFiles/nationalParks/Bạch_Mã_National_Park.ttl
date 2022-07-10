@@ -1,17 +1,21 @@
-@prefix dbo:    <http://dbpedia.org/ontology/> .
-@prefix dbp:    <http://dbpedia.org/property/> .
-@prefix dbr:    <http://dbpedia.org/resource/> .
-@prefix geo:    <http://www.w3.org/2003/01/geo/wgs84_pos#> .
-@prefix georss: <http://www.georss.org/georss/> .
-@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
-@prefix yago:   <http://dbpedia.org/class/yago/> .
+@prefix dbo:  <http://dbpedia.org/ontology/> .
+@prefix dbp:  <http://dbpedia.org/property/> .
+@prefix dbr:  <http://dbpedia.org/resource/> .
+@prefix geo:  <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix yago: <http://dbpedia.org/class/yago/> .
 
 dbr:Bạch_Mã_National_Park
-        rdf:type      yago:NationalPark108600992 ;
-        dbo:abstract  "Bạch Mã National Park (Vietnamese: Vườn quốc gia Bạch Mã) is a protected area in central Vietnam, near the city of Huế. It covers 220 km2 and comprises three zones: a strictly protected core area, an administrative area and a buffer zone. In 2004, the park was being considered for expansion in order to create a corridor from the border with Laos to the sea. The park can be accessed by foot, moped or with a park guide's car."@en ;
-        dbo:location  dbr:Vietnam ;
-        dbp:name      "Bach Ma National Park"@en ;
-        georss:point  "16.2 107.86666666666666" ;
-        geo:lat       "16.200000762939453125"^^xsd:float ;
-        geo:long      "107.866668701171875"^^xsd:float .
+        rdf:type         yago:NationalPark108600992 ;
+        rdfs:comment     "Bạch Mã National Park (Vietnamese: Vườn quốc gia Bạch Mã) is a protected area in central Vietnam, near the city of Huế. It covers 220 km2 and comprises three zones: a strictly protected core area, an administrative area and a buffer zone. In 2004, the park was being considered for expansion in order to create a corridor from the border with Laos to the sea. The park can be accessed by foot, moped or with a park guide's car."@en ;
+        dbo:abstract     "Bạch Mã National Park (Vietnamese: Vườn quốc gia Bạch Mã) is a protected area in central Vietnam, near the city of Huế. It covers 220 km2 and comprises three zones: a strictly protected core area, an administrative area and a buffer zone. In 2004, the park was being considered for expansion in order to create a corridor from the border with Laos to the sea. The park can be accessed by foot, moped or with a park guide's car."@en ;
+        dbo:location     dbr:Vietnam ;
+        dbo:nearestCity  dbr:Huế ;
+        dbp:established  1986 ;
+        dbp:location     dbr:Vietnam ;
+        dbp:name         "Bach Ma National Park"@en ;
+        dbp:photo        "Bach Ma NP2.jpg"@en ;
+        geo:lat          "16.200000762939453125"^^xsd:float ;
+        geo:long         "107.866668701171875"^^xsd:float .

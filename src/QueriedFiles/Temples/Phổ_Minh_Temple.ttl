@@ -1,0 +1,9 @@
+@prefix dbo:  <http://dbpedia.org/ontology/> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://dbpedia.org/resource/Phổ_Minh_Temple>
+        rdf:type      dbo:ReligiousBuilding ;
+        rdfs:comment  "Phổ Minh Temple (Vietnamese: Chùa Phổ Minh, Chữ Hán: 普明寺) is a Buddhist temple in Tức Mặc village, 5 kilometres north of Nam Định city, Vietnam, the home town of the Trần Dynasty."@en ;
+        rdfs:label    "Phổ Minh Temple"@en ;
+        dbo:abstract  "Phổ Minh Temple (Vietnamese: Chùa Phổ Minh, Chữ Hán: 普明寺) is a Buddhist temple in Tức Mặc village, 5 kilometres north of Nam Định city, Vietnam, the home town of the Trần Dynasty."@en .

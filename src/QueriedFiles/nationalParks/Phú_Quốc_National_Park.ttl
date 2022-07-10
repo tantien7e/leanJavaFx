@@ -1,0 +1,26 @@
+@prefix dbd:     <http://dbpedia.org/datatype/> .
+@prefix dbo:     <http://dbpedia.org/ontology/> .
+@prefix dbp:     <http://dbpedia.org/property/> .
+@prefix dbr:     <http://dbpedia.org/resource/> .
+@prefix geo:     <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix virtrdf: <http://www.openlinksw.com/schemas/virtrdf#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix yago:    <http://dbpedia.org/class/yago/> .
+
+dbr:Phú_Quốc_National_Park
+        rdf:type         yago:NationalPark108600992 ;
+        rdfs:comment     "Phú Quốc National Park (Vietnamese: Vườn quốc gia Phú Quốc) is a national park on Phú Quốc Island, in the Kiên Giang Province of Vietnam's Mekong Delta Region. This park includes land and sea area, protecting oceanic species such as dugong.This park was established by the Decision 91/2001/QĐ-TTg dated 8 June 2001 signed by the Prime Minister of Vietnam on upgrading Northern Phú Quốc Islands Preservation Zone to Phu Quoc National Park."@en ;
+        dbo:abstract     "Phú Quốc National Park (Vietnamese: Vườn quốc gia Phú Quốc) is a national park on Phú Quốc Island, in the Kiên Giang Province of Vietnam's Mekong Delta Region. This park includes land and sea area, protecting oceanic species such as dugong.This park was established by the Decision 91/2001/QĐ-TTg dated 8 June 2001 signed by the Prime Minister of Vietnam on upgrading Northern Phú Quốc Islands Preservation Zone to Phu Quoc National Park."@en ;
+        dbo:areaTotal    314220000.0 ;
+        dbo:location     dbr:Mekong_Delta ;
+        dbo:nearestCity  dbr:Hà_Tiên ;
+        dbp:area         "314.22"^^dbd:squareKilometre ;
+        dbp:established  2001 ;
+        dbp:location     dbr:Mekong_Delta ;
+        dbp:name         "Phu Quoc National Park"@en ;
+        dbp:photo        "File:Phu quoc plage sao.jpg"@en ;
+        geo:geometry     "POINT(103.94999694824 10.324999809265)"^^virtrdf:Geometry ;
+        geo:lat          "10.324999809265136719"^^xsd:float ;
+        geo:long         "103.9499969482421875"^^xsd:float .

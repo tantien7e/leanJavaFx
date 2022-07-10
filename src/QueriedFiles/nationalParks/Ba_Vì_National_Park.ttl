@@ -1,0 +1,21 @@
+@prefix dbo:  <http://dbpedia.org/ontology/> .
+@prefix dbp:  <http://dbpedia.org/property/> .
+@prefix geo:  <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix yago: <http://dbpedia.org/class/yago/> .
+
+<http://dbpedia.org/resource/Ba_Vì_National_Park>
+        rdf:type         yago:NationalPark108600992 ;
+        rdfs:comment     "Ba Vì National Park (Vietnamese: Vườn quốc gia Ba Vì) is a national park located 48 km (30 mi) west of Hanoi, Vietnam. The park is 10,815 ha (26,720 acres) in area, and is located in the Ba Vì mountain range. The park has rich and diverse tropical and subtropical species of flora and fauna. Ba Vì National Park is located in Ba Vì District of Hanoi and two districts of Hòa Bình Province, namely Lương Sơn and Kỳ Sơn. The Park is situated on a mountain range running north-east and south-west with its peak at Vua Peak of 1,296 m and Tan Vien Peak of 1,226 m and Ngoc Hoa Peak of 1,120 m."@en ;
+        dbo:abstract     "Ba Vì National Park (Vietnamese: Vườn quốc gia Ba Vì) is a national park located 48 km (30 mi) west of Hanoi, Vietnam. The park is 10,815 ha (26,720 acres) in area, and is located in the Ba Vì mountain range. The park has rich and diverse tropical and subtropical species of flora and fauna. Ba Vì National Park is located in Ba Vì District of Hanoi and two districts of Hòa Bình Province, namely Lương Sơn and Kỳ Sơn. The Park is situated on a mountain range running north-east and south-west with its peak at Vua Peak of 1,296 m and Tan Vien Peak of 1,226 m and Ngoc Hoa Peak of 1,120 m."@en ;
+        dbo:areaTotal    108150000.0 ;
+        dbo:location     "North Vietnam"@en ;
+        dbo:nearestCity  <http://dbpedia.org/resource/Sơn_Tây,_Hanoi> ;
+        dbp:established  1991 ;
+        dbp:location     "North Vietnam"@en ;
+        dbp:name         "Ba Vi National Park"@en ;
+        dbp:photo        "File:Ba_Vì_National_Park,_foggy_road.jpg"@en ;
+        geo:lat          "21.07805633544921875"^^xsd:float ;
+        geo:long         "105.35832977294921875"^^xsd:float .

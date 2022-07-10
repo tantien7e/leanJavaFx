@@ -1,0 +1,15 @@
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix dbr: <http://dbpedia.org/resource/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+dbr:Hang_Sơn_Đoòng  dbo:abstract  "Sơn Đoòng cave (Vietnamese: hang Sơn Đoòng, IPA: [haːŋ˧ ʂəːn˧ ɗɔ̤ŋ˨˩]), in Phong Nha-Kẻ Bàng National Park, Bố Trạch District, Quảng Bình Province, Vietnam, is one of the world's largest natural caves. Located near the Laos–Vietnam border, Hang Sơn Đoòng has an internal, fast-flowing subterranean river and the largest cross-section of any cave, worldwide, as of 2009, believed to be twice that of the next largest passage. It is the largest known cave passage in the world by volume. Its name, Hang Sơn Đoòng, is variously translated from Vietnamese as 'cave of the mountain river' or 'cave of mountains behind Đoòng [village]'. As a solutional cave, it was formed in soluble limestone and is believed to be between 2 and 5 million years old."@en ;
+        dbo:depth      150.0 ;
+        dbo:length     9000.0 ;
+        dbo:location   dbr:Quảng_Bình_province , dbr:Vietnam ;
+        dbp:caption    "View approaching the second doline"@en ;
+        dbp:discovery  1991 ;
+        dbp:geology    "Permo-Carboniferous limestone"@en ;
+        dbp:name       "Sơn Đoòng cave"@en ;
+        dbp:otherName  "Hang Sơn Đoòng"@en ;
+        dbp:survey     2009 .

@@ -1,0 +1,16 @@
+@prefix dbo:     <http://dbpedia.org/ontology/> .
+@prefix geo:     <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix virtrdf: <http://www.openlinksw.com/schemas/virtrdf#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix yago:    <http://dbpedia.org/class/yago/> .
+
+<http://dbpedia.org/resource/Nhật_Lệ_Beach>
+        rdf:type      dbo:Location , yago:Beach109217230 ;
+        rdfs:comment  "Nhật Lệ Beach is a beach in Đồng Hới city, the capital of Quảng Bình Province, home to World Heritage Site Phong Nha-Kẻ Bàng National Park. The beach is located on the mouth of the Nhật Lệ River emptying into the South China Sea."@en ;
+        rdfs:label    "Nhật Lệ Beach"@en ;
+        dbo:abstract  "Nhật Lệ Beach is a beach in Đồng Hới city, the capital of Quảng Bình Province, home to World Heritage Site Phong Nha-Kẻ Bàng National Park. The beach is located on the mouth of the Nhật Lệ River emptying into the South China Sea."@en ;
+        geo:geometry  "POINT(106.58300018311 17.466999053955)"^^virtrdf:Geometry ;
+        geo:lat       "17.466999053955078125"^^xsd:float ;
+        geo:long      "106.58300018310546875"^^xsd:float .

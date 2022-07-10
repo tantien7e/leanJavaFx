@@ -1,0 +1,13 @@
+@prefix dbo:  <http://dbpedia.org/ontology/> .
+@prefix geo:  <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/resource/Hoằng_Pháp_Temple>
+        rdf:type      dbo:ReligiousBuilding ;
+        rdfs:comment  "Hoằng Pháp temple (chùa Hoằng Pháp, built 1957) is a temple in Hóc Môn, a suburb of Hồ Chí Minh City."@en ;
+        rdfs:label    "Hoằng Pháp Temple"@en ;
+        dbo:abstract  "Hoằng Pháp temple (chùa Hoằng Pháp, built 1957) is a temple in Hóc Môn, a suburb of Hồ Chí Minh City."@en ;
+        geo:lat       "10.900300025939941406"^^xsd:float ;
+        geo:long      "106.5818023681640625"^^xsd:float .

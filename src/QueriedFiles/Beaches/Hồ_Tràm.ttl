@@ -1,0 +1,26 @@
+@prefix dbo:     <http://dbpedia.org/ontology/> .
+@prefix dbp:     <http://dbpedia.org/property/> .
+@prefix dbr:     <http://dbpedia.org/resource/> .
+@prefix geo:     <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix virtrdf: <http://www.openlinksw.com/schemas/virtrdf#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix yago:    <http://dbpedia.org/class/yago/> .
+
+dbr:Hồ_Tràm  rdf:type        yago:Beach109217230 , dbo:Location ;
+        rdfs:comment         "Hồ Tràm is a small beach town located in Vietnam's Bà Rịa–Vũng Tàu province, in Xuyên Mộc District. It is situated about 125 kilometers southeast of Ho Chi Minh City (HCMC). Ho Tram’s pristine, undeveloped beachfront sits at just 2 hours from HCMC by car or 90 minutes via the ferry from HCMC to Vũng Tàu. For over a century now, the Vung Tau cape (Cap St Jacques) has been known as a sea-side sanatorium for treatment of diseases with climate and sea water, and it has rapidly become the earliest tourism city of Vietnam. Ho Tram is poised to become a major resort destination as the region develops along with its \"sister\" beach destination Ho Coc, which is located at close proximity. Ho Tram provides for the nicest beach in the area combining unspoiled waters with a large and wide beach of clea"@en ;
+        rdfs:label           "Hồ Tràm"@en ;
+        dbo:abstract         "Hồ Tràm is a small beach town located in Vietnam's Bà Rịa–Vũng Tàu province, in Xuyên Mộc District. It is situated about 125 kilometers southeast of Ho Chi Minh City (HCMC). Ho Tram’s pristine, undeveloped beachfront sits at just 2 hours from HCMC by car or 90 minutes via the ferry from HCMC to Vũng Tàu. For over a century now, the Vung Tau cape (Cap St Jacques) has been known as a sea-side sanatorium for treatment of diseases with climate and sea water, and it has rapidly become the earliest tourism city of Vietnam. Ho Tram is poised to become a major resort destination as the region develops along with its \"sister\" beach destination Ho Coc, which is located at close proximity. Ho Tram provides for the nicest beach in the area combining unspoiled waters with a large and wide beach of clear sand and is an increasingly week-end destination for wealthy Ho Chi Minh City residents as well as emerging as a resort destination for international tourists. Ho Tram also provides local excursions to Binh Chau Hot Springs famous for its relaxing mud baths and curative hot mineral springs said to improve blood circulation and mental disorders. The area is also home to an 11,000-hectare rainforest that was designated as a nature reserve in 1975. Most of the larger wildlife was exterminated or moved for safety reasons (most of the elephants were sent to Thailand), but plenty of beautiful birds and monkeys can be spotted in the forest. Ho Tram Beach is mentioned by Lonely Planet Guide as the #3 of the Top 5 Places to visit around Ho Chi Minh City Lonely Planet Top 5 Around HCMC."@en ;
+        dbo:country          dbr:Vietnam ;
+        dbo:subdivision      <http://dbpedia.org/resource/Bà_Rịa–Vũng_Tàu_province> , <http://dbpedia.org/resource/Southeast_(Vietnam)> , dbr:Xuyên_Mộc_District ;
+        dbo:utcOffset        "+7" ;
+        dbp:name             "Ho Tram Beach"@en ;
+        dbp:officialName     "Hồ Tràm"@en ;
+        dbp:populationAsOf   2003 ;
+        dbp:subdivisionName  <http://dbpedia.org/resource/Southeast_(Vietnam)> , dbr:Xuyên_Mộc_District , <http://dbpedia.org/resource/Bà_Rịa–Vũng_Tàu_province> ;
+        dbp:subdivisionType  "Country"@en ;
+        dbp:subdivisionType  dbr:List_of_districts_of_Vietnam , dbr:Provinces_of_Vietnam , dbr:List_of_regions_of_Vietnam ;
+        geo:geometry         "POINT(107.43333435059 10.483333587646)"^^virtrdf:Geometry ;
+        geo:lat              "10.483333587646484375"^^xsd:float ;
+        geo:long             "107.4333343505859375"^^xsd:float .

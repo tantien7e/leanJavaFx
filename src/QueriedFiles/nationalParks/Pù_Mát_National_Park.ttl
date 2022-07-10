@@ -1,0 +1,24 @@
+@prefix dbd:  <http://dbpedia.org/datatype/> .
+@prefix dbo:  <http://dbpedia.org/ontology/> .
+@prefix dbp:  <http://dbpedia.org/property/> .
+@prefix dbr:  <http://dbpedia.org/resource/> .
+@prefix geo:  <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix yago: <http://dbpedia.org/class/yago/> .
+
+dbr:Pù_Mát_National_Park
+        rdf:type         yago:NationalPark108600992 ;
+        rdfs:comment     "Pù Mát National Park (Vietnamese: Vườn quốc gia Pù Mát) is a national park in Nghệ An Province, in Vietnam's North Central Coast region. It is part of the Western Nghệ An Biosphere Reserve. In the Thai language, Pù Mát means \"high slope\". This park was established by Decision 174/2001/QĐ-TTg, dated November 8, 2001, by the Prime Minister of Vietnam on upgrading Pù Mát Preservation Zone."@en ;
+        dbo:abstract     "Pù Mát National Park (Vietnamese: Vườn quốc gia Pù Mát) is a national park in Nghệ An Province, in Vietnam's North Central Coast region. It is part of the Western Nghệ An Biosphere Reserve. In the Thai language, Pù Mát means \"high slope\". This park was established by Decision 174/2001/QĐ-TTg, dated November 8, 2001, by the Prime Minister of Vietnam on upgrading Pù Mát Preservation Zone. This park is situated from N 18°46′to 19°12′and from E 104°24′to 104°56′.The park covers an area of 94,804 ha, spreading in three districts of Tương Dương, Con Cuông and Anh Sơn of Nghệ An Province. Of the total area, the strictly protected area comprises 89.517 ha, and the ecological recovery area comprises 1.596 ha. A buffer area covers 86.000 ha."@en ;
+        dbo:areaTotal    911130000.0 ;
+        dbo:location     "Bắc Trung Bộ"@en ;
+        dbo:nearestCity  dbr:Vinh ;
+        dbp:area         "911.13"^^dbd:squareKilometre ;
+        dbp:established  2001 ;
+        dbp:location     "Bắc Trung Bộ"@en ;
+        dbp:name         "Pù Mát National Park"@en ;
+        dbp:photo        "Annamite range pu mat 2007 05.jpg"@en ;
+        geo:lat          "18.983333587646484375"^^xsd:float ;
+        geo:long         "104.66666412353515625"^^xsd:float .

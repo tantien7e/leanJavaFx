@@ -1,0 +1,17 @@
+@prefix dbo:  <http://dbpedia.org/ontology/> .
+@prefix dbp:  <http://dbpedia.org/property/> .
+@prefix dbr:  <http://dbpedia.org/resource/> .
+@prefix geo:  <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix yago: <http://dbpedia.org/class/yago/> .
+
+dbr:Con_Moong_Cave  rdf:type  yago:Location100027167 , dbo:WorldHeritageSite ;
+        rdfs:comment  "The Con Moong cave (Vietnamese: Hang Con Moong, \"beast\" cave) is located in the Cúc Phương National Park, just south of Mọ village, in the Thanh Hóa Province, northern Vietnam. The Department of Culture has issued a certificate that declares Con Moong prehistoric site and its surroundings as National Relics and is managed by the Cúc Phương National Park administration, along with a refuge for rare animals. Among these locations, the archaeological site of Con Moong cave is of central importance for the study of the Mesolithic Hoabinhian culture. In April and May 1976, Vietnamese archaeologists excavated the site."@en ;
+        rdfs:label    "Con Moong Cave"@en ;
+        dbo:abstract  "The Con Moong cave (Vietnamese: Hang Con Moong, \"beast\" cave) is located in the Cúc Phương National Park, just south of Mọ village, in the Thanh Hóa Province, northern Vietnam. The Department of Culture has issued a certificate that declares Con Moong prehistoric site and its surroundings as National Relics and is managed by the Cúc Phương National Park administration, along with a refuge for rare animals. Among these locations, the archaeological site of Con Moong cave is of central importance for the study of the Mesolithic Hoabinhian culture. In April and May 1976, Vietnamese archaeologists excavated the site."@en ;
+        dbp:location  "Thành Yên commune, Thạch Thành District, Thanh Hóa Province"@en ;
+        dbp:name      "Con Moong Cave"@en ;
+        geo:lat       "20.287500381469726562"^^xsd:float ;
+        geo:long      "105.60500335693359375"^^xsd:float .

@@ -1,0 +1,23 @@
+@prefix dbo:     <http://dbpedia.org/ontology/> .
+@prefix dbp:     <http://dbpedia.org/property/> .
+@prefix geo:     <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix virtrdf: <http://www.openlinksw.com/schemas/virtrdf#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix yago:    <http://dbpedia.org/class/yago/> .
+
+<http://dbpedia.org/resource/Xuân_Thủy_National_Park>
+        rdf:type         yago:NationalPark108600992 ;
+        rdfs:comment     "Xuân Thủy National Park (Vietnamese: Vườn quốc gia Xuân Thủy ) is a national park in Hong River Biosphere Reserve in Nam Định Province, Vietnam.The national park was established according to the Decision number 01/2003/QĐ-TTg dated 2 January 2003 signed by premier Nguyễn Tấn Dũng, this decision turned Xuân Thủy Wetland Nature Reserve into Xuân Thủy National Park. The park was the first wetland area to be announced a Ramsar site in south-east Asia and is internationally significant as a migratory bird habitat."@en ;
+        dbo:abstract     "Xuân Thủy National Park (Vietnamese: Vườn quốc gia Xuân Thủy ) is a national park in Hong River Biosphere Reserve in Nam Định Province, Vietnam.The national park was established according to the Decision number 01/2003/QĐ-TTg dated 2 January 2003 signed by premier Nguyễn Tấn Dũng, this decision turned Xuân Thủy Wetland Nature Reserve into Xuân Thủy National Park. The park was the first wetland area to be announced a Ramsar site in south-east Asia and is internationally significant as a migratory bird habitat."@en ;
+        dbo:location     "northern Vietnam"@en ;
+        dbo:nearestCity  <http://dbpedia.org/resource/Thái_Bình> , <http://dbpedia.org/resource/Nam_Định> ;
+        dbp:area         7100 ;
+        dbp:established  2003 ;
+        dbp:location     "northern Vietnam"@en ;
+        dbp:name         "Xuân Thủy National Park"@en ;
+        dbp:photo        "Landscape Xuan Thuy National Park.JPG"@en ;
+        geo:geometry     "POINT(106.51667022705 20.229999542236)"^^virtrdf:Geometry ;
+        geo:lat          "20.229999542236328125"^^xsd:float ;
+        geo:long         "106.51667022705078125"^^xsd:float .

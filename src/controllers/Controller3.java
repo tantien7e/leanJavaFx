@@ -12,17 +12,25 @@ import javafx.scene.control.ListView;
 import javafx.scene.control.TextArea;
 
 import java.io.BufferedOutputStream;
+import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
+import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.io.OutputStream;
 import java.io.OutputStreamWriter;
 import java.io.PrintStream;
 import java.io.UnsupportedEncodingException;
 import java.io.Writer;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
 import javafx.event.ActionEvent;
@@ -31,9 +39,9 @@ import javafx.scene.layout.AnchorPane;
 import javafx.scene.shape.Circle;
 import javafx.stage.Stage;
 import vntourism.Lakes;
-import vntourism.Museum;
+import vntourism.Museums;
 import vntourism.NationalParks;
-import vntourism.Parks;
+
 
 import java.util.ResourceBundle;
 import java.util.concurrent.TimeUnit;
@@ -57,31 +65,70 @@ public class Controller3 {
         this.nameOfAttraction = nameOfAttraction;
         Initializer initializer = new Initializer();
         // textArea3.appendText(initializer.lakeArr.get(0).getName());
-        if (typeOfAttraction == "Lakes") {
-            System.out.println("found!");
-            System.out.println(nameOfAttraction);
+        if (this.typeOfAttraction == "Lakes") {
             for (Lakes x : initializer.lakeArr) {
-                System.out.println(x.getPathname());
-                if (x.getPathname() == nameOfAttraction) {
+                if (this.nameOfAttraction.equals(x.getName())) {
                     x.display1("TURTLE");
-                    x.display("TURTLE");
-                    textArea3.appendText(x.getModel().toString());
-                    textArea3.appendText("arg0"); 
+                    String content = "";
+                    try {
+                        FileReader reader = new FileReader("F:/OOP/JavaFx/leanJavaFx/src/cache/cache.txt");
+                        int data;
+                        try {
+                            data = reader.read();
+                            while(data != -1){
+                                content += (char)data;
+                                data = reader.read();
+                            }
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
+                        
+                    } catch (FileNotFoundException e) {
+                        e.printStackTrace();
+                    }
+                    textArea3.appendText(content);
                 }
             }
         }
-        if (typeOfAttraction == "National_Parks") {
-            System.out.println("found!");
+        if (this.typeOfAttraction == "National_Parks") {
             for (NationalParks x : initializer.nationalParkArr) {
-                if (x.getPathname() == nameOfAttraction) {
+                if (this.nameOfAttraction.equals(x.getName())) {
                     x.display1("TURTLE");
-                    x.display("TURTLE");
-                    textArea3.appendText(x.getModel().toString());
-                    textArea3.appendText("arg0"); 
+                    Path path = Paths.get("F:/OOP/JavaFx/leanJavaFx/src/cache/cache.txt");
+                    try (BufferedReader reader = Files.newBufferedReader(path)) {
+
+                        String str;
+                        while ((str = reader.readLine()) != null) {
+                            textArea3.appendText(str + "\n");
+                        }
+            
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
+                }
+            }
+        }   
+    }
+
+
+    public void displayInTextArea(String lang){
+        Initializer initializer = new Initializer();
+        if (this.typeOfAttraction == "National_Parks") {
+            for (NationalParks x : initializer.nationalParkArr) {
+                if (this.nameOfAttraction.equals(x.getName())) {
+                    x.display1(lang);
+                    Path path = Paths.get("F:/OOP/JavaFx/leanJavaFx/src/cache/cache.txt");
+                    try (BufferedReader reader = Files.newBufferedReader(path)) {
+                        String str;
+                        while ((str = reader.readLine()) != null) {
+                            textArea3.appendText(str + "\n");
+                        }
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
                 }
             }
         }
-        textArea3.appendText("xin chào bug!");
         
     }
 

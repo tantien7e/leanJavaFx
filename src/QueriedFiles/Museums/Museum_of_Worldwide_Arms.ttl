@@ -1,0 +1,11 @@
+@prefix dbo:  <http://dbpedia.org/ontology/> .
+@prefix dbr:  <http://dbpedia.org/resource/> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix yago: <http://dbpedia.org/class/yago/> .
+
+dbr:Museum_of_Worldwide_Arms
+        rdf:type      dbo:Museum , yago:Museum103800563 ;
+        rdfs:comment  "The Museum of Worldwide Arms, officially the Robert Taylor Museum of Worldwide Arms, is a museum of military history and equipment in Vũng Tàu, Bà Rịa-Vũng Tàu, Vietnam. Established in 2016, the privately owned museum hosts a large number of weapons, uniforms, and other historical artifacts."@en ;
+        rdfs:label    "Museum of Worldwide Arms"@en ;
+        dbo:abstract  "The Museum of Worldwide Arms, officially the Robert Taylor Museum of Worldwide Arms, is a museum of military history and equipment in Vũng Tàu, Bà Rịa-Vũng Tàu, Vietnam. Established in 2016, the privately owned museum hosts a large number of weapons, uniforms, and other historical artifacts."@en .

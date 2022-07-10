@@ -1,0 +1,24 @@
+@prefix dbo:     <http://dbpedia.org/ontology/> .
+@prefix dbp:     <http://dbpedia.org/property/> .
+@prefix geo:     <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix virtrdf: <http://www.openlinksw.com/schemas/virtrdf#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix yago:    <http://dbpedia.org/class/yago/> .
+
+<http://dbpedia.org/resource/U_Minh_Thượng_National_Park>
+        rdf:type         yago:NationalPark108600992 ;
+        rdfs:comment     "U Minh Thượng National Park or National Park of Upper U Minh (Vietnamese language: Vườn quốc gia U Minh Thượng) is a national park in the province of Kiên Giang, Vietnam."@en ;
+        dbo:abstract     "U Minh Thượng National Park or National Park of Upper U Minh (Vietnamese language: Vườn quốc gia U Minh Thượng) is a national park in the province of Kiên Giang, Vietnam."@en ;
+        dbo:areaTotal    80530000.0 ;
+        dbo:location     "miền Nam Việt Nam"@en ;
+        dbo:nearestCity  <http://dbpedia.org/resource/Rạch_Giá> ;
+        dbp:date         "January 2011"@en ;
+        dbp:established  "2002-01-14"^^xsd:date ;
+        dbp:location     "miền Nam Việt Nam"@en ;
+        dbp:name         "U Minh Thượng National Park"@en ;
+        dbp:photo        "File:RungUMinh1.jpg"@en ;
+        geo:geometry     "POINT(105.08333587646 9.5833330154419)"^^virtrdf:Geometry ;
+        geo:lat          "9.5833330154418945312"^^xsd:float ;
+        geo:long         "105.08333587646484375"^^xsd:float .

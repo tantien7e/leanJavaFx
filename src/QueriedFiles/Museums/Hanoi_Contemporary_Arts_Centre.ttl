@@ -1,0 +1,11 @@
+@prefix dbo:  <http://dbpedia.org/ontology/> .
+@prefix dbr:  <http://dbpedia.org/resource/> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix yago: <http://dbpedia.org/class/yago/> .
+
+dbr:Hanoi_Contemporary_Arts_Centre
+        rdf:type      dbo:Museum , yago:Museum103800563 ;
+        rdfs:comment  "The Contemporary Arts Centre is located in Hanoi, Vietnam that showcases modern Vietnamese art."@en ;
+        rdfs:label    "Hanoi Contemporary Arts Centre"@en ;
+        dbo:abstract  "The Contemporary Arts Centre is located in Hanoi, Vietnam that showcases modern Vietnamese art."@en .

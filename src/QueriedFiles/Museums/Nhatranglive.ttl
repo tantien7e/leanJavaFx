@@ -1,0 +1,10 @@
+@prefix dbo:  <http://dbpedia.org/ontology/> .
+@prefix dbr:  <http://dbpedia.org/resource/> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix yago: <http://dbpedia.org/class/yago/> .
+
+dbr:Nhatranglive  rdf:type  dbo:Museum , yago:Museum103800563 ;
+        rdfs:comment  "Nhatranglive is a large collection of local artist's works from the region of Nha Trang, Cam Ranh, Cam Lâm District, Diên Khánh District, Khánh Sơn District, Khánh Vĩnh District, Ninh Hòa and Vạn Ninh display in one location. The collection has been built and gathered since June 30, 2007. Some are local contributions and others have been purchased through donations and fundraisings. The art collection is unbiased towards one individual artist or genre. The NhaTranglive collection consists of literature, painting, music, film, or other art form local people who were born in the area."@en ;
+        rdfs:label    "Nhatranglive"@en ;
+        dbo:abstract  "Nhatranglive is a large collection of local artist's works from the region of Nha Trang, Cam Ranh, Cam Lâm District, Diên Khánh District, Khánh Sơn District, Khánh Vĩnh District, Ninh Hòa and Vạn Ninh display in one location. The collection has been built and gathered since June 30, 2007. Some are local contributions and others have been purchased through donations and fundraisings. The art collection is unbiased towards one individual artist or genre. The NhaTranglive collection consists of literature, painting, music, film, or other art form local people who were born in the area."@en .

@@ -1,0 +1,11 @@
+@prefix dbo:  <http://dbpedia.org/ontology/> .
+@prefix dbr:  <http://dbpedia.org/resource/> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix yago: <http://dbpedia.org/class/yago/> .
+
+dbr:Vietnam_Museum_of_Revolution
+        rdf:type      yago:Museum103800563 , dbo:Museum ;
+        rdfs:comment  "The Vietnam Museum of Revolution (Vietnamese: Viện Bảo tàng Cách mạng Việt Nam; Hán tự: 院寶藏革命越南) was a museum in Hanoi, Vietnam. Located in the area of the city, it was established in August 1959 in a two-story building, formerly used by the Trade Department of Vietnam. It was redesigned into 30 galleries, and as of 2008 contains in excess of 40,000 historical exhibits."@en ;
+        rdfs:label    "Vietnam Museum of Revolution"@en ;
+        dbo:abstract  "The Vietnam Museum of Revolution (Vietnamese: Viện Bảo tàng Cách mạng Việt Nam; Hán tự: 院寶藏革命越南) was a museum in Hanoi, Vietnam. Located in the area of the city, it was established in August 1959 in a two-story building, formerly used by the Trade Department of Vietnam. It was redesigned into 30 galleries, and as of 2008 contains in excess of 40,000 historical exhibits."@en .

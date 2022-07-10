@@ -1,0 +1,22 @@
+@prefix dbo:  <http://dbpedia.org/ontology/> .
+@prefix dbp:  <http://dbpedia.org/property/> .
+@prefix dbr:  <http://dbpedia.org/resource/> .
+@prefix geo:  <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix yago: <http://dbpedia.org/class/yago/> .
+
+dbr:Bàu_Tró  rdf:type       yago:Lake109328904 ;
+        rdfs:comment        "Bàu Tró (Bàu in Vietnamese dialect means pond) is a lake in Đồng Hới city, Quảng Bình Province, Vietnam. This lake is an important fresh water supply for more than 130,000 inhabitants of Đồng Hới. Bàu Tró is better known for archaeological findings by French archaeologists during French Indochina periods. The artefacts found here dated back as far as 5,000 years ago, displaying important proof of human settlements in this area. \n* v \n* t \n* e"@en ;
+        rdfs:label          "Bàu Tró"@en ;
+        dbo:abstract        "Bàu Tró (Bàu in Vietnamese dialect means pond) is a lake in Đồng Hới city, Quảng Bình Province, Vietnam. This lake is an important fresh water supply for more than 130,000 inhabitants of Đồng Hới. Bàu Tró is better known for archaeological findings by French archaeologists during French Indochina periods. The artefacts found here dated back as far as 5,000 years ago, displaying important proof of human settlements in this area. \n* v \n* t \n* e"@en ;
+        dbo:country         dbr:Vietnam ;
+        dbo:location        dbr:Quảng_Bình_province , dbr:Đồng_Hới ;
+        dbp:basinCountries  "Vietnam"@en ;
+        dbp:caption         "Aerial view of Bàu Tró"@en ;
+        dbp:location        dbr:Quảng_Bình_province , dbr:Đồng_Hới ;
+        dbp:name            "Bàu Tró"@en ;
+        dbp:pushpinMap      "Vietnam"@en ;
+        geo:lat             "17.491388320922851562"^^xsd:float ;
+        geo:long            "106.62277984619140625"^^xsd:float .

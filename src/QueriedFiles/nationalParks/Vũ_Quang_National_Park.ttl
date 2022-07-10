@@ -1,0 +1,24 @@
+@prefix dbd:  <http://dbpedia.org/datatype/> .
+@prefix dbo:  <http://dbpedia.org/ontology/> .
+@prefix dbp:  <http://dbpedia.org/property/> .
+@prefix dbr:  <http://dbpedia.org/resource/> .
+@prefix geo:  <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix yago: <http://dbpedia.org/class/yago/> .
+
+dbr:Vũ_Quang_National_Park
+        rdf:type         yago:NationalPark108600992 ;
+        rdfs:comment     "Vũ Quang National Park is a national park in Vũ Quang District, Hà Tĩnh Province, North Central Coast, Vietnam. This park contains biodiversity. Saola and Giant muntjac are species found in this park. Vũ Quang is a remote forested region of Vietnam, in which several new species of deer and antelope have been discovered since the 1990s. Some are so new that scientific description is still pending, although most have local names. The area was declared a forest reserve in 1986 and a National Park in 2002. The National Park has an area of 212 square miles (550 Square kilometers)."@en ;
+        dbo:abstract     "Vũ Quang National Park is a national park in Vũ Quang District, Hà Tĩnh Province, North Central Coast, Vietnam. This park contains biodiversity. Saola and Giant muntjac are species found in this park. Vũ Quang is a remote forested region of Vietnam, in which several new species of deer and antelope have been discovered since the 1990s. Some are so new that scientific description is still pending, although most have local names. The area was declared a forest reserve in 1986 and a National Park in 2002. The National Park has an area of 212 square miles (550 Square kilometers)."@en ;
+        dbo:areaTotal    550289000.0 ;
+        dbo:location     dbr:North_Central_Coast ;
+        dbo:nearestCity  dbr:Hà_Tĩnh ;
+        dbp:area         "550.289"^^dbd:squareKilometre ;
+        dbp:date         "June 2019"@en ;
+        dbp:established  2002 ;
+        dbp:location     dbr:North_Central_Coast ;
+        dbp:name         "Vũ Quang National Park"@en ;
+        geo:lat          "18.291666030883789062"^^xsd:float ;
+        geo:long         "105.40833282470703125"^^xsd:float .

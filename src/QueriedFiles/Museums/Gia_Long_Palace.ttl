@@ -1,0 +1,18 @@
+@prefix dbo:     <http://dbpedia.org/ontology/> .
+@prefix dbp:     <http://dbpedia.org/property/> .
+@prefix dbr:     <http://dbpedia.org/resource/> .
+@prefix geo:     <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix virtrdf: <http://www.openlinksw.com/schemas/virtrdf#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix yago:    <http://dbpedia.org/class/yago/> .
+
+dbr:Gia_Long_Palace  rdf:type  yago:Museum103800563 , dbo:Museum ;
+        rdfs:comment  "Gia Long Palace (Vietnamese: Dinh Gia Long), now officially the Hồ Chí Minh City Museum (Vietnamese language: Bảo tàng Thành phố Hồ Chí Minh) is a historical site and museum in Hồ Chí Minh City (Saigon), Vietnam. The museum is situated at the corner of Lý Tự Trọng and Nam Kỳ Khởi Nghĩa streets, located on 2 hectares of land, near the Independence Palace."@en ;
+        rdfs:label    "Gia Long Palace"@en ;
+        dbo:abstract  "Gia Long Palace (Vietnamese: Dinh Gia Long), now officially the Hồ Chí Minh City Museum (Vietnamese language: Bảo tàng Thành phố Hồ Chí Minh) is a historical site and museum in Hồ Chí Minh City (Saigon), Vietnam. The museum is situated at the corner of Lý Tự Trọng and Nam Kỳ Khởi Nghĩa streets, located on 2 hectares of land, near the Independence Palace."@en ;
+        dbp:type      "point"@en ;
+        geo:geometry  "POINT(106.69972229004 10.776110649109)"^^virtrdf:Geometry ;
+        geo:lat       "10.776110649108886719"^^xsd:float ;
+        geo:long      "106.6997222900390625"^^xsd:float .

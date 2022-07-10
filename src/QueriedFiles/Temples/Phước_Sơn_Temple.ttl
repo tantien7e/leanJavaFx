@@ -1,0 +1,9 @@
+@prefix dbo:  <http://dbpedia.org/ontology/> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://dbpedia.org/resource/Phước_Sơn_Temple>
+        rdf:type      dbo:ReligiousBuilding ;
+        rdfs:comment  "Phước Sơn Temple (Chùa Phước Sơn, Vietnamese: Chùa Thập Tháp Di-Đà or Thập Tháp Di-Đà Tự) is a historic 19th-century temple in Phú Yên Province in south central Vietnam. It was initially built in 1802."@en ;
+        rdfs:label    "Phước Sơn Temple"@en ;
+        dbo:abstract  "Phước Sơn Temple (Chùa Phước Sơn, Vietnamese: Chùa Thập Tháp Di-Đà or Thập Tháp Di-Đà Tự) is a historic 19th-century temple in Phú Yên Province in south central Vietnam. It was initially built in 1802."@en .

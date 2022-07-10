@@ -1,0 +1,15 @@
+@prefix dbo:     <http://dbpedia.org/ontology/> .
+@prefix geo:     <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix virtrdf: <http://www.openlinksw.com/schemas/virtrdf#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/resource/Bửu_Phong_Temple>
+        rdf:type      dbo:ReligiousBuilding ;
+        rdfs:comment  "Bửu Phong Temple (Chùa Bửu Phong) is a historic 17th century Buddhist temple in Đồng Nai Province in southern Vietnam, north of Ho Chi Minh City. The temple is located on Bửu Long mountain in Bình Điện, , about 4 km from the city of Biên Hòa. Due to its location, it is also known as Bình Điện Temple."@en ;
+        rdfs:label    "Bửu Phong Temple"@en ;
+        dbo:abstract  "Bửu Phong Temple (Chùa Bửu Phong) is a historic 17th century Buddhist temple in Đồng Nai Province in southern Vietnam, north of Ho Chi Minh City. The temple is located on Bửu Long mountain in Bình Điện, , about 4 km from the city of Biên Hòa. Due to its location, it is also known as Bình Điện Temple."@en ;
+        geo:geometry  "POINT(106.80007171631 10.967472076416)"^^virtrdf:Geometry ;
+        geo:lat       "10.967472076416015625"^^xsd:float ;
+        geo:long      "106.80007171630859375"^^xsd:float .

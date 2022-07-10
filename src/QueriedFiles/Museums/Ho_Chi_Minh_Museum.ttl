@@ -1,0 +1,19 @@
+@prefix dbo:     <http://dbpedia.org/ontology/> .
+@prefix dbp:     <http://dbpedia.org/property/> .
+@prefix dbr:     <http://dbpedia.org/resource/> .
+@prefix geo:     <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix virtrdf: <http://www.openlinksw.com/schemas/virtrdf#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix yago:    <http://dbpedia.org/class/yago/> .
+
+dbr:Ho_Chi_Minh_Museum
+        rdf:type      dbo:Museum , yago:Museum103800563 ;
+        rdfs:comment  "The Ho Chi Minh Museum is located in Hanoi, Vietnam. Constructed in the 1990s, it is dedicated to the late Vietnamese leader Ho Chi Minh and Vietnam's revolutionary struggle against foreign powers. Ho Chi Minh museum is located in the Ho Chi Minh complex. The museum documents Ho Chi Minh's life, with 8 chronological exhibitions. The first one, from 1890 to 1910 modeled after his upbringing, hometown and youth. The second exhibit concerns the next ten years of his life, when Ho Chi Minh travelled the world seeking a means of freeing Vietnam from the restraints of colonialism."@en ;
+        rdfs:label    "Ho Chi Minh Museum"@en ;
+        dbo:abstract  "The Ho Chi Minh Museum is located in Hanoi, Vietnam. Constructed in the 1990s, it is dedicated to the late Vietnamese leader Ho Chi Minh and Vietnam's revolutionary struggle against foreign powers. Ho Chi Minh museum is located in the Ho Chi Minh complex. The museum documents Ho Chi Minh's life, with 8 chronological exhibitions. The first one, from 1890 to 1910 modeled after his upbringing, hometown and youth. The second exhibit concerns the next ten years of his life, when Ho Chi Minh travelled the world seeking a means of freeing Vietnam from the restraints of colonialism. The next three exhibits, covering Ho Chi Minh's life from 1920 to 1945, depict how he adapted the influence of Marxism and Leninism into the founding principles of the Vietnamese Communist Party, as well as addressing his continued pursuit of achieving independence for Vietnam. Exhibits 6-7 cover Ho Chi Minh's life from 1945 until his death in 1969. The final grouping of exhibits primarily focus on his status as a national hero and the finer details of his political life. The museum consists of a collection of artifacts, miniatures and various gifts gathered nationally and internationally. In addition to Vietnamese, the museum also provides descriptions written in English as well as French. Guided tours are also available upon request."@en ;
+        dbp:type      "shape"@en ;
+        geo:geometry  "POINT(105.83262634277 21.035692214966)"^^virtrdf:Geometry ;
+        geo:lat       "21.035692214965820312"^^xsd:float ;
+        geo:long      "105.8326263427734375"^^xsd:float .

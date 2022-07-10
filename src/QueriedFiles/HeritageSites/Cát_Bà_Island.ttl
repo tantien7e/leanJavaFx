@@ -1,0 +1,20 @@
+@prefix dbo:     <http://dbpedia.org/ontology/> .
+@prefix dbp:     <http://dbpedia.org/property/> .
+@prefix geo:     <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix virtrdf: <http://www.openlinksw.com/schemas/virtrdf#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix yago:    <http://dbpedia.org/class/yago/> .
+
+<http://dbpedia.org/resource/Cát_Bà_Island>
+        rdf:type      yago:Location100027167 , dbo:WorldHeritageSite ;
+        rdfs:comment  "Cát Bà Island is the largest of the 367 islands spanning 260 km2 (100 sq mi) that comprise the Cat Ba Archipelago, which makes up the southeastern edge of Lan Ha Bay in Northern Vietnam. Cat Ba island has a surface area of 285 km2 (110 sq mi) and maintains the dramatic and rugged features of Ha Long Bay."@en ;
+        rdfs:label    "Cát Bà Island"@en ;
+        dbo:abstract  "Cát Bà Island is the largest of the 367 islands spanning 260 km2 (100 sq mi) that comprise the Cat Ba Archipelago, which makes up the southeastern edge of Lan Ha Bay in Northern Vietnam. Cat Ba island has a surface area of 285 km2 (110 sq mi) and maintains the dramatic and rugged features of Ha Long Bay."@en ;
+        dbo:country   "Vietnam"@en ;
+        dbp:country   "Vietnam"@en ;
+        dbp:name      "Cát Bà Island"@en ;
+        geo:geometry  "POINT(106.9997253418 20.799999237061)"^^virtrdf:Geometry ;
+        geo:lat       "20.799999237060546875"^^xsd:float ;
+        geo:long      "106.999725341796875"^^xsd:float .

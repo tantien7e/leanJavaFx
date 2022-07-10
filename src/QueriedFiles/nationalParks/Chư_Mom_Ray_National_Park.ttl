@@ -1,0 +1,21 @@
+@prefix dbo:  <http://dbpedia.org/ontology/> .
+@prefix dbp:  <http://dbpedia.org/property/> .
+@prefix dbr:  <http://dbpedia.org/resource/> .
+@prefix geo:  <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix yago: <http://dbpedia.org/class/yago/> .
+
+dbr:Chư_Mom_Ray_National_Park
+        rdf:type         yago:NationalPark108600992 ;
+        rdfs:comment     "Chư Mom Ray National Park (Vietnamese: Vườn quốc gia Chư Mom Ray ) is a national park of Vietnam in the province of Kon Tum, Central Highlands region. The national park was established according to the Decision number 103/2002/QĐ-TTg dated 30 July 2002 signed by the government of Vietnam. This decision turned the Nature Reserve into National Park. \n* v \n* t \n* e"@en ;
+        dbo:abstract     "Chư Mom Ray National Park (Vietnamese: Vườn quốc gia Chư Mom Ray ) is a national park of Vietnam in the province of Kon Tum, Central Highlands region. The national park was established according to the Decision number 103/2002/QĐ-TTg dated 30 July 2002 signed by the government of Vietnam. This decision turned the Nature Reserve into National Park. \n* v \n* t \n* e"@en ;
+        dbo:location     <http://dbpedia.org/resource/Central_Highlands_(Vietnam)> ;
+        dbo:nearestCity  dbr:Kon_Tum ;
+        dbp:area         56621 ;
+        dbp:established  2002 ;
+        dbp:location     <http://dbpedia.org/resource/Central_Highlands_(Vietnam)> ;
+        dbp:name         "Chư Mom Ray National Park"@en ;
+        geo:lat          "14.466666221618652344"^^xsd:float ;
+        geo:long         "107.633331298828125"^^xsd:float .

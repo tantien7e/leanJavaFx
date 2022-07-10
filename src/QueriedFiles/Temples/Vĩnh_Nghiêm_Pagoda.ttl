@@ -1,0 +1,13 @@
+@prefix dbo:  <http://dbpedia.org/ontology/> .
+@prefix geo:  <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/resource/Vĩnh_Nghiêm_Pagoda>
+        rdf:type      dbo:ReligiousBuilding ;
+        rdfs:comment  "Vĩnh Nghiêm Pagoda (Chùa Vĩnh Nghiêm; literally Ever Solemn) is a pagoda in an area of 6,000 square metres (65,000 sq ft) at 339, Nam Kỳ Khởi Nghĩa street, Ward 7, District 3 Ho Chi Minh City. This is the first pagoda in Vietnam to be built in Vietnamese traditional architecture style but with concrete. The highest structure in this pagoda is the 7-story, 40-metre-high (130 ft) tower. This pagoda houses and worship of one buddha and two bodhisattvas: Gautama Buddha, Manjusri, Samantabhadra."@en ;
+        rdfs:label    "Vĩnh Nghiêm Pagoda"@en ;
+        dbo:abstract  "Vĩnh Nghiêm Pagoda (Chùa Vĩnh Nghiêm; literally Ever Solemn) is a pagoda in an area of 6,000 square metres (65,000 sq ft) at 339, Nam Kỳ Khởi Nghĩa street, Ward 7, District 3 Ho Chi Minh City. This is the first pagoda in Vietnam to be built in Vietnamese traditional architecture style but with concrete. The highest structure in this pagoda is the 7-story, 40-metre-high (130 ft) tower. This pagoda houses and worship of one buddha and two bodhisattvas: Gautama Buddha, Manjusri, Samantabhadra."@en ;
+        geo:lat       "10.790399551391601562"^^xsd:float ;
+        geo:long      "106.6822967529296875"^^xsd:float .

@@ -1,0 +1,4 @@
+@prefix dbo: <http://dbpedia.org/ontology/> .
+
+<http://dbpedia.org/resource/Mã_River>
+        dbo:abstract  "The Ma River (Vietnamese: Sông Mã, Lao: ນ້ຳມ້າ / Nam Ma) is a river in Asia, originating in northwestern Vietnam. It runs for 400 km through Vietnam, Laos, and then back through Vietnam, meeting the sea at the Gulf of Tonkin. The largest tributaries of the Ma River are the Chu River (or the Nam Sam River as it is called in Laos), the Bưởi River, and the Cầu Chày River. All of them join the Ma River in Thanh Hóa Province in North Central Vietnam. The Ma River creates the Ma River Delta (also called the Thanh Hóa Delta), the third largest in Vietnam. The Ma River Delta used to be near Vietnam's southern frontier. It was the center of Cuu-Chan, the southern of the Vietnam's two prefectures under the rule of the Nanyue in the 2nd century BC."@en .

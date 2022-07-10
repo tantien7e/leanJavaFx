@@ -2,16 +2,25 @@ package hellofx;
 
 import java.util.ArrayList;
 import java.io.File;
+
+import vntourism.Beaches;
+import vntourism.HeritageSites;
 import vntourism.Lakes;
-import vntourism.Museum;
+import vntourism.Museums;
 import vntourism.NationalParks;
+import vntourism.Temples;
 
 
 public class Initializer {
     public ArrayList<Lakes> lakeArr = new ArrayList<>();
     public ArrayList<NationalParks> nationalParkArr = new ArrayList<>();
+    public ArrayList<Beaches> beachArr = new ArrayList<>();
+    public ArrayList<HeritageSites> heritageSiteArr = new ArrayList<>();
+    public ArrayList<Museums> museumArr = new ArrayList<>();
+    public ArrayList<Temples> templeArr = new ArrayList<>();
+
     public Initializer(){
-        File dir1 = new File("F:/OOP/JavaFx/leanJavaFx/src/QueriedFiles/lakes");
+        File dir1 = new File("F:/OOP/JavaFx/leanJavaFx/src/QueriedFiles/Lakes");
         File[] directoryListing1 = dir1.listFiles();
         if (directoryListing1 != null) {
         for (File child : directoryListing1) {
@@ -20,7 +29,7 @@ public class Initializer {
             }   
         }
 
-        File dir2 = new File("F:/OOP/JavaFx/leanJavaFx/src/QueriedFiles/nationalParks");
+        File dir2 = new File("F:/OOP/JavaFx/leanJavaFx/src/QueriedFiles/NationalParks");
         File[] directoryListing2 = dir2.listFiles();
         if (directoryListing2 != null) {
         for (File child : directoryListing2) {
@@ -28,6 +37,42 @@ public class Initializer {
             nationalParkArr.add(nationalPark);
             }
         }
+        File dir3 = new File("F:/OOP/JavaFx/leanJavaFx/src/QueriedFiles/Beaches");
+        File[] directoryListing3 = dir3.listFiles();
+        if (directoryListing3 != null) {
+        for (File child : directoryListing3) {
+            Beaches beach = new Beaches(child.getAbsolutePath());
+            beachArr.add(beach);
+            }
+        }
+
+        File dir4 = new File("F:/OOP/JavaFx/leanJavaFx/src/QueriedFiles/HeritageSites");
+        File[] directoryListing4 = dir4.listFiles();
+        if (directoryListing4 != null) {
+        for (File child : directoryListing4) {
+            HeritageSites site = new HeritageSites(child.getAbsolutePath());
+            heritageSiteArr.add(site);
+            }
+        }
+
+        File dir5 = new File("F:/OOP/JavaFx/leanJavaFx/src/QueriedFiles/Museums");
+        File[] directoryListing5 = dir5.listFiles();
+        if (directoryListing5 != null) {
+        for (File child : directoryListing5) {
+            Museums museum = new Museums(child.getAbsolutePath());
+            museumArr.add(museum);
+            }
+        }
+        File dir6 = new File("F:/OOP/JavaFx/leanJavaFx/src/QueriedFiles/Temples");
+        File[] directoryListing6 = dir6.listFiles();
+        if (directoryListing6 != null) {
+        for (File child : directoryListing6) {
+            Temples temple = new Temples(child.getAbsolutePath());
+            templeArr.add(temple);
+            }
+        }
+
+
        
         // //Initialize some Museums
         // Museum museum1 = new Museum("Ly_Thai_To", "This is the abstract", 2010);

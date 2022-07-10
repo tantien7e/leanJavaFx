@@ -12,9 +12,10 @@ import javafx.scene.text.Text;
 import javafx.stage.Stage;
 import vntourism.Lakes;
 import vntourism.TouristAttractions;
-
+import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
+
 
 import javafx.*;
 
@@ -37,9 +38,15 @@ public class Main extends Application {
 
 
     public static void main(String[] args) {
-        // String path = "F:\\OOP\\JavaFx\\leanJavaFx\\src\\QueriedFiles\\lakes\\Ba_B?_Lake.ttl";
-        // String[] s = path.split("\\\\");
-        // for(String x:s) System.out.println(x);
+        // File myfile = new File("temp.txt");
+        // System.out.println(myfile.getAbsolutePath());
+        // String[] sub = myfile.getAbsolutePath().split("\\\\");
+        // for(String x : sub) System.out.println(x);
+        // String subsub = sub[sub.length-1];
+        // System.out.println(subsub);
+        // String[] s = subsub.split("\\.");
+        // for(String x: s) System.out.println(x);
+        
       launch(args);
     }
 

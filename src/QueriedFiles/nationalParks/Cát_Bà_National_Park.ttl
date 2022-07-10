@@ -1,17 +1,23 @@
-@prefix dbo:    <http://dbpedia.org/ontology/> .
-@prefix dbp:    <http://dbpedia.org/property/> .
-@prefix dbr:    <http://dbpedia.org/resource/> .
-@prefix geo:    <http://www.w3.org/2003/01/geo/wgs84_pos#> .
-@prefix georss: <http://www.georss.org/georss/> .
-@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
-@prefix yago:   <http://dbpedia.org/class/yago/> .
+@prefix dbo:     <http://dbpedia.org/ontology/> .
+@prefix dbp:     <http://dbpedia.org/property/> .
+@prefix dbr:     <http://dbpedia.org/resource/> .
+@prefix geo:     <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix virtrdf: <http://www.openlinksw.com/schemas/virtrdf#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix yago:    <http://dbpedia.org/class/yago/> .
 
 dbr:Cát_Bà_National_Park
-        rdf:type      yago:NationalPark108600992 ;
-        dbo:abstract  "Cát Bà National Park is a World Heritage Site designated as a biosphere reserve in northern Vietnam. The park is part of Cát Bà Island in Hạ Long Bay and is administered by the city of Haiphong. The park is located approximately 30 kilometres (19 mi) east of Hai Phong, covering about 263 square kilometres (102 sq mi) and comprising 173 square kilometres (67 sq mi) of land and 90 square kilometres (35 sq mi) of inshore water. The Cát Bà langur, also known as the white-headed langur (Trachypithecus poliocephalus) is resident within the park and is classified by the International Union for Conservation of Nature as a critically endangered primate; one of the rarest in the world."@en ;
-        dbo:location  dbr:Vietnam ;
-        dbp:name      "Cát Bà National Park"@en ;
-        georss:point  "20.79722222222222 107.40708333333333" ;
-        geo:lat       "20.797222137451171875"^^xsd:float ;
-        geo:long      "107.40708160400390625"^^xsd:float .
+        rdf:type         yago:NationalPark108600992 ;
+        rdfs:comment     "Cát Bà National Park is a World Heritage Site designated as a biosphere reserve in northern Vietnam. The park is part of Cát Bà Island in Hạ Long Bay and is administered by the city of Haiphong. The park is located approximately 30 kilometres (19 mi) east of Hai Phong, covering about 263 square kilometres (102 sq mi) and comprising 173 square kilometres (67 sq mi) of land and 90 square kilometres (35 sq mi) of inshore water."@en ;
+        dbo:abstract     "Cát Bà National Park is a World Heritage Site designated as a biosphere reserve in northern Vietnam. The park is part of Cát Bà Island in Hạ Long Bay and is administered by the city of Haiphong. The park is located approximately 30 kilometres (19 mi) east of Hai Phong, covering about 263 square kilometres (102 sq mi) and comprising 173 square kilometres (67 sq mi) of land and 90 square kilometres (35 sq mi) of inshore water. The Cát Bà langur, also known as the white-headed langur (Trachypithecus poliocephalus) is resident within the park and is classified by the International Union for Conservation of Nature as a critically endangered primate; one of the rarest in the world."@en ;
+        dbo:areaTotal    152000000.0 ;
+        dbo:location     dbr:Vietnam ;
+        dbp:established  1986 ;
+        dbp:location     dbr:Vietnam ;
+        dbp:name         "Cát Bà National Park"@en ;
+        dbp:photo        "Cat Ba National Park 267.JPG"@en ;
+        geo:geometry     "POINT(107.407081604 20.797222137451)"^^virtrdf:Geometry ;
+        geo:lat          "20.797222137451171875"^^xsd:float ;
+        geo:long         "107.40708160400390625"^^xsd:float .

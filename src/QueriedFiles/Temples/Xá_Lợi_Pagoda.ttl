@@ -1,0 +1,24 @@
+@prefix dbo:     <http://dbpedia.org/ontology/> .
+@prefix dbp:     <http://dbpedia.org/property/> .
+@prefix dbr:     <http://dbpedia.org/resource/> .
+@prefix geo:     <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix virtrdf: <http://www.openlinksw.com/schemas/virtrdf#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+dbr:Xá_Lợi_Pagoda  rdf:type  dbo:ReligiousBuilding ;
+        rdfs:comment       "The Xá Lợi Pagoda (Vietnamese: Chùa Xá Lợi; chữ Hán: 舍利寺) is the largest pagoda in Hồ Chí Minh City, Vietnam. It was built in 1956 and was the headquarters of Buddhism in South Vietnam. The pagoda is located in District 3, Hồ Chí Minh City and lies on a plot of 2500 square metres. The name Xá Lợi is the Vietnamese translation for śarīra, a term used for relics of Buddhists."@en ;
+        rdfs:label         "Xá Lợi Pagoda"@en ;
+        dbo:abstract       "The Xá Lợi Pagoda (Vietnamese: Chùa Xá Lợi; chữ Hán: 舍利寺) is the largest pagoda in Hồ Chí Minh City, Vietnam. It was built in 1956 and was the headquarters of Buddhism in South Vietnam. The pagoda is located in District 3, Hồ Chí Minh City and lies on a plot of 2500 square metres. The name Xá Lợi is the Vietnamese translation for śarīra, a term used for relics of Buddhists. The pagoda was best known for the raids, in which the Army of the Republic of Vietnam Special Forces loyal to Ngô Đình Nhu, the brother of the Roman Catholic President Ngô Đình Diệm, raided and vandalised Buddhist monasteries and pagodas on 21 August 1963."@en ;
+        dbo:country        dbr:Vietnam ;
+        dbp:country        dbr:Vietnam ;
+        dbp:district       <http://dbpedia.org/resource/District_3,_Ho_Chi_Minh_City> ;
+        dbp:location       dbr:Ho_Chi_Minh_City ;
+        dbp:name           "Xá Lợi Pagoda"@en ;
+        dbp:nativeName     "Chùa Xá Lợi"@en ;
+        dbp:province       "Hồ Chí Minh City"@en ;
+        dbp:yearCompleted  1956 ;
+        geo:geometry       "POINT(106.68659210205 10.777973175049)"^^virtrdf:Geometry ;
+        geo:lat            "10.777973175048828125"^^xsd:float ;
+        geo:long           "106.68659210205078125"^^xsd:float .

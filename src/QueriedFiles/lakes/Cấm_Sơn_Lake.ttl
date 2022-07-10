@@ -1,0 +1,24 @@
+@prefix dbo:     <http://dbpedia.org/ontology/> .
+@prefix dbp:     <http://dbpedia.org/property/> .
+@prefix dbr:     <http://dbpedia.org/resource/> .
+@prefix geo:     <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix virtrdf: <http://www.openlinksw.com/schemas/virtrdf#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix yago:    <http://dbpedia.org/class/yago/> .
+
+dbr:Cấm_Sơn_Lake  rdf:type  yago:Lake109328904 ;
+        rdfs:comment    "Cấm Sơn Lake (Vietnamese: Hồ Cấm Sơn) is a lake in Lục Ngạn District, Bắc Giang Province, Vietnam, near the border with Lạng Sơn Province. The lake lies off Highway 279, northeast of the city of Bắc Giang. The lake has an area of some 2,600 hectares (6,400 acres), but during the rainy season when flooding is common, the lake can expand to some 3,000 hectares (7,400 acres). The length of the lake is about 30 kilometres (19 mi). Its widest point is about 7 kilometres (4.3 mi) and narrowest point is about 200 metres (660 ft). \n* v \n* t \n* e"@en ;
+        rdfs:label      "Cấm Sơn Lake"@en ;
+        dbo:abstract    "Cấm Sơn Lake (Vietnamese: Hồ Cấm Sơn) is a lake in Lục Ngạn District, Bắc Giang Province, Vietnam, near the border with Lạng Sơn Province. The lake lies off Highway 279, northeast of the city of Bắc Giang. The lake has an area of some 2,600 hectares (6,400 acres), but during the rainy season when flooding is common, the lake can expand to some 3,000 hectares (7,400 acres). The length of the lake is about 30 kilometres (19 mi). Its widest point is about 7 kilometres (4.3 mi) and narrowest point is about 200 metres (660 ft). \n* v \n* t \n* e"@en ;
+        dbo:areaTotal   26000000.0 ;
+        dbo:length      30000.0 ;
+        dbo:location    dbr:Lục_Ngạn_District , dbr:Bắc_Giang_province , dbr:Vietnam ;
+        dbo:width       7000.0 ;
+        dbp:location    dbr:Lục_Ngạn_District , dbr:Vietnam , dbr:Bắc_Giang_province ;
+        dbp:name        "Cấm Sơn Lake"@en ;
+        dbp:pushpinMap  "Vietnam"@en ;
+        geo:geometry    "POINT(106.56444549561 21.53444480896)"^^virtrdf:Geometry ;
+        geo:lat         "21.534444808959960938"^^xsd:float ;
+        geo:long        "106.56444549560546875"^^xsd:float .

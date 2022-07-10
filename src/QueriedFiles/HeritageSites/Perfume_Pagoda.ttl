@@ -1,0 +1,18 @@
+@prefix dbo:  <http://dbpedia.org/ontology/> .
+@prefix dbp:  <http://dbpedia.org/property/> .
+@prefix dbr:  <http://dbpedia.org/resource/> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix yago: <http://dbpedia.org/class/yago/> .
+
+dbr:Perfume_Pagoda  rdf:type  yago:Location100027167 , dbo:WorldHeritageSite ;
+        rdfs:comment    "The Perfume Pagoda (Vietnamese: Chùa Hương, Chữ Hán: 香寺) is a vast complex of Buddhist temples and shrines built into the limestone mountains. It is the site of a religious festival which draws large numbers of pilgrims from across Vietnam. The centre of the Hương Temple lies in Hương Sơn Commune, Mỹ Đức District, former Hà Tây Province (now Hanoi). The centre of this complex is the Perfume Temple, also known as Chùa Trong (Inner Temple), located in Hương Tích Cave."@en ;
+        rdfs:label      "Perfume Pagoda"@en ;
+        dbo:abstract    "The Perfume Pagoda (Vietnamese: Chùa Hương, Chữ Hán: 香寺) is a vast complex of Buddhist temples and shrines built into the limestone mountains. It is the site of a religious festival which draws large numbers of pilgrims from across Vietnam. The centre of the Hương Temple lies in Hương Sơn Commune, Mỹ Đức District, former Hà Tây Province (now Hanoi). The centre of this complex is the Perfume Temple, also known as Chùa Trong (Inner Temple), located in Hương Tích Cave."@en ;
+        dbo:country     dbr:Vietnam ;
+        dbp:caption     "Thiên Trù Pagoda, central temple within the Perfume Pagoda complex"@en ;
+        dbp:country     dbr:Vietnam ;
+        dbp:district    dbr:Mỹ_Đức_district ;
+        dbp:name        "Hương Pagoda"@en , "Chùa Hương"@en ;
+        dbp:nativeName  "Chùa Hương"@en ;
+        dbp:province    dbr:Hanoi .

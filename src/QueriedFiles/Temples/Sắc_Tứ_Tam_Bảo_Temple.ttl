@@ -1,0 +1,9 @@
+@prefix dbo:  <http://dbpedia.org/ontology/> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://dbpedia.org/resource/Sắc_Tứ_Tam_Bảo_Temple>
+        rdf:type      dbo:ReligiousBuilding ;
+        rdfs:comment  "Sắc Tứ Tam Bảo Temple is an historic Buddhist temple in Rạch Giá, a town in Kiên Giang Province in the Mekong Delta region of southern Vietnam. It is one of two famous temples of the same name in Kiên Giang, the other being in Ha Tien."@en ;
+        rdfs:label    "Sắc Tứ Tam Bảo Temple"@en ;
+        dbo:abstract  "Sắc Tứ Tam Bảo Temple is an historic Buddhist temple in Rạch Giá, a town in Kiên Giang Province in the Mekong Delta region of southern Vietnam. It is one of two famous temples of the same name in Kiên Giang, the other being in Ha Tien."@en .

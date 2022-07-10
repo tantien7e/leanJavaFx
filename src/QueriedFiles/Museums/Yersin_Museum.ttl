@@ -1,0 +1,14 @@
+@prefix dbo:  <http://dbpedia.org/ontology/> .
+@prefix dbr:  <http://dbpedia.org/resource/> .
+@prefix geo:  <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix yago: <http://dbpedia.org/class/yago/> .
+
+dbr:Yersin_Museum  rdf:type  yago:Museum103800563 , dbo:Museum ;
+        rdfs:comment  "The Yersin Museum is a museum in Nha Trang, Vietnam. It is dedicated to Alexandre Yersin, the French-Swiss bacteriologist. It is located on 8 - 10 Tran Phu Boulevard in the former home of Yersin and in the enclosure of the Pasteur Institute."@en ;
+        rdfs:label    "Yersin Museum"@en ;
+        dbo:abstract  "The Yersin Museum is a museum in Nha Trang, Vietnam. It is dedicated to Alexandre Yersin, the French-Swiss bacteriologist. It is located on 8 - 10 Tran Phu Boulevard in the former home of Yersin and in the enclosure of the Pasteur Institute. The museum contains a large collection of Yersin's research equipments and letters as well as provides a description of his contributions to bacteriology, medicine, and science. The captions are in French with accompanied English and Vietnamese translations .It is open from 8am until 11am and 2pm until 4:30pm weekdays and closed on Saturdays and Sundays. Entry fee is VND 26,000 for adults."@en ;
+        geo:lat       "12.251500129699707031"^^xsd:float ;
+        geo:long      "109.1959991455078125"^^xsd:float .

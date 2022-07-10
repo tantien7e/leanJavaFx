@@ -1,0 +1,22 @@
+@prefix dbo:  <http://dbpedia.org/ontology/> .
+@prefix dbp:  <http://dbpedia.org/property/> .
+@prefix dbr:  <http://dbpedia.org/resource/> .
+@prefix geo:  <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+dbr:Quán_Sứ_Pagoda  rdf:type  dbo:ReligiousBuilding ;
+        rdfs:comment       "Quán Sứ Pagoda or Ambassadors' Pagoda (Vietnamese: Chùa Quán Sứ, Hán Nôm:舘使寺) is a Buddhist temple located at 73 Quan Su Street, Hanoi, Vietnam. The temple is the headquarters of the Buddhist Sangha of Vietnam."@en ;
+        rdfs:label         "Quán Sứ Pagoda"@en ;
+        dbo:abstract       "Quán Sứ Pagoda or Ambassadors' Pagoda (Vietnamese: Chùa Quán Sứ, Hán Nôm:舘使寺) is a Buddhist temple located at 73 Quan Su Street, Hanoi, Vietnam. The temple is the headquarters of the Buddhist Sangha of Vietnam."@en ;
+        dbo:country        dbr:Vietnam ;
+        dbp:caption        "Gate of Quán Sứ Pagoda"@en ;
+        dbp:country        dbr:Vietnam ;
+        dbp:district       dbr:Hoàn_Kiếm_district ;
+        dbp:name           "Quán Sứ Pagoda"@en , "Ambassadors' Pagoda"@en ;
+        dbp:nativeName     ""@en , "Chùa Quán Sứ"@en ;
+        dbp:province       dbr:Hanoi ;
+        dbp:yearCompleted  15 ;
+        geo:lat            "21.024499893188476562"^^xsd:float ;
+        geo:long           "105.84529876708984375"^^xsd:float .

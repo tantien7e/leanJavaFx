@@ -1,0 +1,25 @@
+@prefix dbd:     <http://dbpedia.org/datatype/> .
+@prefix dbo:     <http://dbpedia.org/ontology/> .
+@prefix dbp:     <http://dbpedia.org/property/> .
+@prefix geo:     <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix virtrdf: <http://www.openlinksw.com/schemas/virtrdf#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix yago:    <http://dbpedia.org/class/yago/> .
+
+<http://dbpedia.org/resource/Mũi_Cà_Mau_National_Park>
+        rdf:type         yago:NationalPark108600992 ;
+        rdfs:comment     "Mũi Cà Mau National Park (Vietnamese: Vườn quốc gia Mũi Cà Mau) or National Park of Cape Cà Mau is a national park in southern Vietnam. It is located in Đất Mũi Commune, Ngọc Hiển District, in Cà Mau, the southernmost of Vietnam's provinces. The park was established by Decision 142/2003/QĐ-TTg of the Prime Minister of Vietnam on July 14, 2003, on the basis of the natural preservation zone of Đất Mũi, a zone founded by Decision 194/CT, dated August 9, 1986."@en ;
+        dbo:abstract     "Mũi Cà Mau National Park (Vietnamese: Vườn quốc gia Mũi Cà Mau) or National Park of Cape Cà Mau is a national park in southern Vietnam. It is located in Đất Mũi Commune, Ngọc Hiển District, in Cà Mau, the southernmost of Vietnam's provinces. The park was established by Decision 142/2003/QĐ-TTg of the Prime Minister of Vietnam on July 14, 2003, on the basis of the natural preservation zone of Đất Mũi, a zone founded by Decision 194/CT, dated August 9, 1986. By 2025, the plan is to replant about 150 hectares of mangroves, as part of a five-year plan to restore the forest. Mangrove trees form an important natural barrier against natural disasters and in some way protect the Mekong Delta. The national park has great biodiversity. 26 species of mammals, 43 species of reptiles, 9 species of amphibians, 233 species of fish and 93 species of birds live here."@en ;
+        dbo:areaTotal    418620000.0 ;
+        dbo:location     "South Vietnam"@en ;
+        dbo:nearestCity  <http://dbpedia.org/resource/Cà_Mau> ;
+        dbp:area         "418.62"^^dbd:squareKilometre ;
+        dbp:established  2003 ;
+        dbp:location     "South Vietnam"@en ;
+        dbp:name         "Mũi Cà Mau National Park"@en ;
+        dbp:photo        "File:Mui Ca Mau 005.JPG"@en ;
+        geo:geometry     "POINT(104.79166412354 8.6750001907349)"^^virtrdf:Geometry ;
+        geo:lat          "8.6750001907348632812"^^xsd:float ;
+        geo:long         "104.79166412353515625"^^xsd:float .

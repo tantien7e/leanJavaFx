@@ -1,0 +1,24 @@
+@prefix dbo:     <http://dbpedia.org/ontology/> .
+@prefix dbp:     <http://dbpedia.org/property/> .
+@prefix dbr:     <http://dbpedia.org/resource/> .
+@prefix geo:     <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix virtrdf: <http://www.openlinksw.com/schemas/virtrdf#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+dbr:One_Pillar_Pagoda
+        rdf:type           dbo:ReligiousBuilding ;
+        rdfs:comment       "The One Pillar Pagoda (Vietnamese: Chùa Một Cột 񣘠𠬠榾, formally belongs to an architecture complex called Diên Hựu tự [延祐寺] which means Extend Bless pagoda. The pagoda is a historic Buddhist temple in the central Ba Đình district (near the Thăng Long Citadel), Hanoi, the capital of Vietnam. The most famous part of this architecture complex is Liên Hoa Đài [蓮花臺] (means Lotus Station) which is a temple with special structure: a building laid on one pillar. The original pagoda was built in 1049, had some additions and be perfected in 1105. It is regarded alongside the Perfume Temple, as one of Vietnam's two most iconic temples."@en ;
+        rdfs:label         "One Pillar Pagoda"@en ;
+        dbo:abstract       "The One Pillar Pagoda (Vietnamese: Chùa Một Cột 񣘠𠬠榾, formally belongs to an architecture complex called Diên Hựu tự [延祐寺] which means Extend Bless pagoda. The pagoda is a historic Buddhist temple in the central Ba Đình district (near the Thăng Long Citadel), Hanoi, the capital of Vietnam. The most famous part of this architecture complex is Liên Hoa Đài [蓮花臺] (means Lotus Station) which is a temple with special structure: a building laid on one pillar. The original pagoda was built in 1049, had some additions and be perfected in 1105. It is regarded alongside the Perfume Temple, as one of Vietnam's two most iconic temples."@en ;
+        dbo:country        dbr:Vietnam ;
+        dbp:caption        "One Pillar Pagoda"@en ;
+        dbp:country        dbr:Vietnam ;
+        dbp:district       dbr:Ba_Đình_District ;
+        dbp:name           "One Pillar Pagoda"@en ;
+        dbp:province       dbr:Hanoi ;
+        dbp:yearCompleted  11 ;
+        geo:geometry       "POINT(105.83332061768 21.035863876343)"^^virtrdf:Geometry ;
+        geo:lat            "21.035863876342773438"^^xsd:float ;
+        geo:long           "105.83332061767578125"^^xsd:float .

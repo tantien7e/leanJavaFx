@@ -1,0 +1,24 @@
+@prefix dbo:     <http://dbpedia.org/ontology/> .
+@prefix dbp:     <http://dbpedia.org/property/> .
+@prefix dbr:     <http://dbpedia.org/resource/> .
+@prefix geo:     <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix virtrdf: <http://www.openlinksw.com/schemas/virtrdf#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix yago:    <http://dbpedia.org/class/yago/> .
+
+dbr:War_Remnants_Museum
+        rdf:type            dbo:Museum , yago:Museum103800563 ;
+        rdfs:comment        "The War Remnants Museum (Vietnamese: Bảo tàng chứng tích chiến tranh) is a war museum at 28 Vo Van Tan, in District 3, Ho Chi Minh City (Saigon), Vietnam. It contains exhibits relating to the First Indochina War and the Vietnam War."@en ;
+        rdfs:label          "War Remnants Museum"@en ;
+        dbo:abstract        "The War Remnants Museum (Vietnamese: Bảo tàng chứng tích chiến tranh) is a war museum at 28 Vo Van Tan, in District 3, Ho Chi Minh City (Saigon), Vietnam. It contains exhibits relating to the First Indochina War and the Vietnam War."@en ;
+        dbo:location        dbr:Ho_Chi_Minh_City , dbr:Vietnam , <http://dbpedia.org/resource/District_3,_Ho_Chi_Minh_City> ;
+        dbp:location        <http://dbpedia.org/resource/District_3,_Ho_Chi_Minh_City> , dbr:Vietnam , dbr:Ho_Chi_Minh_City ;
+        dbp:name            "War Remnants Museum"@en ;
+        dbp:nativeName      "Bảo tàng chứng tích chiến tranh"@en ;
+        dbp:nativeNameLang  "vn"@en ;
+        dbp:type            dbr:Museum ;
+        geo:geometry        "POINT(106.69213104248 10.779475212097)"^^virtrdf:Geometry ;
+        geo:lat             "10.779475212097167969"^^xsd:float ;
+        geo:long            "106.69213104248046875"^^xsd:float .

@@ -1,0 +1,9 @@
+@prefix dbo:  <http://dbpedia.org/ontology/> .
+@prefix dbr:  <http://dbpedia.org/resource/> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix yago: <http://dbpedia.org/class/yago/> .
+
+dbr:National_Museum_of_Vietnamese_History
+        rdf:type    yago:Museum103800563 , dbo:Museum ;
+        rdfs:label  "National Museum of Vietnamese History"@en .

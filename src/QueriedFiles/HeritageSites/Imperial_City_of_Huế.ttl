@@ -1,0 +1,22 @@
+@prefix dbo:     <http://dbpedia.org/ontology/> .
+@prefix dbp:     <http://dbpedia.org/property/> .
+@prefix dbr:     <http://dbpedia.org/resource/> .
+@prefix geo:     <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix virtrdf: <http://www.openlinksw.com/schemas/virtrdf#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix yago:    <http://dbpedia.org/class/yago/> .
+
+dbr:Imperial_City_of_Huế
+        rdf:type      yago:Location100027167 , dbo:WorldHeritageSite ;
+        rdfs:comment  "The Imperial City (Vietnamese: Hoàng thành; Hán tự: 皇城) is a walled enclosure within the citadel (Kinh thành; 京城) of the city of Huế, the former imperial capital of Vietnam."@en ;
+        rdfs:label    "Imperial City of Huế"@en ;
+        dbo:abstract  "The Imperial City (Vietnamese: Hoàng thành; Hán tự: 皇城) is a walled enclosure within the citadel (Kinh thành; 京城) of the city of Huế, the former imperial capital of Vietnam."@en ;
+        dbp:caption   "Southern gate as viewed from the flag monument"@en ;
+        dbp:location  dbr:Huế , dbr:Vietnam ;
+        dbp:locmapin  "Vietnam"@en ;
+        dbp:whs       "Hoàng thành"@en ;
+        geo:geometry  "POINT(107.57777404785 16.469722747803)"^^virtrdf:Geometry ;
+        geo:lat       "16.469722747802734375"^^xsd:float ;
+        geo:long      "107.5777740478515625"^^xsd:float .

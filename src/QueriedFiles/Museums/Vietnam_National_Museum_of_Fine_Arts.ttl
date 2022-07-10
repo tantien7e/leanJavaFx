@@ -1,0 +1,15 @@
+@prefix dbo:  <http://dbpedia.org/ontology/> .
+@prefix dbr:  <http://dbpedia.org/resource/> .
+@prefix geo:  <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix yago: <http://dbpedia.org/class/yago/> .
+
+dbr:Vietnam_National_Museum_of_Fine_Arts
+        rdf:type      dbo:Museum , yago:Museum103800563 ;
+        rdfs:comment  "The Vietnam National Museum of Fine Arts (Vietnamese: Viện Bảo tàng Mỹ thuật Việt Nam; Hán tự: 院寶藏美術越南) is located in Hanoi, Vietnam. It is a museum showcasing Vietnam's fine arts from a range of historical periods. It is the country's primary art museum, the second being the smaller Ho Chi Minh City Museum of Fine Arts. The museum presents a small collection of late 20th and early 21st Century painting, including works by artists exploring abstraction and abstract impressionism, giving greater attention to the individualist artist."@en ;
+        rdfs:label    "Vietnam National Museum of Fine Arts"@en ;
+        dbo:abstract  "The Vietnam National Museum of Fine Arts (Vietnamese: Viện Bảo tàng Mỹ thuật Việt Nam; Hán tự: 院寶藏美術越南) is located in Hanoi, Vietnam. It is a museum showcasing Vietnam's fine arts from a range of historical periods. It is the country's primary art museum, the second being the smaller Ho Chi Minh City Museum of Fine Arts. The Museum exhibits Vietnam's fine arts from the Ancient time till the Modern time. Much of the 20th Century art presented in the museum is concerned with folk narratives of a nation in defence. As a collection it draws on themes of martyrdom, patriotism, military strategy and overcoming enemy incursion. The museum presents a small collection of late 20th and early 21st Century painting, including works by artists exploring abstraction and abstract impressionism, giving greater attention to the individualist artist. The site, 66 Nguyễn Thái Học Street, was selected by painter Nguyễn Đỗ Cung in 1963. The building, built in 1937, was an abandoned Catholic girl's boarding house. Next door at No. 65 was an artists' colony."@en ;
+        geo:lat       "21.030599594116210938"^^xsd:float ;
+        geo:long      "105.83699798583984375"^^xsd:float .

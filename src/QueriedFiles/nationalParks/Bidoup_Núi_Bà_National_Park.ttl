@@ -1,0 +1,22 @@
+@prefix dbo:     <http://dbpedia.org/ontology/> .
+@prefix dbp:     <http://dbpedia.org/property/> .
+@prefix dbr:     <http://dbpedia.org/resource/> .
+@prefix geo:     <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix virtrdf: <http://www.openlinksw.com/schemas/virtrdf#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix yago:    <http://dbpedia.org/class/yago/> .
+
+dbr:Bidoup_Núi_Bà_National_Park
+        rdf:type         yago:NationalPark108600992 ;
+        rdfs:comment     "Bidoup Nui Ba National Park (Vietnamese language: Vườn quốc gia Bidoup Núi Bà ) is a national park in districts of Đam Rông and Lạc Dương, in the province of Lâm Đồng, Vietnam. The Bidoup Nui Ba national Park was established in 2004 and is named after the two highest peaks of the Langbiang plateau: Bidoup (2,287m) and Nui Ba (2,167m). With a total area of 70,038 ha, the park ranks as one of five largest national parks in Vietnam."@en ;
+        dbo:abstract     "Bidoup Nui Ba National Park (Vietnamese language: Vườn quốc gia Bidoup Núi Bà ) is a national park in districts of Đam Rông and Lạc Dương, in the province of Lâm Đồng, Vietnam. The Bidoup Nui Ba national Park was established in 2004 and is named after the two highest peaks of the Langbiang plateau: Bidoup (2,287m) and Nui Ba (2,167m). With a total area of 70,038 ha, the park ranks as one of five largest national parks in Vietnam."@en ;
+        dbo:location     <http://dbpedia.org/resource/Central_Highlands_(Vietnam)> ;
+        dbo:nearestCity  dbr:Da_Lat ;
+        dbp:area         64800 ;
+        dbp:location     <http://dbpedia.org/resource/Central_Highlands_(Vietnam)> ;
+        dbp:name         "Bidoup Nui Ba National Park"@en ;
+        geo:geometry     "POINT(108.5 12.433333396912)"^^virtrdf:Geometry ;
+        geo:lat          "12.433333396911621094"^^xsd:float ;
+        geo:long         "108.5"^^xsd:float .

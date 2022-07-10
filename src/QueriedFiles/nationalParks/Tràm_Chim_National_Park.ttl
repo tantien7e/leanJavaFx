@@ -1,0 +1,24 @@
+@prefix dbd:  <http://dbpedia.org/datatype/> .
+@prefix dbo:  <http://dbpedia.org/ontology/> .
+@prefix dbp:  <http://dbpedia.org/property/> .
+@prefix dbr:  <http://dbpedia.org/resource/> .
+@prefix geo:  <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix yago: <http://dbpedia.org/class/yago/> .
+
+dbr:Tràm_Chim_National_Park
+        rdf:type         yago:NationalPark108600992 ;
+        rdfs:comment     "Tràm Chim National Park (Vietnamese: Vườn quốc gia Tràm Chim) is a national park in the Plain of Reeds in the Mekong Delta region of Vietnam. The park was created to restore a degraded wetland, in order to protect several rare birds, especially the sarus crane (Grus antigone sharpii)--a species listed on the IUCN Red List. It is also a designated wetland of international importance under the Ramsar Convention."@en ;
+        dbo:abstract     "Tràm Chim National Park (Vietnamese: Vườn quốc gia Tràm Chim) is a national park in the Plain of Reeds in the Mekong Delta region of Vietnam. The park was created to restore a degraded wetland, in order to protect several rare birds, especially the sarus crane (Grus antigone sharpii)--a species listed on the IUCN Red List. It is also a designated wetland of international importance under the Ramsar Convention."@en ;
+        dbo:areaTotal    75880000.0 ;
+        dbo:location     dbr:Đồng_Tháp_province , dbr:Vietnam , <http://dbpedia.org/resource/Tam_Nông_district,_Đồng_Tháp_province> ;
+        dbo:nearestCity  <http://dbpedia.org/resource/Cao_Lãnh_(city)> ;
+        dbp:area         "75.88"^^dbd:squareKilometre ;
+        dbp:established  1998 ;
+        dbp:location     <http://dbpedia.org/resource/Tam_Nông_district,_Đồng_Tháp_province> , dbr:Vietnam , dbr:Đồng_Tháp_province ;
+        dbp:name         "Tràm Chim National Park"@en ;
+        dbp:photo        "Đồng cỏ và chim nước.jpg"@en ;
+        geo:lat          "10.725000381469726562"^^xsd:float ;
+        geo:long         "105.51667022705078125"^^xsd:float .

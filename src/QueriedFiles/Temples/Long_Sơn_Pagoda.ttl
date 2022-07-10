@@ -1,0 +1,15 @@
+@prefix dbo:     <http://dbpedia.org/ontology/> .
+@prefix geo:     <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix virtrdf: <http://www.openlinksw.com/schemas/virtrdf#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/resource/Long_Sơn_Pagoda>
+        rdf:type      dbo:ReligiousBuilding ;
+        rdfs:comment  "Long Sơn Pagoda (Vietnamese: Chùa Long Sơn) is a Buddhist temple in the city of Nha Trang on South Central Coast of Vietnam. It is regarded as one of the main sites in the city, along with ."@en ;
+        rdfs:label    "Long Sơn Pagoda"@en ;
+        dbo:abstract  "Long Sơn Pagoda (Vietnamese: Chùa Long Sơn) is a Buddhist temple in the city of Nha Trang on South Central Coast of Vietnam. It is regarded as one of the main sites in the city, along with ."@en ;
+        geo:geometry  "POINT(109.18076324463 12.251601219177)"^^virtrdf:Geometry ;
+        geo:lat       "12.251601219177246094"^^xsd:float ;
+        geo:long      "109.18076324462890625"^^xsd:float .

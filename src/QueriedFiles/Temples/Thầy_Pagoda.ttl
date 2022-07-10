@@ -1,0 +1,25 @@
+@prefix dbo:     <http://dbpedia.org/ontology/> .
+@prefix dbp:     <http://dbpedia.org/property/> .
+@prefix dbr:     <http://dbpedia.org/resource/> .
+@prefix geo:     <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix virtrdf: <http://www.openlinksw.com/schemas/virtrdf#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+dbr:Thầy_Pagoda  rdf:type  dbo:ReligiousBuilding ;
+        rdfs:comment       "Thầy Pagoda (Vietnamese: Chùa Thầy) is a Buddhist temple in Quốc Oai District (formerly Hà Tây Province, now part of Hanoi), Vietnam. The temple is also known as Thiên Phúc Tự (\"Temple of Heavenly Blessings\"). The temple was established in the 11th century during the reign of Emperor Nhân Tông of the Lý dynasty. It is dedicated to Vietnamese Thiền master Từ Đạo Hạnh (1072-1116). It is one of the oldest Buddhist temples in Vietnam, It is well maintained by the monks. The temple is a center of pilgrimage during Tết."@en ;
+        rdfs:label         "Thầy Pagoda"@en ;
+        dbo:abstract       "Thầy Pagoda (Vietnamese: Chùa Thầy) is a Buddhist temple in Quốc Oai District (formerly Hà Tây Province, now part of Hanoi), Vietnam. The temple is also known as Thiên Phúc Tự (\"Temple of Heavenly Blessings\"). The temple was established in the 11th century during the reign of Emperor Nhân Tông of the Lý dynasty. It is dedicated to Vietnamese Thiền master Từ Đạo Hạnh (1072-1116). It is one of the oldest Buddhist temples in Vietnam, It is well maintained by the monks. The temple is a center of pilgrimage during Tết."@en ;
+        dbo:country        dbr:Vietnam ;
+        dbp:caption        "Thầy Temple"@en ;
+        dbp:country        dbr:Vietnam ;
+        dbp:district       dbr:Quốc_Oai_District ;
+        dbp:location       "Sài Sơn"@en ;
+        dbp:name           "Teacher Pagoda"@en , "chùa Thầy"@en ;
+        dbp:nativeName     "Thiên Phúc Tự"@en ;
+        dbp:province       dbr:Hanoi ;
+        dbp:yearCompleted  11 ;
+        geo:geometry       "POINT(105.64199829102 20.995269775391)"^^virtrdf:Geometry ;
+        geo:lat            "20.995269775390625"^^xsd:float ;
+        geo:long           "105.641998291015625"^^xsd:float .

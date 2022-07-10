@@ -1,9 +1,23 @@
-@prefix dbo: <http://dbpedia.org/ontology/> .
-@prefix dbp: <http://dbpedia.org/property/> .
-@prefix dbr: <http://dbpedia.org/resource/> .
+@prefix dbo:     <http://dbpedia.org/ontology/> .
+@prefix dbp:     <http://dbpedia.org/property/> .
+@prefix dbr:     <http://dbpedia.org/resource/> .
+@prefix geo:     <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix virtrdf: <http://www.openlinksw.com/schemas/virtrdf#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix yago:    <http://dbpedia.org/class/yago/> .
 
-dbr:Thiền_Quang_Lake  dbo:abstract  "Halais Lake is a lake in Hanoi, Vietnam, located next to Nguyễn Du Street, which used to be named \"Rue Halais\" under the French (1888-1945), hence the name \"Halais\". According to Vietnamese sources, it should be spelled \"Halais Lake\", the French name for the lake called \"Hồ Thiền Quang\" in Vietnamese."@en ;
-        dbo:country     dbr:Vietnam ;
-        dbo:location    dbr:Hanoi ;
-        dbp:name        "Halais Lake"@en ;
-        dbp:pushpinMap  "Vietnam"@en .
+dbr:Thiền_Quang_Lake  rdf:type  yago:Lake109328904 ;
+        rdfs:comment        "Halais Lake is a lake in Hanoi, Vietnam, located next to Nguyễn Du Street, which used to be named \"Rue Halais\" under the French (1888-1945), hence the name \"Halais\". According to Vietnamese sources, it should be spelled \"Halais Lake\", the French name for the lake called \"Hồ Thiền Quang\" in Vietnamese."@en ;
+        rdfs:label          "Thiền Quang Lake"@en ;
+        dbo:abstract        "Halais Lake is a lake in Hanoi, Vietnam, located next to Nguyễn Du Street, which used to be named \"Rue Halais\" under the French (1888-1945), hence the name \"Halais\". According to Vietnamese sources, it should be spelled \"Halais Lake\", the French name for the lake called \"Hồ Thiền Quang\" in Vietnamese."@en ;
+        dbo:country         dbr:Vietnam ;
+        dbo:location        dbr:Hanoi ;
+        dbp:basinCountries  "Vietnam"@en ;
+        dbp:location        dbr:Hanoi ;
+        dbp:name            "Halais Lake"@en ;
+        dbp:pushpinMap      "Vietnam"@en ;
+        geo:geometry        "POINT(105.84554290771 21.01842880249)"^^virtrdf:Geometry ;
+        geo:lat             "21.018428802490234375"^^xsd:float ;
+        geo:long            "105.84554290771484375"^^xsd:float .

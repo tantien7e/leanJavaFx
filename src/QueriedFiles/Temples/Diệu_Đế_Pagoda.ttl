@@ -1,0 +1,15 @@
+@prefix dbo:     <http://dbpedia.org/ontology/> .
+@prefix geo:     <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix virtrdf: <http://www.openlinksw.com/schemas/virtrdf#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/resource/Diệu_Đế_Pagoda>
+        rdf:type      dbo:ReligiousBuilding ;
+        rdfs:comment  "Diệu Đế Pagoda (Vietnamese: Chùa Diệu Đế) is a Buddhist temple in the central city of Huế in Vietnam. It is named for the Four Noble Truths of Buddhism, which are called Tứ Diệu Đế in Vietnamese. During the 19th century Nguyễn dynasty, Emperor Thiệu Trị declared it to be one of the national pagodas of Vietnam. Outside of Vietnam, the temple is best known as a site of activism during the 1960s, as well as against the Vietnam War. On the night of 21 August 1963, it was the site of a bloody battle between the government forces of President Ngô Đình Diệm and rioting pro-Buddhist civilians who were attempting to stop the troops from raiding the pagoda to arrest dissident monks who were calling for religious equality during the Buddhist crisis."@en ;
+        rdfs:label    "Diệu Đế Pagoda"@en ;
+        dbo:abstract  "Diệu Đế Pagoda (Vietnamese: Chùa Diệu Đế) is a Buddhist temple in the central city of Huế in Vietnam. It is named for the Four Noble Truths of Buddhism, which are called Tứ Diệu Đế in Vietnamese. During the 19th century Nguyễn dynasty, Emperor Thiệu Trị declared it to be one of the national pagodas of Vietnam. Outside of Vietnam, the temple is best known as a site of activism during the 1960s, as well as against the Vietnam War. On the night of 21 August 1963, it was the site of a bloody battle between the government forces of President Ngô Đình Diệm and rioting pro-Buddhist civilians who were attempting to stop the troops from raiding the pagoda to arrest dissident monks who were calling for religious equality during the Buddhist crisis."@en ;
+        geo:geometry  "POINT(107.58750152588 16.477899551392)"^^virtrdf:Geometry ;
+        geo:lat       "16.477899551391601562"^^xsd:float ;
+        geo:long      "107.58750152587890625"^^xsd:float .

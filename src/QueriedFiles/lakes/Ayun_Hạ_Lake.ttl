@@ -1,0 +1,20 @@
+@prefix dbo:  <http://dbpedia.org/ontology/> .
+@prefix dbp:  <http://dbpedia.org/property/> .
+@prefix dbr:  <http://dbpedia.org/resource/> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix yago: <http://dbpedia.org/class/yago/> .
+
+dbr:Ayun_Hạ_Lake  rdf:type  yago:Lake109328904 ;
+        rdfs:comment    "Ayun Ha Lake (Vietnamese: Hồ Ayun Hạ) is an artificial lake in Gia Lai Province, Vietnam. The lake was formed when the Ayun River was stopped early in 1994, to start the construction of a dam and lake for irrigation. The flooded area of the lake district belongs to the commune of HBong Chu Se. The lake has a surface area of 37 km2 (14 sq mi), and has a length of 25 km (16 mi), and is 5 km (3.1 mi) at its widest."@en ;
+        rdfs:label      "Ayun Hạ Lake"@en ;
+        dbo:abstract    "Ayun Ha Lake (Vietnamese: Hồ Ayun Hạ) is an artificial lake in Gia Lai Province, Vietnam. The lake was formed when the Ayun River was stopped early in 1994, to start the construction of a dam and lake for irrigation. The flooded area of the lake district belongs to the commune of HBong Chu Se. The lake has a surface area of 37 km2 (14 sq mi), and has a length of 25 km (16 mi), and is 5 km (3.1 mi) at its widest."@en ;
+        dbo:length      25000.0 ;
+        dbo:location    dbr:Vietnam , dbr:Gia_Lai_province ;
+        dbo:width       5000.0 ;
+        dbp:location    dbr:Gia_Lai_province , dbr:Vietnam ;
+        dbp:name        "Ayun Ha Lake"@en ;
+        dbp:nativeName  "Hồ Ayun Hạ"@en ;
+        dbp:pushpinMap  "Vietnam"@en ;
+        dbp:rivers      "Ayun River"@en .

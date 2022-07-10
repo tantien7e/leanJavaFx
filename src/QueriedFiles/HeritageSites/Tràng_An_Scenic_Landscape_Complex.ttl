@@ -1,0 +1,19 @@
+@prefix dbo:  <http://dbpedia.org/ontology/> .
+@prefix dbp:  <http://dbpedia.org/property/> .
+@prefix dbr:  <http://dbpedia.org/resource/> .
+@prefix geo:  <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix yago: <http://dbpedia.org/class/yago/> .
+
+dbr:Tràng_An_Scenic_Landscape_Complex
+        rdf:type      yago:Location100027167 , dbo:WorldHeritageSite ;
+        rdfs:comment  "Tràng An is a scenic area near Ninh Bình, Vietnam renowned for its boat cave tours.On 23 June 2014, at the 38th session of the World Heritage Committee in Doha, the Trang An Scenic Landscape Complex was inscribed as a UNESCO World Heritage Site. The Trang An Scenic Landscape Complex includes Hoa Lư, Tam Cốc/Bích Động, and Bai Dinh Temple."@en ;
+        rdfs:label    "Tràng An Scenic Landscape Complex"@en ;
+        dbo:abstract  "Tràng An is a scenic area near Ninh Bình, Vietnam renowned for its boat cave tours.On 23 June 2014, at the 38th session of the World Heritage Committee in Doha, the Trang An Scenic Landscape Complex was inscribed as a UNESCO World Heritage Site. The Trang An Scenic Landscape Complex includes Hoa Lư, Tam Cốc/Bích Động, and Bai Dinh Temple."@en ;
+        dbp:location  dbr:Vietnam , dbr:Red_River_Delta ;
+        dbp:locmapin  "Vietnam"@en ;
+        dbp:whs       "Trang An Landscape Complex"@en ;
+        geo:lat       "20.256666183471679688"^^xsd:float ;
+        geo:long      "105.89638519287109375"^^xsd:float .

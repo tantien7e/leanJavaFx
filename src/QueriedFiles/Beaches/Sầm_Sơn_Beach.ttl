@@ -1,0 +1,10 @@
+@prefix dbo:  <http://dbpedia.org/ontology/> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix yago: <http://dbpedia.org/class/yago/> .
+
+<http://dbpedia.org/resource/Sầm_Sơn_Beach>
+        rdf:type      dbo:Location , yago:Beach109217230 ;
+        rdfs:comment  "Sam Son beach (Vietnamese: Bãi biển Sầm Sơn) is a resort beach in Vietnam. It’s located in Sầm Sơn city, Thanh Hóa Province, Bac Trung Bo region, Vietnam, 16 km east of Thanh Hoa City.The Sầm Sơn beach became a resort beach in 1906 when French colonists began to build facilities here. The beach is 6 km long, extending from estuary of Lạch Hới to the foot of Trường Lệ mount."@en ;
+        rdfs:label    "Sầm Sơn Beach"@en ;
+        dbo:abstract  "Sam Son beach (Vietnamese: Bãi biển Sầm Sơn) is a resort beach in Vietnam. It’s located in Sầm Sơn city, Thanh Hóa Province, Bac Trung Bo region, Vietnam, 16 km east of Thanh Hoa City.The Sầm Sơn beach became a resort beach in 1906 when French colonists began to build facilities here. The beach is 6 km long, extending from estuary of Lạch Hới to the foot of Trường Lệ mount."@en .

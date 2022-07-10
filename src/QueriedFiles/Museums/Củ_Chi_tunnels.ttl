@@ -1,0 +1,14 @@
+@prefix dbo:  <http://dbpedia.org/ontology/> .
+@prefix geo:  <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix yago: <http://dbpedia.org/class/yago/> .
+
+<http://dbpedia.org/resource/Củ_Chi_tunnels>
+        rdf:type      yago:Museum103800563 , dbo:Museum ;
+        rdfs:comment  "The tunnels of Củ Chi are an immense network of connecting tunnels located in the Củ Chi District of Ho Chi Minh City (Saigon), Vietnam, and are part of a much larger network of tunnels that underlie much of the country. The Củ Chi tunnels were the location of several military campaigns during the Vietnam War, and were the Viet Cong's base of operations for the Tết Offensive in 1968."@en ;
+        rdfs:label    "Củ Chi tunnels"@en ;
+        dbo:abstract  "The tunnels of Củ Chi are an immense network of connecting tunnels located in the Củ Chi District of Ho Chi Minh City (Saigon), Vietnam, and are part of a much larger network of tunnels that underlie much of the country. The Củ Chi tunnels were the location of several military campaigns during the Vietnam War, and were the Viet Cong's base of operations for the Tết Offensive in 1968. The tunnels were used by Viet Cong soldiers as hiding spots during combat, as well as serving as communication and supply routes, hospitals, food and weapon caches and living quarters for numerous North Vietnamese fighters. The tunnel systems were of great importance to the Viet Cong in their resistance to American forces, and helped to counter the growing American military effort."@en ;
+        geo:lat       "11.060999870300292969"^^xsd:float ;
+        geo:long      "106.5260009765625"^^xsd:float .

@@ -1,0 +1,20 @@
+@prefix dbo:  <http://dbpedia.org/ontology/> .
+@prefix dbp:  <http://dbpedia.org/property/> .
+@prefix dbr:  <http://dbpedia.org/resource/> .
+@prefix geo:  <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix yago: <http://dbpedia.org/class/yago/> .
+
+dbr:Citadel_of_the_Hồ_Dynasty
+        rdf:type      yago:Location100027167 , dbo:WorldHeritageSite ;
+        rdfs:comment  "Citadel of the Hồ Dynasty (Vietnamese: Thành nhà Hồ, Hán Nôm: 城家胡; also called Tây Đô castle or Tây Giai castle) is a 15th century stone fortress in Thanh Hóa, Vietnam. It served as the Western Capital of the Hồ Dynasty (1400-1407). It is located in Tây Giai commune, Vĩnh Lộc District, in Thanh Hóa Province, in Vietnam's North Central Coast region. The castle was constructed from stone blocks, each of which is 2×1×0.7 m (6.6×3.3×2.3 ft) size on average. Except for its gates, the castle is mostly ruined. The Citadel was inscribed on UNESCO World Heritage Sites on June 27, 2011."@en ;
+        rdfs:label    "Citadel of the Hồ Dynasty"@en ;
+        dbo:abstract  "Citadel of the Hồ Dynasty (Vietnamese: Thành nhà Hồ, Hán Nôm: 城家胡; also called Tây Đô castle or Tây Giai castle) is a 15th century stone fortress in Thanh Hóa, Vietnam. It served as the Western Capital of the Hồ Dynasty (1400-1407). It is located in Tây Giai commune, Vĩnh Lộc District, in Thanh Hóa Province, in Vietnam's North Central Coast region. Tây Đô castle is rectangular in shape. Its north-south side is 870.5 m (2,856 ft) in length and its east-west side is 883.5 m (2,899 ft) in length. There are four gates: one at the south (fore gate), one at the north (back gate), one at the east (left gate), and one at the west (right gate). The southern gate is 9.5 m (31 ft) high and 15.17 m (49.8 ft) wide. The castle was constructed from stone blocks, each of which is 2×1×0.7 m (6.6×3.3×2.3 ft) size on average. Except for its gates, the castle is mostly ruined. The Citadel was inscribed on UNESCO World Heritage Sites on June 27, 2011."@en ;
+        dbp:caption   "The South  gate of Tay Do castle"@en ;
+        dbp:location  dbr:Thanh_Hóa_province , dbr:Vĩnh_Lộc_district , dbr:Vietnam , dbr:Tây_Giai , dbr:North_Central_Coast ;
+        dbp:locmapin  "Vietnam"@en ;
+        dbp:whs       "Citadel of the Ho Dynasty"@en ;
+        geo:lat       "20.07805633544921875"^^xsd:float ;
+        geo:long      "105.6047210693359375"^^xsd:float .

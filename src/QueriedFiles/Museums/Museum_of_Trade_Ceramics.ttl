@@ -1,0 +1,18 @@
+@prefix dbo:  <http://dbpedia.org/ontology/> .
+@prefix dbp:  <http://dbpedia.org/property/> .
+@prefix dbr:  <http://dbpedia.org/resource/> .
+@prefix geo:  <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix yago: <http://dbpedia.org/class/yago/> .
+
+dbr:Museum_of_Trade_Ceramics
+        rdf:type      yago:Museum103800563 , dbo:Museum ;
+        rdfs:comment  "The Museum of Trade Ceramics is located in Hoi An, central Vietnam. It is a museum showcasing the origins and history of the town and the region in the context of historic trade and relationships with foreign nations such as China, India, Japan, the Philippines and Thailand. The building housing the museum is itself an attractively restored traditional wooden house of Hoi An's old quarter, which, on account of design similarity and a historically significant local Japanese trading community, is likened to those of Kyoto."@en ;
+        rdfs:label    "Museum of Trade Ceramics"@en ;
+        dbo:abstract  "The Museum of Trade Ceramics is located in Hoi An, central Vietnam. It is a museum showcasing the origins and history of the town and the region in the context of historic trade and relationships with foreign nations such as China, India, Japan, the Philippines and Thailand. The building housing the museum is itself an attractively restored traditional wooden house of Hoi An's old quarter, which, on account of design similarity and a historically significant local Japanese trading community, is likened to those of Kyoto."@en ;
+        dbo:location  dbr:Hội_An , dbr:Vietnam ;
+        dbp:location  dbr:Hội_An , dbr:Vietnam ;
+        geo:lat       "15.0"^^xsd:float ;
+        geo:long      "52.0"^^xsd:float .

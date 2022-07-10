@@ -1,0 +1,24 @@
+@prefix dbo:     <http://dbpedia.org/ontology/> .
+@prefix dbp:     <http://dbpedia.org/property/> .
+@prefix dbr:     <http://dbpedia.org/resource/> .
+@prefix geo:     <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix virtrdf: <http://www.openlinksw.com/schemas/virtrdf#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix yago:    <http://dbpedia.org/class/yago/> .
+
+dbr:Núi_Chúa_National_Park
+        rdf:type         yago:NationalPark108600992 ;
+        rdfs:comment     "Núi Chúa National Park (Vietnamese: Vườn quốc gia Núi Chúa), formerly Núi Chúa Nature Reserve is a national park in the province of Ninh Thuận Province, on the border with Khánh Hòa Province, South Central Coast, Vietnam."@en ;
+        dbo:abstract     "Núi Chúa National Park (Vietnamese: Vườn quốc gia Núi Chúa), formerly Núi Chúa Nature Reserve is a national park in the province of Ninh Thuận Province, on the border with Khánh Hòa Province, South Central Coast, Vietnam."@en ;
+        dbo:location     dbr:South_Central_Coast , dbr:Vietnam ;
+        dbo:nearestCity  <http://dbpedia.org/resource/Phan_Rang–Tháp_Chàm> ;
+        dbp:area         29865 ;
+        dbp:established  2003 ;
+        dbp:location     dbr:Vietnam , dbr:South_Central_Coast ;
+        dbp:name         "Núi Chúa National Park"@en ;
+        dbp:photo        "Lo O Stream, Nui Chua National Park.jpg"@en ;
+        geo:geometry     "POINT(109.15277862549 11.700277328491)"^^virtrdf:Geometry ;
+        geo:lat          "11.700277328491210938"^^xsd:float ;
+        geo:long         "109.15277862548828125"^^xsd:float .

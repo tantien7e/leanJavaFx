@@ -1,0 +1,25 @@
+@prefix dbo:     <http://dbpedia.org/ontology/> .
+@prefix dbp:     <http://dbpedia.org/property/> .
+@prefix dbr:     <http://dbpedia.org/resource/> .
+@prefix geo:     <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix virtrdf: <http://www.openlinksw.com/schemas/virtrdf#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix yago:    <http://dbpedia.org/class/yago/> .
+
+dbr:Lăng_Cô  rdf:type        yago:Beach109217230 , dbo:Location ;
+        rdfs:comment         "Lăng Cô is a township (thị trấn) in Phú Lộc District, Thừa Thiên Huế Province, Bắc Trung Bộ, Việt Nam. It has a well known beach and resort."@en ;
+        rdfs:label           "Lăng Cô"@en ;
+        dbo:abstract         "Lăng Cô is a township (thị trấn) in Phú Lộc District, Thừa Thiên Huế Province, Bắc Trung Bộ, Việt Nam. It has a well known beach and resort."@en ;
+        dbo:country          dbr:Vietnam ;
+        dbo:subdivision      dbr:Thừa_Thiên_Huế_province , dbr:Phú_Lộc_District ;
+        dbo:utcOffset        "+07:00" ;
+        dbp:name             "Lăng Cô"@en ;
+        dbp:populationAsOf   2004 ;
+        dbp:subdivisionName  dbr:Phú_Lộc_District , dbr:Thừa_Thiên_Huế_province ;
+        dbp:subdivisionType  "Country"@en ;
+        dbp:subdivisionType  dbr:Provinces_of_Vietnam , dbr:List_of_districts_of_Vietnam ;
+        geo:geometry         "POINT(108.07299804688 16.250999450684)"^^virtrdf:Geometry ;
+        geo:lat              "16.25099945068359375"^^xsd:float ;
+        geo:long             "108.072998046875"^^xsd:float .

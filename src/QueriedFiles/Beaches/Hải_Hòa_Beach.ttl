@@ -1,0 +1,16 @@
+@prefix dbo:  <http://dbpedia.org/ontology/> .
+@prefix dbp:  <http://dbpedia.org/property/> .
+@prefix geo:  <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix yago: <http://dbpedia.org/class/yago/> .
+
+<http://dbpedia.org/resource/Hải_Hòa_Beach>
+        rdf:type      yago:Beach109217230 , dbo:Location ;
+        rdfs:comment  "Hải Hòa Beach is a well-known beach in Vietnam. It is at Hai Hoa Commune, Tinh Gia District, Thanh Hoa Province, around 200 km from Hanoi. The untouched Hải Hòa Beach is a beautiful, wide and smooth white sandy beach overlooking the Gulf of Tonkin, far away is the island of . To the south is Sổi Mountain and Chay Mountain. White sandy beach stretches 20 kilometres (12 mi) north to the commune of Hai Ninh. 3 kilometres (1.9 mi) to the west of Hải Hòa Beach is the National Route 1A (km 366)."@en ;
+        rdfs:label    "Hải Hòa Beach"@en ;
+        dbo:abstract  "Hải Hòa Beach is a well-known beach in Vietnam. It is at Hai Hoa Commune, Tinh Gia District, Thanh Hoa Province, around 200 km from Hanoi. The untouched Hải Hòa Beach is a beautiful, wide and smooth white sandy beach overlooking the Gulf of Tonkin, far away is the island of . To the south is Sổi Mountain and Chay Mountain. White sandy beach stretches 20 kilometres (12 mi) north to the commune of Hai Ninh. 3 kilometres (1.9 mi) to the west of Hải Hòa Beach is the National Route 1A (km 366). Currently, there are four large hotels adjacent to the beach: Queen Hotel, Hotel Xanh Hà ACB, Hotel Đại Dương and Hotel Cao Nguyễn. When visiting Hải Hòa Beach, tourists may want to buy essential fish sauce, dried squid as well as dried fish and burned grilled mackerel."@en ;
+        dbp:name      "Hải Hòa Beach"@en ;
+        geo:lat       "19.457000732421875"^^xsd:float ;
+        geo:long      "105.80899810791015625"^^xsd:float .

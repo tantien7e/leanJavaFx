@@ -1,0 +1,23 @@
+@prefix dbo:     <http://dbpedia.org/ontology/> .
+@prefix dbp:     <http://dbpedia.org/property/> .
+@prefix dbr:     <http://dbpedia.org/resource/> .
+@prefix geo:     <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix virtrdf: <http://www.openlinksw.com/schemas/virtrdf#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix yago:    <http://dbpedia.org/class/yago/> .
+
+dbr:Búng_Bình_Thiên  rdf:type  yago:Lake109328904 ;
+        rdfs:comment    "Búng Bình Thiên, or God lake, is one of the largest fresh water lake in Mekong Delta in Vietnam. Located in An Phu District, province of An Giang, linking three communes, namely Khánh Bình, Nhơn Hội and Quốc Thái, and adjoining Bình Di River and Hậu River, the natural lake is becoming known as an eco-tourist area."@en ;
+        rdfs:label      "Búng Bình Thiên"@en ;
+        dbo:abstract    "Búng Bình Thiên, or God lake, is one of the largest fresh water lake in Mekong Delta in Vietnam. Located in An Phu District, province of An Giang, linking three communes, namely Khánh Bình, Nhơn Hội and Quốc Thái, and adjoining Bình Di River and Hậu River, the natural lake is becoming known as an eco-tourist area."@en ;
+        dbo:location    dbr:An_Phú_District , dbr:An_Giang_province , dbr:Vietnam ;
+        dbo:type        dbr:Lake ;
+        dbp:caption     "Búng Bình Thiên."@en ;
+        dbp:location    dbr:An_Phú_District , dbr:An_Giang_province , dbr:Vietnam ;
+        dbp:name        "Búng Bình Thiên"@en ;
+        dbp:pushpinMap  "Vietnam"@en ;
+        geo:geometry    "POINT(105.06666564941 10.916666984558)"^^virtrdf:Geometry ;
+        geo:lat         "10.916666984558105469"^^xsd:float ;
+        geo:long        "105.0666656494140625"^^xsd:float .

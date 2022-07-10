@@ -1,0 +1,15 @@
+@prefix dbo:     <http://dbpedia.org/ontology/> .
+@prefix geo:     <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix virtrdf: <http://www.openlinksw.com/schemas/virtrdf#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/resource/Bái_Đính_Temple>
+        rdf:type      dbo:ReligiousBuilding ;
+        rdfs:comment  "Bái Đính Temple (Vietnamese: Chùa Bái Đính) or Bái Đính Temple Spiritual and Cultural Complex is a complex of Buddhist temples on Bai Dinh Mountain in Gia Viễn District, Ninh Bình Province, Vietnam. The compound consists of the original old temple and a newly created larger temple. It is considered the largest complex of Buddhist temples in Vietnam and has become a popular site for Buddhist pilgrimages from across Vietnam. Bai Đính Temple, along with Phát Diệm Cathedral, Hoa Lư Ancient Capital Tam Cốc-Bích Động, Trang An, Cúc Phương is a famous tourist attraction site of Ninh Bình Province."@en ;
+        rdfs:label    "Bái Đính Temple"@en ;
+        dbo:abstract  "Bái Đính Temple (Vietnamese: Chùa Bái Đính) or Bái Đính Temple Spiritual and Cultural Complex is a complex of Buddhist temples on Bai Dinh Mountain in Gia Viễn District, Ninh Bình Province, Vietnam. The compound consists of the original old temple and a newly created larger temple. It is considered the largest complex of Buddhist temples in Vietnam and has become a popular site for Buddhist pilgrimages from across Vietnam. Bai Đính Temple, along with Phát Diệm Cathedral, Hoa Lư Ancient Capital Tam Cốc-Bích Động, Trang An, Cúc Phương is a famous tourist attraction site of Ninh Bình Province."@en ;
+        geo:geometry  "POINT(105.86277770996 20.276945114136)"^^virtrdf:Geometry ;
+        geo:lat       "20.276945114135742188"^^xsd:float ;
+        geo:long      "105.8627777099609375"^^xsd:float .

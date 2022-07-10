@@ -1,0 +1,24 @@
+@prefix dbo:  <http://dbpedia.org/ontology/> .
+@prefix dbp:  <http://dbpedia.org/property/> .
+@prefix dbr:  <http://dbpedia.org/resource/> .
+@prefix geo:  <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix yago: <http://dbpedia.org/class/yago/> .
+
+dbr:Vietnam_Military_History_Museum
+        rdf:type            dbo:Museum , yago:Museum103800563 ;
+        rdfs:comment        "The Vietnam Military History Museum, set up on 17 July 1956, is one of seven national museums in Vietnam. It covers 12,800 m2. It is situated in central Hanoi, opposite the Lenin Park and near the Ho Chi Minh Mausoleum. The Flag Tower of Hanoi is located inside of the museum grounds."@en ;
+        rdfs:label          "Vietnam Military History Museum"@en ;
+        dbo:abstract        "The Vietnam Military History Museum, set up on 17 July 1956, is one of seven national museums in Vietnam. It covers 12,800 m2. It is situated in central Hanoi, opposite the Lenin Park and near the Ho Chi Minh Mausoleum. The Flag Tower of Hanoi is located inside of the museum grounds."@en ;
+        dbo:foundingDate    "1956-07-17"^^xsd:date ;
+        dbo:location        dbr:Hanoi , dbr:Ba_Đình_district , dbr:Vietnam ;
+        dbp:established     "1956-07-17"^^xsd:date ;
+        dbp:location        dbr:Ba_Đình_district , dbr:Hanoi , dbr:Vietnam ;
+        dbp:name            "Vietnam Military History Museum"@en ;
+        dbp:nativeName      "Bảo tàng Lịch sử Quân sự Việt Nam"@en ;
+        dbp:nativeNameLang  "vi"@en ;
+        dbp:website         <http://btlsqsvn.org.vn/> ;
+        geo:lat             "21.032281875610351562"^^xsd:float ;
+        geo:long            "105.84001922607421875"^^xsd:float .

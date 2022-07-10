@@ -1,0 +1,22 @@
+@prefix dbo:  <http://dbpedia.org/ontology/> .
+@prefix dbp:  <http://dbpedia.org/property/> .
+@prefix dbr:  <http://dbpedia.org/resource/> .
+@prefix geo:  <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix yago: <http://dbpedia.org/class/yago/> .
+
+dbr:Bãi_Cháy  rdf:type       dbo:Location , yago:Beach109217230 ;
+        rdfs:comment         "Bãi Cháy is a beach resort in Vietnam. The ward of Bãi Cháy, along with Hong Gai, together are officially referred to as Hạ Long City, though few locals use this term for Bãi Cháy. The centre of tourism in Hạ Long Bay is Bãi Cháy beach. The Bãi Cháy Bridge now links Bai Chay and Hong Gai, making the old Bãi Cháy ferry redundant."@en ;
+        rdfs:label           "Bãi Cháy"@en ;
+        dbo:abstract         "Bãi Cháy is a beach resort in Vietnam. The ward of Bãi Cháy, along with Hong Gai, together are officially referred to as Hạ Long City, though few locals use this term for Bãi Cháy. The centre of tourism in Hạ Long Bay is Bãi Cháy beach. The Bãi Cháy Bridge now links Bai Chay and Hong Gai, making the old Bãi Cháy ferry redundant."@en ;
+        dbo:country          dbr:Vietnam ;
+        dbo:subdivision      dbr:Quảng_Ninh_province , dbr:Hạ_Long ;
+        dbo:utcOffset        "+07:00" ;
+        dbp:name             "Bãi Cháy"@en ;
+        dbp:subdivisionName  dbr:Hạ_Long , dbr:Quảng_Ninh_province ;
+        dbp:subdivisionType  "Country"@en ;
+        dbp:subdivisionType  <http://dbpedia.org/resource/Provincial_city_(Vietnam)> , dbr:Provinces_of_Vietnam ;
+        geo:lat              "20.965833663940429688"^^xsd:float ;
+        geo:long             "107.03472137451171875"^^xsd:float .

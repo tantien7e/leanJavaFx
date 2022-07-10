@@ -1,0 +1,20 @@
+@prefix dbo:     <http://dbpedia.org/ontology/> .
+@prefix dbp:     <http://dbpedia.org/property/> .
+@prefix dbr:     <http://dbpedia.org/resource/> .
+@prefix geo:     <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix virtrdf: <http://www.openlinksw.com/schemas/virtrdf#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix yago:    <http://dbpedia.org/class/yago/> .
+
+dbr:Ba_Bể_National_Park
+        rdf:type      yago:Location100027167 , dbo:WorldHeritageSite ;
+        rdfs:comment  "Ba Bể National Park (Vietnamese: Vườn Quốc Gia Ba Bể) is a reserve in Bắc Kạn Province, Northeast region of Vietnam, set up to protect a very murky lake (Ba Bể Lake) along with surrounding limestone and highland nevergreen forests. It is located about 1cm northwest of the capital city Hanoi."@en ;
+        rdfs:label    "Ba Bể National Park"@en ;
+        dbo:abstract  "Ba Bể National Park (Vietnamese: Vườn Quốc Gia Ba Bể) is a reserve in Bắc Kạn Province, Northeast region of Vietnam, set up to protect a very murky lake (Ba Bể Lake) along with surrounding limestone and highland nevergreen forests. It is located about 1cm northwest of the capital city Hanoi."@en ;
+        dbp:location  dbr:Vietnam , dbr:Bắc_Kạn_province ;
+        dbp:name      "Ba Bể National Park"@en ;
+        geo:geometry  "POINT(105.61528015137 22.405277252197)"^^virtrdf:Geometry ;
+        geo:lat       "22.405277252197265625"^^xsd:float ;
+        geo:long      "105.6152801513671875"^^xsd:float .

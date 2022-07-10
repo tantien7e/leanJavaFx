@@ -1,0 +1,15 @@
+@prefix dbo:     <http://dbpedia.org/ontology/> .
+@prefix geo:     <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix virtrdf: <http://www.openlinksw.com/schemas/virtrdf#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/resource/Phật_Tích_Temple>
+        rdf:type      dbo:ReligiousBuilding ;
+        rdfs:comment  "Phật Tích Temple (Vietnamese: Chùa Phật Tích, Chinese: 佛跡寺, literally the Temple of Buddhist Relics) is a Buddhist temple located in the south of Phat Tich mountain, Tiên Du District, Bac Ninh Province, Vietnam.This is an important listed cultural site of Vietnam. \n* v \n* t \n* e \n* v \n* t \n* e"@en ;
+        rdfs:label    "Phật Tích Temple"@en ;
+        dbo:abstract  "Phật Tích Temple (Vietnamese: Chùa Phật Tích, Chinese: 佛跡寺, literally the Temple of Buddhist Relics) is a Buddhist temple located in the south of Phat Tich mountain, Tiên Du District, Bac Ninh Province, Vietnam.This is an important listed cultural site of Vietnam. \n* v \n* t \n* e \n* v \n* t \n* e"@en ;
+        geo:geometry  "POINT(106.02439880371 21.096500396729)"^^virtrdf:Geometry ;
+        geo:lat       "21.096500396728515625"^^xsd:float ;
+        geo:long      "106.0243988037109375"^^xsd:float .

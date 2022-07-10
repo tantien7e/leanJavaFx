@@ -1,0 +1,16 @@
+@prefix dbo:     <http://dbpedia.org/ontology/> .
+@prefix geo:     <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix virtrdf: <http://www.openlinksw.com/schemas/virtrdf#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix yago:    <http://dbpedia.org/class/yago/> .
+
+<http://dbpedia.org/resource/Đá_Nhảy_Beach>
+        rdf:type      yago:Beach109217230 , dbo:Location ;
+        rdfs:comment  "Đá Nhảy Beach is a beautiful beach on the shore of the East Sea, 40 km north of Đồng Hới city, Quảng Bình Province, Vietnam. Đá Nhảy in Vietnamese means \"the rocks that jump\", referring to the topographical feature of this beach which sees thousands rock reaching the sea, surrounding small fine sand beaches suitable for sea bathing. This is one of the most important attraction sites in Quảng Bình, along with Phong Nha-Kẻ Bàng National Park (a UNESCO World Heritage Site and Bang Spa."@en ;
+        rdfs:label    "Đá Nhảy Beach"@en ;
+        dbo:abstract  "Đá Nhảy Beach is a beautiful beach on the shore of the East Sea, 40 km north of Đồng Hới city, Quảng Bình Province, Vietnam. Đá Nhảy in Vietnamese means \"the rocks that jump\", referring to the topographical feature of this beach which sees thousands rock reaching the sea, surrounding small fine sand beaches suitable for sea bathing. This is one of the most important attraction sites in Quảng Bình, along with Phong Nha-Kẻ Bàng National Park (a UNESCO World Heritage Site and Bang Spa."@en ;
+        geo:geometry  "POINT(106.58300018311 17.466999053955)"^^virtrdf:Geometry ;
+        geo:lat       "17.466999053955078125"^^xsd:float ;
+        geo:long      "106.58300018310546875"^^xsd:float .

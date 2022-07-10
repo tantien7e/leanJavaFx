@@ -1,0 +1,23 @@
+@prefix dbo:     <http://dbpedia.org/ontology/> .
+@prefix dbp:     <http://dbpedia.org/property/> .
+@prefix geo:     <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix virtrdf: <http://www.openlinksw.com/schemas/virtrdf#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix yago:    <http://dbpedia.org/class/yago/> .
+
+<http://dbpedia.org/resource/Hoa_Lư>
+        rdf:type            yago:Location100027167 , dbo:WorldHeritageSite ;
+        rdfs:comment        "Hoa Lư (華閭) was the capital of Vietnam from 968 to 1009. It lies in Trường Yên Thượng village, Hoa Lư District, Ninh Bình Province. The area is one of ricefields broken by limestone mountains, and is approximately 90 km south of Hanoi. Together with Phát Diệm Cathedral, Tam Cốc-Bích Động, Bái Đính Temple, Tràng An, and Cúc Phương, Hoa Lư is a tourist destinations in Ninh Bình Province."@en ;
+        rdfs:label          "Hoa Lư"@en ;
+        dbo:abstract        "Hoa Lư (華閭) was the capital of Vietnam from 968 to 1009. It lies in Trường Yên Thượng village, Hoa Lư District, Ninh Bình Province. The area is one of ricefields broken by limestone mountains, and is approximately 90 km south of Hanoi. Together with Phát Diệm Cathedral, Tam Cốc-Bích Động, Bái Đính Temple, Tràng An, and Cúc Phương, Hoa Lư is a tourist destinations in Ninh Bình Province. In the late 10th century, Hoa Lư was the capital as well as the economic, political and cultural center of Đại Cồ Việt, an independent Vietnamese polity founded in 968 A.D. by the local warlord Đinh Bộ Lĩnh (posthumously known as Đinh Tiên Hoàng, or \"First Dinh Emperor\"), following years of civil war and a violent secessionist movement against China's Southern Han Dynasty. Hoa Lư was the native land of the first two imperial dynasties of Vietnam: the Đinh founded by Đinh Tiên Hoàng, and the Early Lê founded by Lê Đại Hành. Following the demise of the Lê Dynasty, in 1010 Lý Công Uẩn, the founder of the Lý Dynasty, transferred the capital to Thăng Long (now Hanoi), and Hoa Lư became known as the \"ancient capital.\" The capital at Hoa Lư covered an area of 300 ha (3.0 km2), including both the Inner and Outer Citadels. It included defensive earthen walls, palaces, temples and shrines, and was surrounded and protected by mountains of limestone. Today, the ancient citadel no longer exists, and few vestiges of the 10th century remain. Visitors can see temples built in honor of the emperors Đinh Tiên Hoàng and Lê Đại Hành, their sons, and Queen Dương Vân Nga, who was married first to Đinh Tiên Hoàng and then to Lê Đại Hành. The tomb of Đinh Tiên Hoàng is located on nearby Mã Yên mountain, while the tomb of Lê Đại Hành lies at the foot of the mountain."@en ;
+        dbo:areaTotal       3000000.0 ;
+        dbo:originalName    "華閭"@en ;
+        dbp:name            "Hoa Lư"@en ;
+        dbp:nativeName      "華閭"@en ;
+        dbp:nativeNameLang  "zh"@en ;
+        dbp:pushpinMap      "#Vietnam#Asia"@en ;
+        geo:geometry        "POINT(105.9066696167 20.286111831665)"^^virtrdf:Geometry ;
+        geo:lat             "20.286111831665039062"^^xsd:float ;
+        geo:long            "105.90666961669921875"^^xsd:float .

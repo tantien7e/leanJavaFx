@@ -1,0 +1,24 @@
+@prefix dbo:  <http://dbpedia.org/ontology/> .
+@prefix dbp:  <http://dbpedia.org/property/> .
+@prefix dbr:  <http://dbpedia.org/resource/> .
+@prefix geo:  <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix yago: <http://dbpedia.org/class/yago/> .
+
+dbr:Sa_Pa  rdf:type          yago:Location100027167 , dbo:WorldHeritageSite ;
+        rdfs:comment         "Sa Pa is a district-level town of Lào Cai Province in the Northwest region of Vietnam. As of 2018, the town had a population of 61,498. The town covers an area of 677 km2. The town capital lies at Sa Pa. It is one of the main market towns in the area, where several ethnic minority groups such as Hmong, Dao (Yao), Giáy, Xa Pho, and Tay live."@en ;
+        rdfs:label           "Sa Pa"@en ;
+        dbo:abstract         "Sa Pa is a district-level town of Lào Cai Province in the Northwest region of Vietnam. As of 2018, the town had a population of 61,498. The town covers an area of 677 km2. The town capital lies at Sa Pa. It is one of the main market towns in the area, where several ethnic minority groups such as Hmong, Dao (Yao), Giáy, Xa Pho, and Tay live."@en ;
+        dbo:areaTotal        677000000.0 ;
+        dbo:country          dbr:Vietnam ;
+        dbo:originalName     "Thị xã Sa Pa"@en ;
+        dbo:populationTotal  "81857"^^xsd:nonNegativeInteger ;
+        dbo:subdivision      <http://dbpedia.org/resource/Northwest_(Vietnam)> , dbr:Lào_Cai_province ;
+        dbp:country          dbr:Vietnam ;
+        dbp:location         "Sa Pa, Vietnam"@en ;
+        dbp:name             "Sa Pa Town"@en ;
+        dbp:nativeName       "Thị xã Sa Pa"@en ;
+        geo:lat              "22.340555191040039062"^^xsd:float ;
+        geo:long             "103.83083343505859375"^^xsd:float .

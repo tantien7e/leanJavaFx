@@ -1,0 +1,4 @@
+@prefix dbo: <http://dbpedia.org/ontology/> .
+
+<http://dbpedia.org/resource/Thu_Bồn_River>
+        dbo:abstract  "The Thu Bồn River (Vietnamese: Sông Thu Bồn) is a river in central Vietnam, located in Quảng Nam Province.From its source near the border of Quảng Nam and Quảng Ngãi provinces, it flows northwest through Bắc Trà My, Phú Ninh, Hiệp Đức and Quế Sơn districts; turning northeast, it forms the border between Đại Lộc district and Duy Xuyên district, before emptying into the South China Sea at Hội An. The Thu Bồn valley was a centre of Champa culture from 700 until the Vietnamese conquest in 1471. Cua Dai Chiem was the Champa port on the estuary of the river at Hội An. Today boat trips up river to Mỹ Sơn are one of Hội An's tourist attractions."@en .

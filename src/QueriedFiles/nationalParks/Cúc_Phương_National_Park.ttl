@@ -1,0 +1,18 @@
+@prefix dbo:     <http://dbpedia.org/ontology/> .
+@prefix dbp:     <http://dbpedia.org/property/> .
+@prefix geo:     <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix virtrdf: <http://www.openlinksw.com/schemas/virtrdf#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix yago:    <http://dbpedia.org/class/yago/> .
+
+<http://dbpedia.org/resource/Cúc_Phương_National_Park>
+        rdf:type      yago:NationalPark108600992 ;
+        rdfs:comment  "Cúc Phương National Park (Vietnamese: Vườn quốc gia Cúc Phương) is located in Ninh Bình Province, in Vietnam's Red River Delta. Cuc Phuong was Vietnam's first national park and is the country's largest nature reserve. The park is one of the most important sites for biodiversity in Vietnam."@en ;
+        dbo:abstract  "Cúc Phương National Park (Vietnamese: Vườn quốc gia Cúc Phương) is located in Ninh Bình Province, in Vietnam's Red River Delta. Cuc Phuong was Vietnam's first national park and is the country's largest nature reserve. The park is one of the most important sites for biodiversity in Vietnam."@en ;
+        dbp:date      "2001-11-27"^^xsd:date , "2009-11-26"^^xsd:date ;
+        dbp:title     "Article on Cúc Phương Biodiversity - World Conservation Monitoring Centre"@en , "Vietnam National Parks & Reserves"@en ;
+        geo:geometry  "POINT(105.60832977295 20.316667556763)"^^virtrdf:Geometry ;
+        geo:lat       "20.316667556762695312"^^xsd:float ;
+        geo:long      "105.60832977294921875"^^xsd:float .

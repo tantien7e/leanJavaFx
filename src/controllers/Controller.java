@@ -51,7 +51,7 @@ public class Controller{
         stage.show();
     }
 
-    String[] attractions = {"Lakes", "National_Parks"};
+    String[] attractions = {"Lakes", "National_Parks", "Beaches", "Heritage_Sites", "Museums", "Temples"};
     String currentAttraction;
 
     public void loadInfor(ActionEvent event){ // when user click on load infor button, the information will get loaded 

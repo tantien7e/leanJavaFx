@@ -1,10 +1,14 @@
 package vntourism;
 
+import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.io.OutputStream;
+import java.io.OutputStreamWriter;
+import java.io.Writer;
 
 import org.apache.jena.graph.Node;
 import org.apache.jena.rdf.model.Literal;
@@ -138,9 +142,19 @@ public abstract class TouristAttractions {
 	public void display(String lang) {
 		this.lang = lang;
 		this.model.write(System.out, lang);
+		
 	}
 	public void display1(String lang){
 		this.lang = lang;
+		
+		try {
+			Writer out = new BufferedWriter(new OutputStreamWriter(
+                new FileOutputStream("F:/OOP/JavaFx/leanJavaFx/src/cache/cache.txt"), "UTF-8"));
+			this.model.write(out, lang);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		
 	}
 	
 	public void exportToFile(String filepath) {
@@ -168,7 +182,7 @@ public abstract class TouristAttractions {
 	
 	public void extractPathname() {
 		String[] pathname_tokens = pathname.split("\\\\");
-		String[] temp = pathname_tokens[pathname_tokens.length-1].split(".");
+		String[] temp = pathname_tokens[pathname_tokens.length-1].split("\\.");
 		this.name = temp[temp.length -2];
 	}
 	

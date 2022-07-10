@@ -1,0 +1,20 @@
+@prefix dbo:  <http://dbpedia.org/ontology/> .
+@prefix dbp:  <http://dbpedia.org/property/> .
+@prefix geo:  <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix yago: <http://dbpedia.org/class/yago/> .
+
+<http://dbpedia.org/resource/U_Minh_Hạ_National_Park>
+        rdf:type         yago:NationalPark108600992 ;
+        rdfs:comment     "U Minh Hạ National Park (Vietnamese: Vườn quốc gia U Minh Hạ) or National Park of Lower U Minh is a national park of Vietnam. The park is located in Cà Mau Province (communes Khánh Lâm, Khanh An of U Minh District and communes of Trần Hợi, Khánh Bình Tây Bắc of Trần Văn Thời District). The park has an area of 82.86 square kilometers and was established on 20 January 2006 to protect low wetland ecosystem in the region. Fauna and flora found here include mangrove, snake, turtle, bird, amphibian."@en ;
+        dbo:abstract     "U Minh Hạ National Park (Vietnamese: Vườn quốc gia U Minh Hạ) or National Park of Lower U Minh is a national park of Vietnam. The park is located in Cà Mau Province (communes Khánh Lâm, Khanh An of U Minh District and communes of Trần Hợi, Khánh Bình Tây Bắc of Trần Văn Thời District). The park has an area of 82.86 square kilometers and was established on 20 January 2006 to protect low wetland ecosystem in the region. Fauna and flora found here include mangrove, snake, turtle, bird, amphibian. The people living in U Minh Hạ Forest have occupations related to the forest such as raising bees, fishing, catching eels, and planting fruit trees. They are very protective of their home. The people of the forest rely on the start of the rainy season for the forest to turn into a large breeding ground for fish, so that they can catch the fish."@en ;
+        dbo:location     "southern Vietnam"@en ;
+        dbo:nearestCity  <http://dbpedia.org/resource/Cà_Mau> ;
+        dbp:area         8286 ;
+        dbp:established  2006 ;
+        dbp:location     "southern Vietnam"@en ;
+        dbp:name         "U Minh Hạ National Park"@en ;
+        geo:lat          "9.2513885498046875"^^xsd:float ;
+        geo:long         "104.94527435302734375"^^xsd:float .

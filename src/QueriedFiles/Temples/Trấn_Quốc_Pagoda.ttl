@@ -1,0 +1,26 @@
+@prefix dbo:     <http://dbpedia.org/ontology/> .
+@prefix dbp:     <http://dbpedia.org/property/> .
+@prefix dbr:     <http://dbpedia.org/resource/> .
+@prefix geo:     <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix virtrdf: <http://www.openlinksw.com/schemas/virtrdf#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+dbr:Trấn_Quốc_Pagoda  rdf:type  dbo:ReligiousBuilding ;
+        rdfs:comment        "Trấn Quốc Pagoda (Vietnamese: Chùa Trấn Quốc, chữ Hán: 寺鎭國), the oldest Buddhist temple in Hanoi, is located on a small island near the southeastern shore of Hanoi's West Lake, Vietnam."@en ;
+        rdfs:label          "Trấn Quốc Pagoda"@en ;
+        dbo:abstract        "Trấn Quốc Pagoda (Vietnamese: Chùa Trấn Quốc, chữ Hán: 寺鎭國), the oldest Buddhist temple in Hanoi, is located on a small island near the southeastern shore of Hanoi's West Lake, Vietnam."@en ;
+        dbo:country         dbr:Vietnam ;
+        dbp:caption         "Pagoda of Trấn Quốc Temple"@en ;
+        dbp:country         dbr:Vietnam ;
+        dbp:district        dbr:Tây_Hồ_District ;
+        dbp:location        <http://dbpedia.org/resource/West_Lake_(Hanoi)> ;
+        dbp:name            "Trấn Quốc Pagoda"@en ;
+        dbp:nativeName      "Chùa Trấn Quốc"@en ;
+        dbp:nativeNameLang  "vi"@en ;
+        dbp:province        dbr:Hanoi ;
+        dbp:yearCompleted   6 ;
+        geo:geometry        "POINT(105.83666992188 21.047777175903)"^^virtrdf:Geometry ;
+        geo:lat             "21.047777175903320312"^^xsd:float ;
+        geo:long            "105.836669921875"^^xsd:float .

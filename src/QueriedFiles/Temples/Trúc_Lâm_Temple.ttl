@@ -1,0 +1,15 @@
+@prefix dbo:     <http://dbpedia.org/ontology/> .
+@prefix geo:     <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix virtrdf: <http://www.openlinksw.com/schemas/virtrdf#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/resource/Trúc_Lâm_Temple>
+        rdf:type      dbo:ReligiousBuilding ;
+        rdfs:comment  "Trúc Lâm Temple (Vietnamese: Thiền Viện Trúc Lâm Sino-Vietnamese: 禪院竹林) is a Zen Buddhist temple outside the resort town of Da Lat, in Vietnam."@en ;
+        rdfs:label    "Trúc Lâm Temple"@en ;
+        dbo:abstract  "Trúc Lâm Temple (Vietnamese: Thiền Viện Trúc Lâm Sino-Vietnamese: 禪院竹林) is a Zen Buddhist temple outside the resort town of Da Lat, in Vietnam."@en ;
+        geo:geometry  "POINT(108.43643188477 11.902459144592)"^^virtrdf:Geometry ;
+        geo:lat       "11.902459144592285156"^^xsd:float ;
+        geo:long      "108.436431884765625"^^xsd:float .

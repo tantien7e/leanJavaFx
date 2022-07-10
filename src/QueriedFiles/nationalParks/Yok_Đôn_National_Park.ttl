@@ -1,0 +1,23 @@
+@prefix dbo:     <http://dbpedia.org/ontology/> .
+@prefix dbp:     <http://dbpedia.org/property/> .
+@prefix dbr:     <http://dbpedia.org/resource/> .
+@prefix geo:     <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix virtrdf: <http://www.openlinksw.com/schemas/virtrdf#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix yago:    <http://dbpedia.org/class/yago/> .
+
+dbr:Yok_Đôn_National_Park
+        rdf:type         yago:NationalPark108600992 ;
+        rdfs:comment     "Yok Don National Park (Vietnamese: Vườn quốc gia Yok Đôn) is a national park located in Krông Na commune, Buôn Đôn District, Đắk Lắk Province, Tây Nguyên of Vietnam, 40 km west of Buôn Ma Thuột city. The park was established in 1991 to protect 582 km² of a biological area of khộp lowland forest. The total area is 1,155.45 km² (not including a buffer zone of 1,138.9 km2). It borders Mondulkiri Protected Forest (Cambodia) to the west and is part of maybe the largest protected area complex in southeast Asia"@en ;
+        dbo:abstract     "Yok Don National Park (Vietnamese: Vườn quốc gia Yok Đôn) is a national park located in Krông Na commune, Buôn Đôn District, Đắk Lắk Province, Tây Nguyên of Vietnam, 40 km west of Buôn Ma Thuột city. The park was established in 1991 to protect 582 km² of a biological area of khộp lowland forest. The total area is 1,155.45 km² (not including a buffer zone of 1,138.9 km2). It borders Mondulkiri Protected Forest (Cambodia) to the west and is part of maybe the largest protected area complex in southeast Asia"@en ;
+        dbo:areaTotal    1155450000.0 ;
+        dbo:location     dbr:Vietnam , dbr:Đắk_Lắk_province ;
+        dbp:established  1986 ;
+        dbp:location     dbr:Vietnam , dbr:Đắk_Lắk_province ;
+        dbp:name         "Yok Đôn National Park"@en ;
+        dbp:photo        "Yokdon01.JPG"@en ;
+        geo:geometry     "POINT(107.67065429688 12.803756713867)"^^virtrdf:Geometry ;
+        geo:lat          "12.8037567138671875"^^xsd:float ;
+        geo:long         "107.670654296875"^^xsd:float .

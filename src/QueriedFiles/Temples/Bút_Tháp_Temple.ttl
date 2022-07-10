@@ -1,0 +1,15 @@
+@prefix dbo:     <http://dbpedia.org/ontology/> .
+@prefix geo:     <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix virtrdf: <http://www.openlinksw.com/schemas/virtrdf#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/resource/Bút_Tháp_Temple>
+        rdf:type      dbo:ReligiousBuilding ;
+        rdfs:comment  "Bút Tháp Temple (Vietnamese: Chùa Bút Tháp, hán tự: 寧福寺, Ninh Phúc tự) is a Buddhist temple located near the dyke of the Đuống River, Thuận Thành District, Bắc Ninh Province, Vietnam. The temple is also popularly called Nhan Thap Temple. The temple was built in the 13th century. The temple houses the biggest Avalokiteśvara statue with one thousand eyes and a thousand arms. But Thap Temple is one of the most famous temples in Viet Nam. Inside, there are various valuable ancient objects and statues, which are considered to be Vietnamese masterpieces of 17th-century wood carving. During the same time the temple had become famous for the venerable abbot and Zen master Chuyet Chuyet (\"thiền sư Thích Chuyết Chuyết\") 1590 - 1644."@en ;
+        rdfs:label    "Bút Tháp Temple"@en ;
+        dbo:abstract  "Bút Tháp Temple (Vietnamese: Chùa Bút Tháp, hán tự: 寧福寺, Ninh Phúc tự) is a Buddhist temple located near the dyke of the Đuống River, Thuận Thành District, Bắc Ninh Province, Vietnam. The temple is also popularly called Nhan Thap Temple. The temple was built in the 13th century. The temple houses the biggest Avalokiteśvara statue with one thousand eyes and a thousand arms. But Thap Temple is one of the most famous temples in Viet Nam. Inside, there are various valuable ancient objects and statues, which are considered to be Vietnamese masterpieces of 17th-century wood carving. During the same time the temple had become famous for the venerable abbot and Zen master Chuyet Chuyet (\"thiền sư Thích Chuyết Chuyết\") 1590 - 1644. The complex has 10 buildings spreading for 100 meters from the three-entrance gate to the bell-tower and back house. Inside the temple are more than 50 statues of different sizes including the Triad Buddha, Manjusri (Van Thu) on a blue lion and Samantabhadra (Pho Hien) on a white elephant. The most remarkable is the thousand-handed and thousand-eyed Guanyin, which is described as a sculptural masterpiece of Vietnam. The architecture, sculpture and decoration of the temple were exclusively confined to the 17th century, so it was the best intact and typical example of Vietnam’s classical Buddhist art."@en ;
+        geo:geometry  "POINT(106.02220153809 21.060829162598)"^^virtrdf:Geometry ;
+        geo:lat       "21.06082916259765625"^^xsd:float ;
+        geo:long      "106.0222015380859375"^^xsd:float .

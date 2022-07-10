@@ -1,0 +1,27 @@
+@prefix dbo:  <http://dbpedia.org/ontology/> .
+@prefix dbp:  <http://dbpedia.org/property/> .
+@prefix dbr:  <http://dbpedia.org/resource/> .
+@prefix geo:  <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix yago: <http://dbpedia.org/class/yago/> .
+
+dbr:Yên_Lập_Lake  rdf:type  yago:Lake109328904 ;
+        rdfs:comment        "Yên Lập Lake (Vietnamese: Hồ Yên Lập) is a large artificial freshwater lake in Hoành Bồ District, Quảng Ninh Province, Vietnam. Work began creating the dam on and in 1978. It has a capacity of 128 million cubic metres. \n* v \n* t \n* e"@en ;
+        rdfs:label          "Yên Lập Lake"@en ;
+        dbo:abstract        "Yên Lập Lake (Vietnamese: Hồ Yên Lập) is a large artificial freshwater lake in Hoành Bồ District, Quảng Ninh Province, Vietnam. Work began creating the dam on and in 1978. It has a capacity of 128 million cubic metres. \n* v \n* t \n* e"@en ;
+        dbo:country         dbr:Vietnam ;
+        dbo:elevation       30.199999999999999289 ;
+        dbo:inflow          dbr:Míp_River ;
+        dbo:length          20000.0 ;
+        dbo:location        dbr:Hoành_Bồ_district ;
+        dbo:maximumDepth    30.0 ;
+        dbo:width           500.0 ;
+        dbp:basinCountries  dbr:Vietnam ;
+        dbp:caption         "Yên Lập Lake"@en ;
+        dbp:location        dbr:Hoành_Bồ_district ;
+        dbp:name            "Yên Lập Lake"@en ;
+        dbp:pushpinMap      "Vietnam"@en ;
+        geo:lat             "20.999734878540039062"^^xsd:float ;
+        geo:long            "106.913726806640625"^^xsd:float .

@@ -17,10 +17,12 @@ import javafx.scene.control.TextField;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.shape.Circle;
 import javafx.stage.Stage;
+import vntourism.Beaches;
+import vntourism.HeritageSites;
 import vntourism.Lakes;
-import vntourism.Museum;
+import vntourism.Museums;
 import vntourism.NationalParks;
-import vntourism.Parks;
+import vntourism.Temples;
 
 import java.util.ResourceBundle;
 import java.util.concurrent.TimeUnit;
@@ -43,13 +45,33 @@ public class Controller2{
     public void switchToScene2(String typeOfAttaction){
             this.typeOfAttraction = typeOfAttaction;
             Initializer initializer = new Initializer();
-            if(typeOfAttaction == "Lakes"){
+            if(typeOfAttaction.equals("Lakes")){
                 for(Lakes x:initializer.lakeArr){
                     listView2.getItems().add(x.getName());
                }
             }
-            if(typeOfAttaction == "National_Parks"){
+            if(typeOfAttaction.equals("Beaches")){
+                for(Beaches x: initializer.beachArr){
+                    listView2.getItems().add(x.getName());
+                }
+            }
+            if(typeOfAttaction.equals("Heritage_Sites")){
+                for(HeritageSites x: initializer.heritageSiteArr){
+                    listView2.getItems().add(x.getName());
+                }
+            }
+            if(typeOfAttaction.equals("National_Parks")){
                 for(NationalParks x: initializer.nationalParkArr){
+                    listView2.getItems().add(x.getName());
+                }
+            }
+            if(typeOfAttaction == "Museums"){
+                for(Museums x: initializer.museumArr){
+                    listView2.getItems().add(x.getName());
+                }
+            }
+            if(typeOfAttaction == "Temples"){
+                for(Temples x: initializer.templeArr){
                     listView2.getItems().add(x.getName());
                 }
             }

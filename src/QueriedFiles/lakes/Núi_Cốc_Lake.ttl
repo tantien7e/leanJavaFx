@@ -1,14 +1,22 @@
-@prefix dbo: <http://dbpedia.org/ontology/> .
-@prefix dbp: <http://dbpedia.org/property/> .
-@prefix dbr: <http://dbpedia.org/resource/> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dbo:  <http://dbpedia.org/ontology/> .
+@prefix dbp:  <http://dbpedia.org/property/> .
+@prefix dbr:  <http://dbpedia.org/resource/> .
+@prefix geo:  <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix yago: <http://dbpedia.org/class/yago/> .
 
-dbr:Núi_Cốc_Lake  dbo:abstract  "Núi Cốc Lake (Vietnamese: Hồ Núi Cốc) is a man-made lake, approximately 25 kilometres (16 mi) west of the city of Thái Nguyên in Thái Nguyên Province, Vietnam, in Tam Đảo National Park. It is a popular visitor attraction on account of the legend associated with the 89 islands within the lake."@en ;
-        dbo:areaTotal     25000000.0 ;
-        dbo:averageDepth  23.0 ;
-        dbo:country       dbr:Vietnam ;
-        dbo:inflow        dbr:Công_River ;
-        dbo:nearestCity   dbr:Thái_Nguyên ;
-        dbp:cities        "Thái Nguyên"@en ;
-        dbp:name          "Núi Cốc Lake"@en ;
-        dbp:pushpinMap    "Vietnam"@en .
+dbr:Núi_Cốc_Lake  rdf:type  yago:Lake109328904 ;
+        rdfs:comment        "Núi Cốc Lake (Vietnamese: Hồ Núi Cốc) is a man-made lake, approximately 25 kilometres (16 mi) west of the city of Thái Nguyên in Thái Nguyên Province, Vietnam, in Tam Đảo National Park. It is a popular visitor attraction on account of the legend associated with the 89 islands within the lake."@en ;
+        rdfs:label          "Núi Cốc Lake"@en ;
+        dbo:abstract        "Núi Cốc Lake (Vietnamese: Hồ Núi Cốc) is a man-made lake, approximately 25 kilometres (16 mi) west of the city of Thái Nguyên in Thái Nguyên Province, Vietnam, in Tam Đảo National Park. It is a popular visitor attraction on account of the legend associated with the 89 islands within the lake."@en ;
+        dbo:areaTotal       25000000.0 ;
+        dbo:country         dbr:Vietnam ;
+        dbo:inflow          dbr:Công_River ;
+        dbp:basinCountries  dbr:Vietnam ;
+        dbp:caption         "Nui Coc Lake and surrounding mountains"@en ;
+        dbp:name            "Núi Cốc Lake"@en ;
+        dbp:pushpinMap      "Vietnam"@en ;
+        geo:lat             "21.57944488525390625"^^xsd:float ;
+        geo:long            "105.69388580322265625"^^xsd:float .

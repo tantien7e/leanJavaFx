@@ -1,0 +1,27 @@
+@prefix dbo:     <http://dbpedia.org/ontology/> .
+@prefix dbp:     <http://dbpedia.org/property/> .
+@prefix dbr:     <http://dbpedia.org/resource/> .
+@prefix geo:     <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix virtrdf: <http://www.openlinksw.com/schemas/virtrdf#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix yago:    <http://dbpedia.org/class/yago/> .
+
+dbr:Vietnam_Museum_of_Ethnology
+        rdf:type            yago:Museum103800563 , dbo:Museum ;
+        rdfs:comment        "The Vietnam Museum of Ethnology (Vietnamese: Bảo tàng Dân tộc học Việt Nam) is a museum in Hanoi, Vietnam, which focuses on the 54 officially recognised ethnic groups in Vietnam. It is located on a 43,799-square-metre (10.823-acre) property in the Cầu Giấy District, about 8 km from the city center. The Museum is a member of the Vietnam Academy of Social Sciences - an academic institution of the Vietnamese Government. A second exhibition building was open in 2013 and has a focus on Southeast Asian cultures and peoples."@en ;
+        rdfs:label          "Vietnam Museum of Ethnology"@en ;
+        dbo:abstract        "The Vietnam Museum of Ethnology (Vietnamese: Bảo tàng Dân tộc học Việt Nam) is a museum in Hanoi, Vietnam, which focuses on the 54 officially recognised ethnic groups in Vietnam. It is located on a 43,799-square-metre (10.823-acre) property in the Cầu Giấy District, about 8 km from the city center. The Museum is a member of the Vietnam Academy of Social Sciences - an academic institution of the Vietnamese Government. A second exhibition building was open in 2013 and has a focus on Southeast Asian cultures and peoples."@en ;
+        dbo:foundingDate    "1997-11-12"^^xsd:date ;
+        dbo:location        dbr:Cầu_Giấy_District , dbr:Hanoi , dbr:Vietnam ;
+        dbp:director        "Assoc. Prof. Dr. Bùi Nhật Quang"@en ;
+        dbp:established     "1997-11-12"^^xsd:date ;
+        dbp:location        dbr:Cầu_Giấy_District , dbr:Hanoi , dbr:Vietnam ;
+        dbp:name            "Vietnam Museum of Ethnology"@en ;
+        dbp:nativeName      "Bảo tàng Dân tộc học Việt Nam"@en ;
+        dbp:nativeNameLang  "vi"@en ;
+        dbp:website         <http://www.vme.org.vn/home/> ;
+        geo:geometry        "POINT(105.79869842529 21.040599822998)"^^virtrdf:Geometry ;
+        geo:lat             "21.040599822998046875"^^xsd:float ;
+        geo:long            "105.79869842529296875"^^xsd:float .

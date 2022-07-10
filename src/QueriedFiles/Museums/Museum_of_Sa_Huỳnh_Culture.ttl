@@ -1,0 +1,10 @@
+@prefix dbo:  <http://dbpedia.org/ontology/> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix yago: <http://dbpedia.org/class/yago/> .
+
+<http://dbpedia.org/resource/Museum_of_Sa_Huỳnh_Culture>
+        rdf:type      yago:Museum103800563 , dbo:Museum ;
+        rdfs:comment  "The Sa Huynh Culture Museum (Vietnamese: Bảo tàng Văn hóa Sa Huỳnh) is located in Hội An, in the Quảng Nam Province of central Vietnam. It is a museum showcasing the pre-historic Sa Huỳnh culture, showcasing terracotta work that has been found in the area."@en ;
+        rdfs:label    "Museum of Sa Huỳnh Culture"@en ;
+        dbo:abstract  "The Sa Huynh Culture Museum (Vietnamese: Bảo tàng Văn hóa Sa Huỳnh) is located in Hội An, in the Quảng Nam Province of central Vietnam. It is a museum showcasing the pre-historic Sa Huỳnh culture, showcasing terracotta work that has been found in the area. The museum was established in 1994, and displays a unique collection of artefacts from Sa Huynh culture, considered to be the first settlers of the port town, who cooperated and traded with countries in Southeast Asia, South India and China. This collection provides visitors with useful information about the ancient Sa Huynh culture's inhabitants and is mostly related to burial customs, conceptions of life and death, the developmental history of the region, and relationships with other cultures. Of particular significance is a collection from Bai Ong - a site on Cham Island - which traces Sa Huynh culture back by 3000 years. These collections are considered the largest and most unusual collection of Sa Huynh artefacts in Vietnam."@en .

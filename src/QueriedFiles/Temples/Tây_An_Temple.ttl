@@ -1,0 +1,9 @@
+@prefix dbo:  <http://dbpedia.org/ontology/> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://dbpedia.org/resource/Tây_An_Temple>
+        rdf:type      dbo:ReligiousBuilding ;
+        rdfs:comment  "Tây An Temple is a notable Buddhist temple in southern Vietnam, near the town of Châu Đốc in An Giang Province in the Mekong Delta, known for its historic and architectural features."@en ;
+        rdfs:label    "Tây An Temple"@en ;
+        dbo:abstract  "Tây An Temple is a notable Buddhist temple in southern Vietnam, near the town of Châu Đốc in An Giang Province in the Mekong Delta, known for its historic and architectural features."@en .

@@ -1,0 +1,13 @@
+@prefix dbo:  <http://dbpedia.org/ontology/> .
+@prefix geo:  <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/resource/Báo_Quốc_Pagoda>
+        rdf:type      dbo:ReligiousBuilding ;
+        rdfs:comment  "Báo Quốc Pagoda (Vietnamese: Chùa Báo Quốc) is a Buddhist temple in the historic city of Huế in central Vietnam. It was one of the three national pagodas of the city during the time of the Nguyễn Dynasty. The temple is located on Báo Quốc Street, in the ward of Phường Đúc in Huế. It lies on the southern side of the Perfume River and is approximately one kilometre west of the city centre. The temple is located on a small hill called Hàm Long and a spring from the top of the hill flows down into the grounds of the temple."@en ;
+        rdfs:label    "Báo Quốc Pagoda"@en ;
+        dbo:abstract  "Báo Quốc Pagoda (Vietnamese: Chùa Báo Quốc) is a Buddhist temple in the historic city of Huế in central Vietnam. It was one of the three national pagodas of the city during the time of the Nguyễn Dynasty. The temple is located on Báo Quốc Street, in the ward of Phường Đúc in Huế. It lies on the southern side of the Perfume River and is approximately one kilometre west of the city centre. The temple is located on a small hill called Hàm Long and a spring from the top of the hill flows down into the grounds of the temple."@en ;
+        geo:lat       "16.454700469970703125"^^xsd:float ;
+        geo:long      "107.5803985595703125"^^xsd:float .
