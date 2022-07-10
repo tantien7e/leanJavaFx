@@ -10,6 +10,8 @@ import javafx.scene.paint.Color;
 import javafx.scene.text.Font;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
+import vntourism.Lakes;
+import vntourism.TouristAttractions;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -22,10 +24,10 @@ public class Main extends Application {
     public void start(Stage primaryStage) throws Exception {
         Parent root;
         try{
-            root = FXMLLoader.load(getClass().getResource("scene1.fxml"));
+            root = FXMLLoader.load(getClass().getResource("../scenebuilder/scene1.fxml"));
             //root.setStyle("-fx-background-image:url('hellofx/cute2.jpg')");
             Scene scene = new Scene(root);
-            primaryStage.setTitle("To iu cau nhiu nhiu!");
+            primaryStage.setTitle("VN Tourism");
             primaryStage.setScene(scene);
             primaryStage.show();
         } catch(IOException e){
@@ -35,8 +37,10 @@ public class Main extends Application {
 
 
     public static void main(String[] args) {
-        
-        launch(args);
+        // String path = "F:\\OOP\\JavaFx\\leanJavaFx\\src\\QueriedFiles\\lakes\\Ba_B?_Lake.ttl";
+        // String[] s = path.split("\\\\");
+        // for(String x:s) System.out.println(x);
+      launch(args);
     }
 
     

@@ -1,0 +1,15 @@
+@prefix dbo:    <http://dbpedia.org/ontology/> .
+@prefix dbp:    <http://dbpedia.org/property/> .
+@prefix geo:    <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix georss: <http://www.georss.org/georss/> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix yago:   <http://dbpedia.org/class/yago/> .
+
+<http://dbpedia.org/resource/Côn_Đảo_National_Park>
+        rdf:type      yago:NationalPark108600992 ;
+        dbo:abstract  "Côn Đảo National Park (Vietnamese: Vườn quốc gia Côn Đảo) is a natural reserve area on Côn Đảo Island, in Bà Rịa–Vũng Tàu province in coastal southeastern Vietnam. The park includes a part of the island and the surrounding sea. The national park is characterized by a diverse ecosystem. Many species of corals as well as sea turtles, dolphins, and endangered dugongs are found here. In 2006, a delegation of UNESCO Vietnam representatives surveyed the area and concluded that the park is eligible to be a natural-cultural mixture World Heritage. The Vietnamese government is preparing necessary documents to submit to UNESCO soon. A controversial paved road project had been proposed by the local government but was finally rejected by the national government following protests from environmental activists. In 2017 work on the road began and it is still under construction (02/2018)."@en ;
+        dbp:name      "Con Dao National Park"@en ;
+        georss:point  "8.691666666666666 106.63333333333334" ;
+        geo:lat       "8.6916666030883789062"^^xsd:float ;
+        geo:long      "106.633331298828125"^^xsd:float .

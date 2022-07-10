@@ -1,0 +1,12 @@
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix dbr: <http://dbpedia.org/resource/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+dbr:Hoàn_Kiếm_Lake  dbo:abstract  "Hoan Kiem Lake (Vietnamese: Hồ Hoàn Kiếm, Hán tự: 湖還劍, meaning \"Lake of the Returned Sword\" or \"Lake of the Restored Sword\"), also known as Gươm Lake (Hồ Gươm (Sword Lake)) or Tả Vọng Lake ( Hồ Tả Vọng), is a fresh water lake, measuring some 12 ha in the historical center of Hanoi, the capital city of Vietnam. In the past, the lake was variously named \"Luc Thuy Lake\" (Vietnamese: Hồ Lục Thủy, meaning \"Green Water Lake\" - aptly named for the water's color) or \"Thuy Quan Lake\" (Vietnamese: Hồ Thủy Quân, meaning \"Mariner's Lake\"). The lake is one of the major scenic spots in the city and serves as a focal point for its public life."@en ;
+        dbo:averageDepth  1.1999999999999999556 ;
+        dbo:country       dbr:Vietnam ;
+        dbo:location      dbr:Hanoi ;
+        dbo:maximumDepth  2.0 ;
+        dbp:name          "Hoàn Kiếm Lake"@en ;
+        dbp:pushpinMap    "Vietnam"@en .

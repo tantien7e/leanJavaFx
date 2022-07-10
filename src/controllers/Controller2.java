@@ -1,4 +1,4 @@
-package hellofx;
+package controllers;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
@@ -17,8 +17,15 @@ import javafx.scene.control.TextField;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.shape.Circle;
 import javafx.stage.Stage;
+import vntourism.Lakes;
+import vntourism.Museum;
+import vntourism.NationalParks;
+import vntourism.Parks;
+
 import java.util.ResourceBundle;
 import java.util.concurrent.TimeUnit;
+
+import hellofx.Initializer;
 
 public class Controller2{
 
@@ -36,19 +43,14 @@ public class Controller2{
     public void switchToScene2(String typeOfAttaction){
             this.typeOfAttraction = typeOfAttaction;
             Initializer initializer = new Initializer();
-            if(typeOfAttaction == "Museum"){
-                for(Museum x:initializer.museumArr){
-                    listView2.getItems().add(x.name);
+            if(typeOfAttaction == "Lakes"){
+                for(Lakes x:initializer.lakeArr){
+                    listView2.getItems().add(x.getName());
                }
             }
-            if(typeOfAttaction == "Park"){
-                for(Parks x: initializer.parkArr){
-                    listView2.getItems().add(x.name);
-                }
-            }
-            if(typeOfAttaction == "Lake"){
-                for(Lakes x: initializer.lakeArr){
-                    listView2.getItems().add(x.name);
+            if(typeOfAttaction == "National_Parks"){
+                for(NationalParks x: initializer.nationalParkArr){
+                    listView2.getItems().add(x.getName());
                 }
             }
             
@@ -67,7 +69,7 @@ public class Controller2{
     }
     public void switchToScene1(ActionEvent event){
         try {
-            root = FXMLLoader.load(getClass().getResource("scene1.fxml"));
+            root = FXMLLoader.load(getClass().getResource("../scenebuilder/scene1.fxml"));
             stage = (Stage)((Node)event.getSource()).getScene().getWindow();
             scene = new Scene(root);
             stage.setScene(scene);
@@ -79,7 +81,7 @@ public class Controller2{
     
     public void switchToScene3(ActionEvent event){
         System.out.println("Switching to scene3");
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("scene3.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("../scenebuilder/scene3.fxml"));
         
         try {
             root = loader.load();

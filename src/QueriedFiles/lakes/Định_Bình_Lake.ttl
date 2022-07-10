@@ -1,0 +1,10 @@
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix dbr: <http://dbpedia.org/resource/> .
+
+dbr:Định_Bình_Lake  dbo:abstract  "Định Bình Lake (Vietnamese: Hồ Định Bình) is a large artificial freshwater lake in Vĩnh Thạnh District, Bình Định Province, Vietnam. Work began creating the dam on Côn River in May 2003. It has a capacity of 226 million cubic metres. The lake and dam are expected to provide irrigation for some 12,545 hectares (over 48 square miles)."@en ;
+        dbo:country     dbr:Vietnam ;
+        dbo:inflow      dbr:Côn_River ;
+        dbp:cities      "Bình Định"@en ;
+        dbp:name        "Định Bình Lake"@en ;
+        dbp:pushpinMap  "Vietnam#Southeast Asia"@en .

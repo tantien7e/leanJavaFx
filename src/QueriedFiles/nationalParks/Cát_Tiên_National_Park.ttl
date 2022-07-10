@@ -1,0 +1,17 @@
+@prefix dbo:    <http://dbpedia.org/ontology/> .
+@prefix dbp:    <http://dbpedia.org/property/> .
+@prefix dbr:    <http://dbpedia.org/resource/> .
+@prefix geo:    <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix georss: <http://www.georss.org/georss/> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix yago:   <http://dbpedia.org/class/yago/> .
+
+dbr:Cát_Tiên_National_Park
+        rdf:type      yago:NationalPark108600992 ;
+        dbo:abstract  "Cát Tiên National Park (Vietnamese: Vườn quốc gia Cát Tiên) is a national park located in the south of Vietnam, approximately 150 km north of Ho Chi Minh City. It has an area of about 720 km2 and protects one of the largest areas of lowland tropical forests left in Vietnam."@en ;
+        dbo:location  dbr:Vietnam ;
+        dbp:name      "Cat Tien National Park"@en ;
+        georss:point  "11.5 107.33333333333333" ;
+        geo:lat       "11.5"^^xsd:float ;
+        geo:long      "107.33333587646484375"^^xsd:float .

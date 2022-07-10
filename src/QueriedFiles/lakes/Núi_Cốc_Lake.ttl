@@ -1,0 +1,14 @@
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix dbr: <http://dbpedia.org/resource/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+dbr:Núi_Cốc_Lake  dbo:abstract  "Núi Cốc Lake (Vietnamese: Hồ Núi Cốc) is a man-made lake, approximately 25 kilometres (16 mi) west of the city of Thái Nguyên in Thái Nguyên Province, Vietnam, in Tam Đảo National Park. It is a popular visitor attraction on account of the legend associated with the 89 islands within the lake."@en ;
+        dbo:areaTotal     25000000.0 ;
+        dbo:averageDepth  23.0 ;
+        dbo:country       dbr:Vietnam ;
+        dbo:inflow        dbr:Công_River ;
+        dbo:nearestCity   dbr:Thái_Nguyên ;
+        dbp:cities        "Thái Nguyên"@en ;
+        dbp:name          "Núi Cốc Lake"@en ;
+        dbp:pushpinMap    "Vietnam"@en .

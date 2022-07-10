@@ -1,5 +1,5 @@
-package hellofx;
-
+package controllers;
+import vntourism.Lakes;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
@@ -11,6 +11,7 @@ import javafx.scene.control.Label;
 import javafx.scene.control.ListView;
 import javafx.scene.control.TextArea;
 
+import java.io.BufferedOutputStream;
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -29,72 +30,78 @@ import javafx.scene.control.TextField;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.shape.Circle;
 import javafx.stage.Stage;
+import vntourism.Lakes;
+import vntourism.Museum;
+import vntourism.NationalParks;
+import vntourism.Parks;
+
 import java.util.ResourceBundle;
 import java.util.concurrent.TimeUnit;
+
+import hellofx.Initializer;
+
 public class Controller3 {
     private Stage stage;
     private Scene scene;
     private Parent root;
     private String typeOfAttraction;
     private String nameOfAttraction;
-    @FXML 
+    @FXML
     TextArea textArea3;
-    
 
-    public Controller3(){}
+    public Controller3() {
+    }
 
-    public void switchToScene3(String typeOfAttraction, String nameOfAttraction){
+    public void switchToScene3(String typeOfAttraction, String nameOfAttraction) {
         this.typeOfAttraction = typeOfAttraction;
         this.nameOfAttraction = nameOfAttraction;
         Initializer initializer = new Initializer();
-        //textArea3.appendText(initializer.lakeArr.get(0).getName());
-        if(typeOfAttraction == "Lake"){
-            for(Lakes x:initializer.lakeArr){
-                if(x.name == nameOfAttraction){
-                    textArea3.appendText(x.getName()+"\n");
-                    textArea3.appendText(x.getAbstrc()+"\n");
-                    textArea3.appendText(Integer.toString(x.getYear()));
+        // textArea3.appendText(initializer.lakeArr.get(0).getName());
+        if (typeOfAttraction == "Lakes") {
+            System.out.println("found!");
+            System.out.println(nameOfAttraction);
+            for (Lakes x : initializer.lakeArr) {
+                System.out.println(x.getPathname());
+                if (x.getPathname() == nameOfAttraction) {
+                    x.display1("TURTLE");
+                    x.display("TURTLE");
+                    textArea3.appendText(x.getModel().toString());
+                    textArea3.appendText("arg0"); 
                 }
             }
         }
-        if(typeOfAttraction == "Park"){
-            for(Parks x:initializer.parkArr){
-                if(x.name == nameOfAttraction){
-                    textArea3.appendText(x.getName()+ "\n");
-                    textArea3.appendText(x.getAbstrc()+ "\n");
-                    textArea3.appendText(Integer.toString(x.getYear()));
+        if (typeOfAttraction == "National_Parks") {
+            System.out.println("found!");
+            for (NationalParks x : initializer.nationalParkArr) {
+                if (x.getPathname() == nameOfAttraction) {
+                    x.display1("TURTLE");
+                    x.display("TURTLE");
+                    textArea3.appendText(x.getModel().toString());
+                    textArea3.appendText("arg0"); 
                 }
             }
         }
-        if(typeOfAttraction == "Museum"){
-            for(Museum x:initializer.museumArr){
-                if(x.name == nameOfAttraction){
-                    textArea3.appendText(x.getName()+ "\n");
-                    textArea3.appendText(x.getAbstrc()+"\n");
-                    textArea3.appendText(Integer.toString(x.getYear()));
-                }
-            }
-        }
+        textArea3.appendText("xin chào bug!");
+        
     }
 
-    public void printToTxt(ActionEvent event) throws IOException{
+    public void printToTxt(ActionEvent event) throws IOException {
         String content = textArea3.getText();
         Writer out = new BufferedWriter(new OutputStreamWriter(
-            new FileOutputStream("data.txt"), "UTF-8"));
+                new FileOutputStream("data.txt"), "UTF-8"));
         try {
             out.write(content);
-        } catch (IOException e){
+        } catch (IOException e) {
             e.printStackTrace();
-        } 
-        
+        }
+
         finally {
             out.close();
         }
     }
-    public void printToTtl(ActionEvent event) throws IOException{
+
+    public void printToTtl(ActionEvent event) throws IOException {
 
     }
-
-
 
 }

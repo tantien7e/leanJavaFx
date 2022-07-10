@@ -1,4 +1,4 @@
-package hellofx;
+package controllers;
 
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -34,22 +34,9 @@ public class Controller{
     @FXML
     private Button selectButton;
 
-
-    public void switchToScene1(ActionEvent event){
-        try {
-            root = FXMLLoader.load(getClass().getResource("scene1.fxml"));
-            stage = (Stage)((Node)event.getSource()).getScene().getWindow();
-            scene = new Scene(root);
-            stage.setScene(scene);
-            stage.show();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
-
-    public void switchToScene2(ActionEvent event){
+    public void switchToScene2(ActionEvent event){ // when user click on select button then switch to scene 2
    
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("scene2.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("../scenebuilder/scene2.fxml"));
         try {
             root = loader.load();
         } catch (IOException e) {
@@ -64,37 +51,10 @@ public class Controller{
         stage.show();
     }
 
-
-    public void switchToScene3(ActionEvent event){
-        try {
-            root = FXMLLoader.load(getClass().getResource("scene3.fxml"));
-            stage = (Stage)((Node)event.getSource()).getScene().getWindow();
-            scene = new Scene(root);
-            stage.setScene(scene);
-            stage.show();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
-    public void switchToScene4(ActionEvent event){
-        try {
-            root = FXMLLoader.load(getClass().getResource("scene4.fxml"));
-            stage = (Stage)((Node)event.getSource()).getScene().getWindow();
-            scene = new Scene(root);
-            stage.setScene(scene);
-            stage.show();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
-
-    
-
-
-    String[] attractions = {"Museum", "Park", "Lake"};
+    String[] attractions = {"Lakes", "National_Parks"};
     String currentAttraction;
 
-    public void loadInfor(ActionEvent event){
+    public void loadInfor(ActionEvent event){ // when user click on load infor button, the information will get loaded 
         myListView.getItems().addAll(attractions);
         myListView.getSelectionModel().selectedItemProperty().addListener(new ChangeListener<String>() {
 

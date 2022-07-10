@@ -1,0 +1,17 @@
+@prefix dbo:    <http://dbpedia.org/ontology/> .
+@prefix dbp:    <http://dbpedia.org/property/> .
+@prefix dbr:    <http://dbpedia.org/resource/> .
+@prefix geo:    <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix georss: <http://www.georss.org/georss/> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix yago:   <http://dbpedia.org/class/yago/> .
+
+dbr:Hoàng_Liên_National_Park
+        rdf:type      yago:NationalPark108600992 ;
+        dbo:abstract  "Hoang Lien National Park (Vietnamese language: Vườn quốc gia Hoàng Liên ) is a national park within , in the districts of Sa Pa and Than Uyên of Lào Cai Province, and part of Phong Thổ District in Lai Châu Province. The national park was established according to the Decision number 90/2002/QĐ-TTg dated 12 July 2006 by the government of Vietnam. This decision turned the Nature Reserve into National Park."@en ;
+        dbo:location  dbr:Northern_Vietnam ;
+        dbp:name      "Hoàng Liên National Park"@en ;
+        georss:point  "22.25 103.5" ;
+        geo:lat       "22.25"^^xsd:float ;
+        geo:long      "103.5"^^xsd:float .

@@ -1,0 +1,15 @@
+@prefix dbo:    <http://dbpedia.org/ontology/> .
+@prefix dbp:    <http://dbpedia.org/property/> .
+@prefix geo:    <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix georss: <http://www.georss.org/georss/> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix yago:   <http://dbpedia.org/class/yago/> .
+
+<http://dbpedia.org/resource/Bến_En_National_Park>
+        rdf:type      yago:NationalPark108600992 ;
+        dbo:abstract  "Ben En National Park (Vietnamese: Vườn quốc gia Bến En) is a national park in Thanh Hóa Province, Vietnam. The national park was founded by the decision 33 dated 27 January 1992 of the Chairman of the Council of Ministers of Vietnam."@en ;
+        dbp:name      "Ben En National Park"@en ;
+        georss:point  "19.616666666666667 105.525" ;
+        geo:lat       "19.616666793823242188"^^xsd:float ;
+        geo:long      "105.52500152587890625"^^xsd:float .

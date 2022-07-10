@@ -1,4 +1,4 @@
-package hellofx;
+package vntourism;
 
 public class Museum {
     String name;

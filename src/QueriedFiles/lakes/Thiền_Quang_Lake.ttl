@@ -1,0 +1,9 @@
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix dbr: <http://dbpedia.org/resource/> .
+
+dbr:Thiền_Quang_Lake  dbo:abstract  "Halais Lake is a lake in Hanoi, Vietnam, located next to Nguyễn Du Street, which used to be named \"Rue Halais\" under the French (1888-1945), hence the name \"Halais\". According to Vietnamese sources, it should be spelled \"Halais Lake\", the French name for the lake called \"Hồ Thiền Quang\" in Vietnamese."@en ;
+        dbo:country     dbr:Vietnam ;
+        dbo:location    dbr:Hanoi ;
+        dbp:name        "Halais Lake"@en ;
+        dbp:pushpinMap  "Vietnam"@en .

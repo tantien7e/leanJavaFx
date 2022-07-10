@@ -1,18 +1,17 @@
-package hellofx;
+package vntourism;
 
-public class Lakes {
+public class Parks {
     String name;
     String abstrc;
     int year;
     
-    
-    public Lakes(){}
-    public Lakes(String name, String abstrc, int year){
+    public Parks(){}
+    public Parks(String name, String abstrc, int year){
         setAbstrc(abstrc);
         setName(name);
         setYear(year);
     }
-
+    
     
     public String getName() {
         return name;
