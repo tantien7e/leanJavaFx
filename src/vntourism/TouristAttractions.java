@@ -22,7 +22,7 @@ import org.apache.jena.rdf.model.Statement;
 import org.apache.jena.riot.RDFDataMgr;
 
 
-public abstract class TouristAttractions {
+public class TouristAttractions {
 	private Model model;
 	private String pathname;
 	private String name;

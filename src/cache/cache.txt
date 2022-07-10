@@ -1,15 +1,26 @@
-@prefix dbo:    <http://dbpedia.org/ontology/> .
-@prefix dbp:    <http://dbpedia.org/property/> .
-@prefix geo:    <http://www.w3.org/2003/01/geo/wgs84_pos#> .
-@prefix georss: <http://www.georss.org/georss/> .
-@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
-@prefix yago:   <http://dbpedia.org/class/yago/> .
+@prefix dbo:  <http://dbpedia.org/ontology/> .
+@prefix dbp:  <http://dbpedia.org/property/> .
+@prefix dbr:  <http://dbpedia.org/resource/> .
+@prefix geo:  <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix yago: <http://dbpedia.org/class/yago/> .
 
-<http://dbpedia.org/resource/Bến_En_National_Park>
-        rdf:type      yago:NationalPark108600992 ;
-        dbo:abstract  "Ben En National Park (Vietnamese: Vườn quốc gia Bến En) is a national park in Thanh Hóa Province, Vietnam. The national park was founded by the decision 33 dated 27 January 1992 of the Chairman of the Council of Ministers of Vietnam."@en ;
-        dbp:name      "Ben En National Park"@en ;
-        georss:point  "19.616666666666667 105.525" ;
-        geo:lat       "19.616666793823242188"^^xsd:float ;
-        geo:long      "105.52500152587890625"^^xsd:float .
+dbr:Ba_Bể_Lake  rdf:type    yago:Lake109328904 ;
+        rdfs:comment        "Ba Bể Lake (Vietnamese: Hồ Ba Bể; Ba means Three, Bể is from the Tay language word pé, meaning \"lake\") is the largest natural lake in Vietnam. It is located in Nam Mẫu commune, Ba Bể district, Bắc Kạn Province in the Northeast region of the country. Ba Bể Lake is a featured geographical science and is a biodiversity reservoir. It is a part of the Ba Bể National Park. It is home to a range of animals and plants."@en ;
+        rdfs:label          "Ba Bể Lake"@en ;
+        dbo:abstract        "Ba Bể Lake (Vietnamese: Hồ Ba Bể; Ba means Three, Bể is from the Tay language word pé, meaning \"lake\") is the largest natural lake in Vietnam. It is located in Nam Mẫu commune, Ba Bể district, Bắc Kạn Province in the Northeast region of the country. Having been formed approximately 200 million years ago, the lake is surrounded by limestone cliffs, which in turn are covered by primary forests. The lake comprises three zones named Pé Lầm, Pé Lù, and Pé Lèng. Three rivers, named Năng, Tả Han, and Nam Cường, are the main inflows of the lake. The Năng river enters the lake through a large waterfall called Đầu Đẳng. In the lake there are also three islands, named Án Mã, Khẩu Cúm, and Po Gia Mải (literally \"Widow's Island\"). Ba Bể Lake is a featured geographical science and is a biodiversity reservoir. It is a part of the Ba Bể National Park. It is home to a range of animals and plants."@en ;
+        dbo:areaTotal       6500000.0 ;
+        dbo:country         dbr:Vietnam ;
+        dbo:elevation       145.0 ;
+        dbo:length          8000.0 ;
+        dbo:location        dbr:Bắc_Kạn_province ;
+        dbo:maximumDepth    29.0 ;
+        dbp:alt             "A lake with islands and sides all covered in trees"@en ;
+        dbp:basinCountries  "Vietnam"@en ;
+        dbp:location        dbr:Bắc_Kạn_province ;
+        dbp:name            "Ba Bể Lake"@en ;
+        dbp:pushpinMap      "Vietnam"@en ;
+        geo:lat             "22.416666030883789062"^^xsd:float ;
+        geo:long            "105.616668701171875"^^xsd:float .
