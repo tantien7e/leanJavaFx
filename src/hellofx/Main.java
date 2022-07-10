@@ -23,8 +23,9 @@ public class Main extends Application {
         Parent root;
         try{
             root = FXMLLoader.load(getClass().getResource("scene1.fxml"));
+            //root.setStyle("-fx-background-image:url('hellofx/cute2.jpg')");
             Scene scene = new Scene(root);
-            primaryStage.setTitle("Hello World!");
+            primaryStage.setTitle("To iu cau nhiu nhiu!");
             primaryStage.setScene(scene);
             primaryStage.show();
         } catch(IOException e){
@@ -34,6 +35,7 @@ public class Main extends Application {
 
 
     public static void main(String[] args) {
+        
         launch(args);
     }
 

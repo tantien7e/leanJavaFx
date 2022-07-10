@@ -27,6 +27,14 @@ public class Controller{
     private Scene scene;
     private Parent root;
 
+    @FXML
+    private ListView<String> myListView;
+    @FXML
+    private Label myLabel;
+    @FXML
+    private Button selectButton;
+
+
     public void switchToScene1(ActionEvent event){
         try {
             root = FXMLLoader.load(getClass().getResource("scene1.fxml"));
@@ -49,8 +57,7 @@ public class Controller{
             e.printStackTrace();
         }
         Controller2 controller2 = loader.getController();
-        System.out.println("prepare");
-        controller2.switchToScene2();
+        controller2.switchToScene2(currentAttraction);
         scene = new Scene(root);
         stage = (Stage)((Node)event.getSource()).getScene().getWindow();
         stage.setScene(scene);
@@ -81,19 +88,24 @@ public class Controller{
         }
     }
 
-    @FXML
-    private ListView<String> myListView;
-    @FXML
-    private Label myLabel;
-    @FXML
-    private Button selectButton;
+    
 
 
-    String[] attractions = {"Museum", "Park", "Lakes"};
+    String[] attractions = {"Museum", "Park", "Lake"};
     String currentAttraction;
 
     public void loadInfor(ActionEvent event){
         myListView.getItems().addAll(attractions);
+        myListView.getSelectionModel().selectedItemProperty().addListener(new ChangeListener<String>() {
+
+            @Override
+            public void changed(ObservableValue<? extends String> arg0, String arg1, String arg2) {
+                // TODO Auto-generated method stub
+                System.out.println("Selected Item: "+ arg2);
+                currentAttraction = arg2;
+                System.out.println(currentAttraction);
+            }
+        });
     }
     
 }

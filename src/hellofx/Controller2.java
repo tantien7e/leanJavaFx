@@ -28,15 +28,30 @@ public class Controller2{
     private Stage stage;
     private Scene scene;
     private Parent root;
+    private String nameOfAttraction;
+    private String typeOfAttraction;
     
     public Controller2(){}
     
-    public void switchToScene2(){
-
+    public void switchToScene2(String typeOfAttaction){
+            this.typeOfAttraction = typeOfAttaction;
             Initializer initializer = new Initializer();
-            for(Museum x:initializer.museumArr){
-                 listView2.getItems().add(x.name);
+            if(typeOfAttaction == "Museum"){
+                for(Museum x:initializer.museumArr){
+                    listView2.getItems().add(x.name);
+               }
             }
+            if(typeOfAttaction == "Park"){
+                for(Parks x: initializer.parkArr){
+                    listView2.getItems().add(x.name);
+                }
+            }
+            if(typeOfAttaction == "Lake"){
+                for(Lakes x: initializer.lakeArr){
+                    listView2.getItems().add(x.name);
+                }
+            }
+            
 
             listView2.getSelectionModel().selectedItemProperty().addListener(new ChangeListener<String>() {
 
@@ -44,18 +59,40 @@ public class Controller2{
                 public void changed(ObservableValue<? extends String> arg0, String arg1, String arg2) {
                     // TODO Auto-generated method stub
                     System.out.println("Selected Item: "+ arg2);
+                    nameOfAttraction = arg2;
                 }
             });
 
             
     }
-    public void loadInfor(ActionEvent event){
-        
-        
-    }
-    public void selectInfor(ActionEvent event){
-        
+    public void switchToScene1(ActionEvent event){
+        try {
+            root = FXMLLoader.load(getClass().getResource("scene1.fxml"));
+            stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+            scene = new Scene(root);
+            stage.setScene(scene);
+            stage.show();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
     
+    public void switchToScene3(ActionEvent event){
+        System.out.println("Switching to scene3");
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("scene3.fxml"));
+        
+        try {
+            root = loader.load();
+        } catch (IOException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
+        Controller3 controller3 = loader.getController();
+        controller3.switchToScene3(typeOfAttraction, nameOfAttraction);
+        scene = new Scene(root);
+        stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+        stage.setScene(scene);
+        stage.show();
+    }
     
 }
