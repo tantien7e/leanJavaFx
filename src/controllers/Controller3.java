@@ -104,8 +104,10 @@ public class Controller3 {
                 if (this.nameOfAttraction.equals(x.getName())) {
                     x.display1(lang);
                     attraction = x;
-                    Path path = Paths.get("D:/Project_OOP/HelloFx/src/cache/cache.txt");
-                    try (BufferedReader reader = Files.newBufferedReader(path)) {
+                    try{
+                        String currentPath = new java.io.File(".").getCanonicalPath();
+                        Path path = Paths.get(currentPath+"/src/cache/cache.txt");
+                        BufferedReader reader = Files.newBufferedReader(path);
                         String str;
                         while ((str = reader.readLine()) != null) {
                             textArea3.appendText(str + "\n");
@@ -121,8 +123,10 @@ public class Controller3 {
                 if (this.nameOfAttraction.equals(x.getName())) {
                     x.display1(lang);
                     attraction = x;
-                    Path path = Paths.get("D:/Project_OOP/HelloFx/src/cache/cache.txt");
-                    try (BufferedReader reader = Files.newBufferedReader(path)) {
+                    try{
+                        String currentPath = new java.io.File(".").getCanonicalPath();
+                        Path path = Paths.get(currentPath+"/src/cache/cache.txt");
+                        BufferedReader reader = Files.newBufferedReader(path);
                         String str;
                         while ((str = reader.readLine()) != null) {
                             textArea3.appendText(str + "\n");
@@ -138,8 +142,10 @@ public class Controller3 {
                 if (this.nameOfAttraction.equals(x.getName())) {
                     x.display1(lang);
                     attraction = x;
-                    Path path = Paths.get("D:/Project_OOP/HelloFx/src/cache/cache.txt");
-                    try (BufferedReader reader = Files.newBufferedReader(path)) {
+                    try{
+                        String currentPath = new java.io.File(".").getCanonicalPath();
+                        Path path = Paths.get(currentPath+"/src/cache/cache.txt");
+                        BufferedReader reader = Files.newBufferedReader(path);
                         String str;
                         while ((str = reader.readLine()) != null) {
                             textArea3.appendText(str + "\n");
@@ -155,8 +161,10 @@ public class Controller3 {
                 if (this.nameOfAttraction.equals(x.getName())) {
                     x.display1(lang);
                     attraction = x;
-                    Path path = Paths.get("D:/Project_OOP/HelloFx/src/cache/cache.txt");
-                    try (BufferedReader reader = Files.newBufferedReader(path)) {
+                    try{
+                        String currentPath = new java.io.File(".").getCanonicalPath();
+                        Path path = Paths.get(currentPath+"/src/cache/cache.txt");
+                        BufferedReader reader = Files.newBufferedReader(path);
                         String str;
                         while ((str = reader.readLine()) != null) {
                             textArea3.appendText(str + "\n");
@@ -172,8 +180,10 @@ public class Controller3 {
                 if (this.nameOfAttraction.equals(x.getName())) {
                     x.display1(lang);
                     attraction = x;
-                    Path path = Paths.get("D:/Project_OOP/HelloFx/src/cache/cache.txt");
-                    try (BufferedReader reader = Files.newBufferedReader(path)) {
+                    try{
+                        String currentPath = new java.io.File(".").getCanonicalPath();
+                        Path path = Paths.get(currentPath+"/src/cache/cache.txt");
+                        BufferedReader reader = Files.newBufferedReader(path);
                         String str;
                         while ((str = reader.readLine()) != null) {
                             textArea3.appendText(str + "\n");
@@ -194,8 +204,10 @@ public class Controller3 {
                 if (this.nameOfAttraction.equals(x.getName())) {
                     x.display1(lang);
                     attraction = x;
-                    Path path = Paths.get("D:/Project_OOP/HelloFx/src/cache/cache.txt");
-                    try (BufferedReader reader = Files.newBufferedReader(path)) {
+                    try{
+                        String currentPath = new java.io.File(".").getCanonicalPath();
+                        Path path = Paths.get(currentPath+"/src/cache/cache.txt");
+                        BufferedReader reader = Files.newBufferedReader(path);
                         String str;
                         while ((str = reader.readLine()) != null) {
                             textArea3.appendText(str + "\n");
@@ -211,8 +223,10 @@ public class Controller3 {
                 if (this.nameOfAttraction.equals(x.getName())) {
                     x.display1(lang);
                     attraction = x;
-                    Path path = Paths.get("D:/Project_OOP/HelloFx/src/cache/cache.txt");
-                    try (BufferedReader reader = Files.newBufferedReader(path)) {
+                    try{
+                        String currentPath = new java.io.File(".").getCanonicalPath();
+                        Path path = Paths.get(currentPath+"/src/cache/cache.txt");
+                        BufferedReader reader = Files.newBufferedReader(path);
                         String str;
                         while ((str = reader.readLine()) != null) {
                             textArea3.appendText(str + "\n");
@@ -228,8 +242,10 @@ public class Controller3 {
                 if (this.nameOfAttraction.equals(x.getName())) {
                     x.display1(lang);
                     attraction = x;
-                    Path path = Paths.get("D:/Project_OOP/HelloFx/src/cache/cache.txt");
-                    try (BufferedReader reader = Files.newBufferedReader(path)) {
+                    try{
+                        String currentPath = new java.io.File(".").getCanonicalPath();
+                        Path path = Paths.get(currentPath+"/src/cache/cache.txt");
+                        BufferedReader reader = Files.newBufferedReader(path);
                         String str;
                         while ((str = reader.readLine()) != null) {
                             textArea3.appendText(str + "\n");
@@ -245,8 +261,10 @@ public class Controller3 {
                 if (this.nameOfAttraction.equals(x.getName())) {
                     x.display1(lang);
                     attraction = x;
-                    Path path = Paths.get("D:/Project_OOP/HelloFx/src/cache/cache.txt");
-                    try (BufferedReader reader = Files.newBufferedReader(path)) {
+                    try{
+                        String currentPath = new java.io.File(".").getCanonicalPath();
+                        Path path = Paths.get(currentPath+"/src/cache/cache.txt");
+                        BufferedReader reader = Files.newBufferedReader(path);
                         String str;
                         while ((str = reader.readLine()) != null) {
                             textArea3.appendText(str + "\n");
@@ -262,8 +280,10 @@ public class Controller3 {
                 if (this.nameOfAttraction.equals(x.getName())) {
                     x.display1(lang);
                     attraction = x;
-                    Path path = Paths.get("D:/Project_OOP/HelloFx/src/cache/cache.txt");
-                    try (BufferedReader reader = Files.newBufferedReader(path)) {
+                    try{
+                        String currentPath = new java.io.File(".").getCanonicalPath();
+                        Path path = Paths.get(currentPath+"/src/cache/cache.txt");
+                        BufferedReader reader = Files.newBufferedReader(path);
                         String str;
                         while ((str = reader.readLine()) != null) {
                             textArea3.appendText(str + "\n");
@@ -279,8 +299,10 @@ public class Controller3 {
                 if (this.nameOfAttraction.equals(x.getName())) {
                     x.display1(lang);
                     attraction = x;
-                    Path path = Paths.get("D:/Project_OOP/HelloFx/src/cache/cache.txt");
-                    try (BufferedReader reader = Files.newBufferedReader(path)) {
+                    try{
+                        String currentPath = new java.io.File(".").getCanonicalPath();
+                        Path path = Paths.get(currentPath+"/src/cache/cache.txt");
+                        BufferedReader reader = Files.newBufferedReader(path);
                         String str;
                         while ((str = reader.readLine()) != null) {
                             textArea3.appendText(str + "\n");
