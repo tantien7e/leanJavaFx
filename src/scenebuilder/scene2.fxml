@@ -13,8 +13,8 @@
             <Font name="Script MT Bold" size="30.0" />
          </font>
       </Label>
-      <Button layoutX="276.0" layoutY="321.0" mnemonicParsing="false" onAction="#switchToScene3" text="Select" />
-      <ListView fx:id="listView2" layoutX="200.0" layoutY="101.0" prefHeight="200.0" prefWidth="200.0" />
-      <Button layoutX="99.0" layoutY="188.0" mnemonicParsing="false" onAction="#switchToScene1" text="Return" />
+      <Button layoutX="277.0" layoutY="339.0" mnemonicParsing="false" onAction="#switchToScene3" text="Select" />
+      <ListView fx:id="listView2" layoutX="159.0" layoutY="83.0" prefHeight="235.0" prefWidth="283.0" />
+      <Button layoutX="77.0" layoutY="188.0" mnemonicParsing="false" onAction="#switchToScene1" text="Return" />
    </children>
 </AnchorPane>

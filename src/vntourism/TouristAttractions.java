@@ -146,10 +146,10 @@ public class TouristAttractions {
 	}
 	public void display1(String lang){
 		this.lang = lang;
-		
 		try {
+			String currentPath = new java.io.File(".").getCanonicalPath();
 			Writer out = new BufferedWriter(new OutputStreamWriter(
-                new FileOutputStream("F:/OOP/JavaFx/leanJavaFx/src/cache/cache.txt"), "UTF-8"));
+                new FileOutputStream(currentPath+"/src/cache/cache.txt"), "UTF-8"));
 			this.model.write(out, lang);
 		} catch (IOException e) {
 			e.printStackTrace();
@@ -181,9 +181,9 @@ public class TouristAttractions {
 	}
 	
 	public void extractPathname() {
-		String[] pathname_tokens = pathname.split("\\\\");
-		String[] temp = pathname_tokens[pathname_tokens.length-1].split("\\.");
-		this.name = temp[temp.length -2];
+		String[] pathname_tokens = pathname.split("\\.");
+		String[] temp = pathname_tokens[0].split("\\\\");
+		this.name = temp[temp.length - 1];
 	}
 	
 	

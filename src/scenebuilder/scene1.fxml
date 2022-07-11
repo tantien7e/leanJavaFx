@@ -9,13 +9,13 @@
 <AnchorPane id="mainPage" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" styleClass="anchor" stylesheets="@../hellofx/application.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.Controller">
    
    <children>
-      <ListView fx:id="myListView" layoutX="198.0" layoutY="97.0" opacity="0.85" prefHeight="189.0" prefWidth="200.0" />
-      <Button fx:id="selectButton" layoutX="276.0" layoutY="313.0" mnemonicParsing="false" onAction="#switchToScene2" text="Select" />
+      <ListView fx:id="myListView" layoutX="165.0" layoutY="75.0" opacity="0.85" prefHeight="250.0" prefWidth="270.0" />
+      <Button fx:id="selectButton" layoutX="276.0" layoutY="345.0" mnemonicParsing="false" onAction="#switchToScene2" text="Select" />
       <Label fx:id="myLabel" alignment="CENTER" layoutX="-2.0" layoutY="25.0" prefHeight="17.0" prefWidth="600.0" text="What type of attraction you want to visit? ">
          <font>
             <Font name="Script MT Bold" size="25.0" />
          </font>
       </Label>
-      <Button layoutX="110.0" layoutY="182.0" mnemonicParsing="false" onAction="#loadInfor" text="LoadInfo" />
+      <Button layoutX="67.0" layoutY="179.0" mnemonicParsing="false" onAction="#loadInfor" text="LoadInfo" />
    </children>
 </AnchorPane>

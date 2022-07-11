@@ -1,26 +1,25 @@
-@prefix dbo:  <http://dbpedia.org/ontology/> .
-@prefix dbp:  <http://dbpedia.org/property/> .
-@prefix dbr:  <http://dbpedia.org/resource/> .
-@prefix geo:  <http://www.w3.org/2003/01/geo/wgs84_pos#> .
-@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
-@prefix yago: <http://dbpedia.org/class/yago/> .
-
-dbr:Ba_Bể_Lake  rdf:type    yago:Lake109328904 ;
-        rdfs:comment        "Ba Bể Lake (Vietnamese: Hồ Ba Bể; Ba means Three, Bể is from the Tay language word pé, meaning \"lake\") is the largest natural lake in Vietnam. It is located in Nam Mẫu commune, Ba Bể district, Bắc Kạn Province in the Northeast region of the country. Ba Bể Lake is a featured geographical science and is a biodiversity reservoir. It is a part of the Ba Bể National Park. It is home to a range of animals and plants."@en ;
-        rdfs:label          "Ba Bể Lake"@en ;
-        dbo:abstract        "Ba Bể Lake (Vietnamese: Hồ Ba Bể; Ba means Three, Bể is from the Tay language word pé, meaning \"lake\") is the largest natural lake in Vietnam. It is located in Nam Mẫu commune, Ba Bể district, Bắc Kạn Province in the Northeast region of the country. Having been formed approximately 200 million years ago, the lake is surrounded by limestone cliffs, which in turn are covered by primary forests. The lake comprises three zones named Pé Lầm, Pé Lù, and Pé Lèng. Three rivers, named Năng, Tả Han, and Nam Cường, are the main inflows of the lake. The Năng river enters the lake through a large waterfall called Đầu Đẳng. In the lake there are also three islands, named Án Mã, Khẩu Cúm, and Po Gia Mải (literally \"Widow's Island\"). Ba Bể Lake is a featured geographical science and is a biodiversity reservoir. It is a part of the Ba Bể National Park. It is home to a range of animals and plants."@en ;
-        dbo:areaTotal       6500000.0 ;
-        dbo:country         dbr:Vietnam ;
-        dbo:elevation       145.0 ;
-        dbo:length          8000.0 ;
-        dbo:location        dbr:Bắc_Kạn_province ;
-        dbo:maximumDepth    29.0 ;
-        dbp:alt             "A lake with islands and sides all covered in trees"@en ;
-        dbp:basinCountries  "Vietnam"@en ;
-        dbp:location        dbr:Bắc_Kạn_province ;
-        dbp:name            "Ba Bể Lake"@en ;
-        dbp:pushpinMap      "Vietnam"@en ;
-        geo:lat             "22.416666030883789062"^^xsd:float ;
-        geo:long            "105.616668701171875"^^xsd:float .
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+    xmlns:virtrdf="http://www.openlinksw.com/schemas/virtrdf#"
+    xmlns:dbo="http://dbpedia.org/ontology/"
+    xmlns:yago="http://dbpedia.org/class/yago/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:dbp="http://dbpedia.org/property/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <yago:Location100027167 rdf:about="http://dbpedia.org/resource/Cát_Bà_Island">
+    <dbp:name xml:lang="en">Cát Bà Island</dbp:name>
+    <rdfs:comment xml:lang="en">Cát Bà Island is the largest of the 367 islands spanning 260 km2 (100 sq mi) that comprise the Cat Ba Archipelago, which makes up the southeastern edge of Lan Ha Bay in Northern Vietnam. Cat Ba island has a surface area of 285 km2 (110 sq mi) and maintains the dramatic and rugged features of Ha Long Bay.</rdfs:comment>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >20.799999237060546875</geo:lat>
+    <dbo:country xml:lang="en">Vietnam</dbo:country>
+    <dbo:abstract xml:lang="en">Cát Bà Island is the largest of the 367 islands spanning 260 km2 (100 sq mi) that comprise the Cat Ba Archipelago, which makes up the southeastern edge of Lan Ha Bay in Northern Vietnam. Cat Ba island has a surface area of 285 km2 (110 sq mi) and maintains the dramatic and rugged features of Ha Long Bay.</dbo:abstract>
+    <rdfs:label xml:lang="en">Cát Bà Island</rdfs:label>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/WorldHeritageSite"/>
+    <dbp:country xml:lang="en">Vietnam</dbp:country>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >106.999725341796875</geo:long>
+    <geo:geometry rdf:datatype="http://www.openlinksw.com/schemas/virtrdf#Geometry"
+    >POINT(106.9997253418 20.799999237061)</geo:geometry>
+  </yago:Location100027167>
+</rdf:RDF>

@@ -17,6 +17,7 @@
         "d:\\Project_OOP\\javafx-sdk-18.0.1\\lib\\javafx.swing.jar",
         "d:\\Project_OOP\\javafx-sdk-18.0.1\\lib\\javafx.web.jar",
         "d:\\Project_OOP\\javafx-sdk-18.0.1\\lib\\javafx-swt.jar",
-        "f:\\OOP\\JavaFx\\apache-jena-fuseki-4.5.0\\fuseki-server.jar"
+        "f:\\OOP\\JavaFx\\apache-jena-fuseki-4.5.0\\fuseki-server.jar",
+        "d:\\Project_OOP\\apache-jena-fuseki-4.5.0\\fuseki-server.jar"
     ]
 }

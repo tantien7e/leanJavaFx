@@ -38,17 +38,6 @@ public class Main extends Application {
 
 
     public static void main(String[] args) {
-        // File myfile = new File("temp.txt");
-        // System.out.println(myfile.getAbsolutePath());
-        // String[] sub = myfile.getAbsolutePath().split("\\\\");
-        // for(String x : sub) System.out.println(x);
-        // String subsub = sub[sub.length-1];
-        // System.out.println(subsub);
-        // String[] s = subsub.split("\\.");
-        // for(String x: s) System.out.println(x);
-        
       launch(args);
     }
-
-    
 }

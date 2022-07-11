@@ -13,12 +13,8 @@
             <Font name="Script MT Bold" size="27.0" />
          </font>
       </Label>
-      <Button layoutX="430.0" layoutY="78.0" mnemonicParsing="false" onAction="#DisplayInTurtle" text="Display in Turtle Format" />
-      <TextArea fx:id="textArea3" layoutX="37.0" layoutY="67.0" prefHeight="190.0" prefWidth="369.0" />
-      <Button layoutX="429.0" layoutY="129.0" mnemonicParsing="false" onAction="#DisplayInXML" prefHeight="25.0" prefWidth="142.0" text="Display in XML Format" />
-      <TextArea fx:id="textArea4" layoutX="37.0" layoutY="282.0" prefHeight="87.0" prefWidth="369.0" />
-      <Button layoutX="438.0" layoutY="333.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="125.0" text="Add Statement" />
-      <Button layoutX="458.0" layoutY="200.0" mnemonicParsing="false" text="Export to file" />
-      <Button layoutX="438.0" layoutY="301.0" mnemonicParsing="false" onAction="#addPrefix" prefHeight="25.0" prefWidth="125.0" text="Add Prefix" />
+      <Button layoutX="430.0" layoutY="353.0" mnemonicParsing="false" onAction="#DisplayInTurtle" text="Display in Turtle Format" />
+      <TextArea fx:id="textArea3" layoutX="37.0" layoutY="67.0" prefHeight="265.0" prefWidth="535.0" />
+      <Button layoutX="37.0" layoutY="353.0" mnemonicParsing="false" onAction="#DisplayInXML" prefHeight="25.0" prefWidth="142.0" text="Display in XML Format" />
    </children>
 </AnchorPane>

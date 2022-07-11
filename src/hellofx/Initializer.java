@@ -2,6 +2,7 @@ package hellofx;
 
 import java.util.ArrayList;
 import java.io.File;
+import java.io.IOException;
 
 import vntourism.Beaches;
 import vntourism.HeritageSites;
@@ -19,8 +20,11 @@ public class Initializer {
     public ArrayList<Museums> museumArr = new ArrayList<>();
     public ArrayList<Temples> templeArr = new ArrayList<>();
 
+    
     public Initializer(){
-        File dir1 = new File("F:/OOP/JavaFx/leanJavaFx/src/QueriedFiles/Lakes");
+        try{
+        String currentPath = new java.io.File(".").getCanonicalPath();
+        File dir1 = new File(currentPath + "/src/QueriedFiles/lakes");
         File[] directoryListing1 = dir1.listFiles();
         if (directoryListing1 != null) {
         for (File child : directoryListing1) {
@@ -29,7 +33,7 @@ public class Initializer {
             }   
         }
 
-        File dir2 = new File("F:/OOP/JavaFx/leanJavaFx/src/QueriedFiles/NationalParks");
+        File dir2 = new File(currentPath + "/src/QueriedFiles/nationalParks");
         File[] directoryListing2 = dir2.listFiles();
         if (directoryListing2 != null) {
         for (File child : directoryListing2) {
@@ -37,7 +41,7 @@ public class Initializer {
             nationalParkArr.add(nationalPark);
             }
         }
-        File dir3 = new File("F:/OOP/JavaFx/leanJavaFx/src/QueriedFiles/Beaches");
+        File dir3 = new File(currentPath+"/src/QueriedFiles/Beaches");
         File[] directoryListing3 = dir3.listFiles();
         if (directoryListing3 != null) {
         for (File child : directoryListing3) {
@@ -46,7 +50,7 @@ public class Initializer {
             }
         }
 
-        File dir4 = new File("F:/OOP/JavaFx/leanJavaFx/src/QueriedFiles/HeritageSites");
+        File dir4 = new File(currentPath+ "/src/QueriedFiles/HeritageSites");
         File[] directoryListing4 = dir4.listFiles();
         if (directoryListing4 != null) {
         for (File child : directoryListing4) {
@@ -55,7 +59,7 @@ public class Initializer {
             }
         }
 
-        File dir5 = new File("F:/OOP/JavaFx/leanJavaFx/src/QueriedFiles/Museums");
+        File dir5 = new File(currentPath+"/src/QueriedFiles/Museums");
         File[] directoryListing5 = dir5.listFiles();
         if (directoryListing5 != null) {
         for (File child : directoryListing5) {
@@ -63,7 +67,7 @@ public class Initializer {
             museumArr.add(museum);
             }
         }
-        File dir6 = new File("F:/OOP/JavaFx/leanJavaFx/src/QueriedFiles/Temples");
+        File dir6 = new File(currentPath+ "/src/QueriedFiles/Temples");
         File[] directoryListing6 = dir6.listFiles();
         if (directoryListing6 != null) {
         for (File child : directoryListing6) {
@@ -71,9 +75,12 @@ public class Initializer {
             templeArr.add(temple);
             }
         }
+        }
+        catch(IOException e){
+            e.printStackTrace();
+        }
 
-
-       
+        
         // //Initialize some Museums
         // Museum museum1 = new Museum("Ly_Thai_To", "This is the abstract", 2010);
         // Museum museum2 = new Museum("Chuong_Trinh", "haha", 1908);
